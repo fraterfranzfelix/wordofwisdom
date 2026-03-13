@@ -1,0 +1,16 @@
+[
+  {
+    "para": 313,
+    "page": 83,
+    "text": "313. “We know that in everything God works for good for those who love him.” (<i>Rom</i> 8:28.) The constant witness of the saints confirms this truth:\nSt. Catherine of Siena said to “those who are scandalized and rebel against what happens to them”: “Everything comes from love, all is ordained for the salvation of man, God does nothing without this goal in mind.” (St. Catherine of Siena, <i>Dialogue on Providence</i>, ch. IV, 138.)\nSt. Thomas More, shortly before his martyrdom, consoled his daughter: “Nothing can come but that that God wills. and I make me very sure that whatsoever that be, seem it never so bad in sight, it shall indeed be the best.” (<i>The Correspondence of Sir Thomas More</i>, ed. Elizabeth F. Rogers (Princeton: Princeton University Press, 1947), letter 206, lines 661-663.)\nDame Julian of Norwich: “Here I was taught by the grace of God that I should steadfastly keep me in the faith… and that at the same time I should take my stand on and earnestly believe in what our Lord shewed in this time — that ‘all manner (of) thing shall be well.’” (Julian of Norwich, <i>The Revelations of Divine Love</i>, tr. James Walshe SJ (London: 1961), ch. 32, 99-100.)",
+    "targets": [
+      {
+        "book": "rom",
+        "chapter": 8,
+        "v": 28,
+        "p": 83,
+        "file": "rom/8.json"
+      }
+    ]
+  }
+]

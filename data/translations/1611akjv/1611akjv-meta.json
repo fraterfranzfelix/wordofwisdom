@@ -1,0 +1,19 @@
+{
+  "id": "1611akjv",
+  "title": "1611 Authorized King James Version",
+  "translation-abbreviation": "1611-AKJV",
+  "psalms-structure": "hebrew",
+  "psalms-superscription": false,
+
+  "metadata": {
+    "year": 1611,
+    "place": "London, England",
+    "translator": "Committee of forty-seven scholars from Oxford, Cambridge, etc.",
+    "publisher": "Robert Barker, the King's Printer",
+    "editor": "The Most Rev. Richard Bancroft, Archbishop of Canterbury",
+    "imprimatur": "King James I of England",
+    "language": "Early Modern English"
+  },
+  "copyright": "Public Domain",
+  "description": "The Authorized Version commonly known as the King James Version."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "1899drb",
+  "title": "1899 Baltimore Douay-Rheims Bible",
+  "translation-abbreviation": "1899-DRB",
+  "psalms-structure": "greek",
+  "psalms-superscription": true,
+
+  "metadata": {
+    "year": 1899,
+    "place": "Baltimore, Maryland",
+    "translator": "Rev. Gregory Martin, Richard Bristow, William Rainolds, et al.",
+    "publisher": "John Murphy Company",
+    "editor": "William Cardinal Allen, Rev. Richard Challoner",
+    "imprimatur": "James Cardinal Gibbons, Archbishop of Baltimore",
+    "language": "Modern English"
+  },
+  "copyright": "Public Domain",
+  "description": "Richard Challoner's revision of the Douay-Rheims Bible, published in Baltimore 1899."
+}

@@ -1,0 +1,610 @@
+[
+  {
+    "id": "gen",
+    "supertitle": "",
+    "name": "The first Booke of Moses,",
+    "subtitle": "called Genesis",
+    "shortName": "Genesis",
+    "chapters": 50
+  },
+  {
+    "id": "exod",
+    "supertitle": "",
+    "name": "The second Booke of Moses,",
+    "subtitle": "called Exodus",
+    "shortName": "Exodus",
+    "chapters": 40
+  },
+  {
+    "id": "lev",
+    "supertitle": "",
+    "name": "The third Booke of Moses,",
+    "subtitle": "called Leviticus",
+    "shortName": "Leviticus",
+    "chapters": 27
+  },
+  {
+    "id": "num",
+    "supertitle": "",
+    "name": "The fourth Booke of Moses,",
+    "subtitle": "called Numbers",
+    "shortName": "Numbers",
+    "chapters": 36
+  },
+  {
+    "id": "deut",
+    "supertitle": "",
+    "name": "The fifth Booke of Moses,",
+    "subtitle": "called Deuteronomie",
+    "shortName": "Deuteronomy",
+    "chapters": 34
+  },
+  {
+    "id": "josh",
+    "supertitle": "",
+    "name": "The Booke of Ioshua",
+    "subtitle": "",
+    "shortName": "Joshua",
+    "chapters": 24
+  },
+  {
+    "id": "judg",
+    "supertitle": "",
+    "name": "The Booke of Judges",
+    "subtitle": "",
+    "shortName": "Judges",
+    "chapters": 21
+  },
+  {
+    "id": "ruth",
+    "supertitle": "",
+    "name": "The Booke of Ruth",
+    "subtitle": "",
+    "shortName": "Ruth",
+    "chapters": 4
+  },
+  {
+    "id": "1sam",
+    "supertitle": "",
+    "name": "The first Booke of Samuel,",
+    "subtitle": "otherwise called, The first Booke of the Kings",
+    "shortName": "1 Samuel",
+    "chapters": 31
+  },
+  {
+    "id": "2sam",
+    "supertitle": "",
+    "name": "The second Booke of Samuel,",
+    "subtitle": "otherwise called, The second Booke of the Kings",
+    "shortName": "2 Samuel",
+    "chapters": 24
+  },
+  {
+    "id": "1kgs",
+    "supertitle": "",
+    "name": "The first Booke of the Kings,",
+    "subtitle": "commonly called, The third Booke of the Kings",
+    "shortName": "1 Kings",
+    "chapters": 22
+  },
+  {
+    "id": "2kgs",
+    "supertitle": "",
+    "name": "The second Booke of the Kings,",
+    "subtitle": "commonly called, The fourth Booke of the Kings",
+    "shortName": "2 Kings",
+    "chapters": 25
+  },
+  {
+    "id": "1chr",
+    "supertitle": "",
+    "name": "The first Booke of the Chronicles",
+    "subtitle": "",
+    "shortName": "1 Chronicles",
+    "chapters": 29
+  },
+  {
+    "id": "2chr",
+    "supertitle": "",
+    "name": "The second Booke of the Chronicles",
+    "subtitle": "",
+    "shortName": "2 Chronicles",
+    "chapters": 36
+  },
+  {
+    "id": "ezra",
+    "supertitle": "",
+    "name": "Ezra",
+    "subtitle": "",
+    "shortName": "Ezra",
+    "chapters": 10
+  },
+  {
+    "id": "neh",
+    "supertitle": "",
+    "name": "The Booke of Nehemiah",
+    "subtitle": "",
+    "shortName": "Nehemiah",
+    "chapters": 13
+  },
+  {
+    "id": "tob",
+    "supertitle": "",
+    "name": "Tobit",
+    "subtitle": "",
+    "shortName": "Tobit",
+    "chapters": 14
+  },
+  {
+    "id": "jdt",
+    "supertitle": "",
+    "name": "Iudeth",
+    "subtitle": "",
+    "shortName": "Judith",
+    "chapters": 16
+  },
+  {
+    "id": "esth",
+    "supertitle": "",
+    "name": "The Booke of Esther",
+    "subtitle": "",
+    "shortName": "Esther",
+    "chapters": 16
+  },
+  {
+    "id": "1macc",
+    "supertitle": "",
+    "name": "The first booke of the Maccabees",
+    "subtitle": "",
+    "shortName": "1 Maccabees",
+    "chapters": 16
+  },
+  {
+    "id": "2macc",
+    "supertitle": "",
+    "name": "The second booke of the Maccabees",
+    "subtitle": "",
+    "shortName": "2 Maccabees",
+    "chapters": 15
+  },
+  {
+    "id": "job",
+    "supertitle": "",
+    "name": "The Booke of Iob",
+    "subtitle": "",
+    "shortName": "Job",
+    "chapters": 42
+  },
+  {
+    "id": "ps",
+    "supertitle": "",
+    "name": "The Booke of Psalms",
+    "subtitle": "",
+    "shortName": "Psalms",
+    "chapters": 150
+  },
+  {
+    "id": "prov",
+    "supertitle": "",
+    "name": "The Prouerbes",
+    "subtitle": "",
+    "shortName": "Proverbs",
+    "chapters": 31
+  },
+  {
+    "id": "eccl",
+    "supertitle": "",
+    "name": "Ecclesiastes,",
+    "subtitle": "or The Preacher",
+    "shortName": "Ecclesiastes",
+    "chapters": 12
+  },
+  {
+    "id": "song",
+    "supertitle": "",
+    "name": "The Song of Solomon",
+    "subtitle": "",
+    "shortName": "Song of Solomon",
+    "chapters": 8
+  },
+  {
+    "id": "wis",
+    "supertitle": "",
+    "name": "The Wisedome of Solomon",
+    "subtitle": "",
+    "shortName": "Wisdom",
+    "chapters": 19
+  },
+  {
+    "id": "sir",
+    "supertitle": "",
+    "name": "The Wisedome of Iesus the sonne of Sirach,",
+    "subtitle": "Or Ecclesiasticus",
+    "shortName": "Sirach",
+    "chapters": 51
+  },
+  {
+    "id": "isa",
+    "supertitle": "",
+    "name": "The Booke of the Prophet Isaiah",
+    "subtitle": "",
+    "shortName": "Isaiah",
+    "chapters": 66
+  },
+  {
+    "id": "jer",
+    "supertitle": "",
+    "name": "The Booke of the Prophet Ieremiah",
+    "subtitle": "",
+    "shortName": "Jeremiah",
+    "chapters": 52
+  },
+  {
+    "id": "lam",
+    "supertitle": "",
+    "name": "The Lamentations of Ieremiah",
+    "subtitle": "",
+    "shortName": "Lamentations",
+    "chapters": 5
+  },
+  {
+    "id": "bar",
+    "supertitle": "",
+    "name": "Barvch",
+    "subtitle": "",
+    "shortName": "Baruch",
+    "chapters": 6
+  },
+  {
+    "id": "ezek",
+    "supertitle": "",
+    "name": "The Booke of the Prophet Ezekiel",
+    "subtitle": "",
+    "shortName": "Ezekiel",
+    "chapters": 48
+  },
+  {
+    "id": "dan",
+    "supertitle": "",
+    "name": "The Booke of Daniel",
+    "subtitle": "",
+    "shortName": "Daniel",
+    "chapters": 14
+  },
+  {
+    "id": "hos",
+    "supertitle": "",
+    "name": "Hosea",
+    "subtitle": "",
+    "shortName": "Hosea",
+    "chapters": 14
+  },
+  {
+    "id": "joel",
+    "supertitle": "",
+    "name": "Ioel",
+    "subtitle": "",
+    "shortName": "Joel",
+    "chapters": 3
+  },
+  {
+    "id": "amos",
+    "supertitle": "",
+    "name": "Amos",
+    "subtitle": "",
+    "shortName": "Amos",
+    "chapters": 9
+  },
+  {
+    "id": "obad",
+    "supertitle": "",
+    "name": "Obadiah",
+    "subtitle": "",
+    "shortName": "Obadiah",
+    "chapters": 1
+  },
+  {
+    "id": "jonah",
+    "supertitle": "",
+    "name": "Ionah",
+    "subtitle": "",
+    "shortName": "Jonah",
+    "chapters": 4
+  },
+  {
+    "id": "mic",
+    "supertitle": "",
+    "name": "Micah",
+    "subtitle": "",
+    "shortName": "Micah",
+    "chapters": 7
+  },
+  {
+    "id": "nah",
+    "supertitle": "",
+    "name": "Nahvm",
+    "subtitle": "",
+    "shortName": "Nahum",
+    "chapters": 3
+  },
+  {
+    "id": "hab",
+    "supertitle": "",
+    "name": "Habakkvk",
+    "subtitle": "",
+    "shortName": "Habakkuk",
+    "chapters": 3
+  },
+  {
+    "id": "zeph",
+    "supertitle": "",
+    "name": "Zephaniah",
+    "subtitle": "",
+    "shortName": "Zephaniah",
+    "chapters": 3
+  },
+  {
+    "id": "hag",
+    "supertitle": "",
+    "name": "Haggai",
+    "subtitle": "",
+    "shortName": "Haggai",
+    "chapters": 2
+  },
+  {
+    "id": "zech",
+    "supertitle": "",
+    "name": "Zechariah",
+    "subtitle": "",
+    "shortName": "Zechariah",
+    "chapters": 14
+  },
+  {
+    "id": "mal",
+    "supertitle": "",
+    "name": "Malachi",
+    "subtitle": "",
+    "shortName": "Malachi",
+    "chapters": 4
+  },
+  {
+    "id": "mt",
+    "supertitle": "",
+    "name": "The Gospel according to S. Matthew",
+    "subtitle": "",
+    "shortName": "Matthew",
+    "chapters": 28
+  },
+  {
+    "id": "mk",
+    "supertitle": "",
+    "name": "The Gospel according to S. Marke",
+    "subtitle": "",
+    "shortName": "Mark",
+    "chapters": 16
+  },
+  {
+    "id": "lk",
+    "supertitle": "",
+    "name": "The Gospel according to S. Luke",
+    "subtitle": "",
+    "shortName": "Luke",
+    "chapters": 24
+  },
+  {
+    "id": "jn",
+    "supertitle": "",
+    "name": "The Gospel according to S. Iohn",
+    "subtitle": "",
+    "shortName": "John",
+    "chapters": 21
+  },
+  {
+    "id": "acts",
+    "supertitle": "",
+    "name": "The Actes of the Apostles",
+    "subtitle": "",
+    "shortName": "Acts",
+    "chapters": 28
+  },
+  {
+    "id": "rom",
+    "supertitle": "The Epistle of Pavl the Apostle",
+    "name": "to the Romanes",
+    "subtitle": "",
+    "shortName": "Romans",
+    "chapters": 16
+  },
+  {
+    "id": "1cor",
+    "supertitle": "The First Epistle of Paul the Apostle",
+    "name": "to the Corinthians",
+    "subtitle": "",
+    "shortName": "1 Corinthians",
+    "chapters": 16
+  },
+  {
+    "id": "2cor",
+    "supertitle": "The Second Epistle of Paul the Apostle",
+    "name": "to the Corinthians",
+    "subtitle": "",
+    "shortName": "2 Corinthians",
+    "chapters": 13
+  },
+  {
+    "id": "gal",
+    "supertitle": "The Epistle of Paul",
+    "name": "to the Galatians",
+    "subtitle": "",
+    "shortName": "Galatians",
+    "chapters": 6
+  },
+  {
+    "id": "eph",
+    "supertitle": "The Epistle of Pavl the Apostle",
+    "name": "to the Ephesians",
+    "subtitle": "",
+    "shortName": "Ephesians",
+    "chapters": 6
+  },
+  {
+    "id": "phil",
+    "supertitle": "The Epistle of Pavl the Apostle",
+    "name": "to the Philippians",
+    "subtitle": "",
+    "shortName": "Philippians",
+    "chapters": 4
+  },
+  {
+    "id": "col",
+    "supertitle": "The Epistle of Pavl the Apostle",
+    "name": "to the Colossians",
+    "subtitle": "",
+    "shortName": "Colossians",
+    "chapters": 4
+  },
+  {
+    "id": "1thess",
+    "supertitle": "The First Epistle of Paul the Apostle",
+    "name": "to the Thessalonians",
+    "subtitle": "",
+    "shortName": "1 Thessalonians",
+    "chapters": 5
+  },
+  {
+    "id": "2thess",
+    "supertitle": "The Second Epistle of Paul the Apostle",
+    "name": "to the Thessalonians",
+    "subtitle": "",
+    "shortName": "2 Thessalonians",
+    "chapters": 3
+  },
+  {
+    "id": "1tim",
+    "supertitle": "The First Epistle of Paul the Apostle",
+    "name": "to Timothie",
+    "subtitle": "",
+    "shortName": "1 Timothy",
+    "chapters": 6
+  },
+  {
+    "id": "2tim",
+    "supertitle": "The Second Epistle of Paul the Apostle",
+    "name": "to Timothie",
+    "subtitle": "",
+    "shortName": "2 Timothy",
+    "chapters": 4
+  },
+  {
+    "id": "tit",
+    "supertitle": "The Epistle of Paul",
+    "name": "to Titus",
+    "subtitle": "",
+    "shortName": "Titus",
+    "chapters": 3
+  },
+  {
+    "id": "phlm",
+    "supertitle": "The Epistle of Paul",
+    "name": "to Philemon",
+    "subtitle": "",
+    "shortName": "Philemon",
+    "chapters": 1
+  },
+  {
+    "id": "heb",
+    "supertitle": "The Epistle of Pavl the Apostle",
+    "name": "to the Hebrewes",
+    "subtitle": "",
+    "shortName": "Hebrews",
+    "chapters": 13
+  },
+  {
+    "id": "jam",
+    "supertitle": "",
+    "name": "The Generall Epistle of Iames",
+    "subtitle": "",
+    "shortName": "James",
+    "chapters": 5
+  },
+  {
+    "id": "1pet",
+    "supertitle": "",
+    "name": "The First Epistle generall of Peter",
+    "subtitle": "",
+    "shortName": "1 Peter",
+    "chapters": 5
+  },
+  {
+    "id": "2pet",
+    "supertitle": "",
+    "name": "The Second Epistle generall of Peter",
+    "subtitle": "",
+    "shortName": "2 Peter",
+    "chapters": 3
+  },
+  {
+    "id": "1jn",
+    "supertitle": "",
+    "name": "The First Epistle generall of Iohn",
+    "subtitle": "",
+    "shortName": "1 John",
+    "chapters": 5
+  },
+  {
+    "id": "2jn",
+    "supertitle": "",
+    "name": "The Second Epistle of Iohn",
+    "subtitle": "",
+    "shortName": "2 John",
+    "chapters": 1
+  },
+  {
+    "id": "3jn",
+    "supertitle": "",
+    "name": "The Third Epistle of Iohn",
+    "subtitle": "",
+    "shortName": "3 John",
+    "chapters": 1
+  },
+  {
+    "id": "jude",
+    "supertitle": "",
+    "name": "The Generall Epistle of Iude",
+    "subtitle": "",
+    "shortName": "Jude",
+    "chapters": 1
+  },
+  {
+    "id": "rev",
+    "supertitle": "",
+    "name": "The Revelation of S. Iohn the Divine",
+    "subtitle": "",
+    "shortName": "Revelation",
+    "chapters": 22
+  },
+  {
+    "id": "1esd",
+    "supertitle": "",
+    "name": "I. Esdras",
+    "subtitle": "",
+    "shortName": "1 Esdras",
+    "chapters": 9
+  },
+  {
+    "id": "2esd",
+    "supertitle": "",
+    "name": "II. Esdras",
+    "subtitle": "",
+    "shortName": "2 Esdras",
+    "chapters": 16
+  },
+  {
+    "id": "orman",
+    "supertitle": "",
+    "name": "The prayer of Manasses King of Iuda,",
+    "subtitle": "when he was holden captiue in Babylon",
+    "shortName": "Manasseh",
+    "chapters": 1
+  }
+]

@@ -1,0 +1,586 @@
+[
+{
+"id": "gen",
+"supertitle": "The",
+"name": "Book of Genesis",
+"subtitle": "",
+"shortName": "Genesis",
+"chapters": 50
+},
+{
+"id": "exod",
+"supertitle": "The",
+"name": "Book of Exodus",
+"subtitle": "",
+"shortName": "Exodus",
+"chapters": 40
+},
+{
+"id": "lev",
+"supertitle": "The",
+"name": "Book of Leviticus",
+"subtitle": "",
+"shortName": "Leviticus",
+"chapters": 27
+},
+{
+"id": "num",
+"supertitle": "The",
+"name": "Book of Numbers",
+"subtitle": "",
+"shortName": "Numbers",
+"chapters": 36
+},
+{
+"id": "deut",
+"supertitle": "The",
+"name": "Book of Deuteronomy",
+"subtitle": "",
+"shortName": "Deuteronomy",
+"chapters": 34
+},
+{
+"id": "josh",
+"supertitle": "The",
+"name": "Book of Josue",
+"subtitle": "",
+"shortName": "Joshua",
+"chapters": 24
+},
+{
+"id": "judg",
+"supertitle": "The",
+"name": "Book of Judges",
+"subtitle": "",
+"shortName": "Judges",
+"chapters": 21
+},
+{
+"id": "ruth",
+"supertitle": "The",
+"name": "Book of Ruth",
+"subtitle": "",
+"shortName": "Ruth",
+"chapters": 4
+},
+{
+"id": "1sam",
+"supertitle": "The",
+"name": "First Book of Samuel",
+"subtitle": "otherwise called the First Book of Kings",
+"shortName": "1 Samuel",
+"chapters": 31
+},
+{
+"id": "2sam",
+"supertitle": "The",
+"name": "Second Book of Samuel",
+"subtitle": "otherwise called the Second Book of Kings",
+"shortName": "2 Samuel",
+"chapters": 24
+},
+{
+"id": "1kgs",
+"supertitle": "The",
+"name": "Third Book of the Kings",
+"subtitle": "",
+"shortName": "1 Kings",
+"chapters": 22
+},
+{
+"id": "2kgs",
+"supertitle": "The",
+"name": "Fourth Book of Kings",
+"subtitle": "",
+"shortName": "2 Kings",
+"chapters": 25
+},
+{
+"id": "1chr",
+"supertitle": "The First",
+"name": "Book of Paralipomenon",
+"subtitle": "",
+"shortName": "1 Chronicles",
+"chapters": 29
+},
+{
+"id": "2chr",
+"supertitle": "The Second",
+"name": "Book of Paralipomenon",
+"subtitle": "",
+"shortName": "2 Chronicles",
+"chapters": 36
+},
+{
+"id": "ezra",
+"supertitle": "The",
+"name": "First Book of Esdras",
+"subtitle": "",
+"shortName": "Ezra",
+"chapters": 10
+},
+{
+"id": "neh",
+"supertitle": "The",
+"name": "Book of Nehemias",
+"subtitle": "which is called the Second Book of Esdras",
+"shortName": "Nehemiah",
+"chapters": 13
+},
+{
+"id": "tob",
+"supertitle": "The",
+"name": "Book of Tobias",
+"subtitle": "",
+"shortName": "Tobit",
+"chapters": 14
+},
+{
+"id": "jdt",
+"supertitle": "The",
+"name": "Book of Judith",
+"subtitle": "",
+"shortName": "Judith",
+"chapters": 16
+},
+{
+"id": "esth",
+"supertitle": "The",
+"name": "Book of Esther",
+"subtitle": "",
+"shortName": "Esther",
+"chapters": 16
+},
+{
+"id": "1macc",
+"supertitle": "The",
+"name": "First Book of Machabees",
+"subtitle": "",
+"shortName": "1 Maccabees",
+"chapters": 16
+},
+{
+"id": "2macc",
+"supertitle": "The",
+"name": "Second Book of Machabees",
+"subtitle": "",
+"shortName": "2 Maccabees",
+"chapters": 15
+},
+{
+"id": "job",
+"supertitle": "The",
+"name": "Book of Iob",
+"subtitle": "",
+"shortName": "Job",
+"chapters": 42
+},
+{
+"id": "ps",
+"supertitle": "The",
+"name": "Book of Psalms",
+"subtitle": "",
+"shortName": "Psalms",
+"chapters": 150
+},
+{
+"id": "prov",
+"supertitle": "The",
+"name": "Book of Proverbs",
+"subtitle": "",
+"shortName": "Proverbs",
+"chapters": 31
+},
+{
+"id": "eccl",
+"supertitle": "",
+"name": "Ecclesiastes,",
+"subtitle": "",
+"shortName": "Ecclesiastes",
+"chapters": 12
+},
+{
+"id": "song",
+"supertitle": "",
+"name": "Solomon’s Canticle of Canticles",
+"subtitle": "",
+"shortName": "Song of Solomon",
+"chapters": 8
+},
+{
+"id": "wis",
+"supertitle": "The",
+"name": "Book of Wisdom",
+"subtitle": "",
+"shortName": "Wisdom",
+"chapters": 19
+},
+{
+"id": "sir",
+"supertitle": "",
+"name": "Ecclesiasticus",
+"subtitle": "",
+"shortName": "Sirach",
+"chapters": 51
+},
+{
+"id": "isa",
+"supertitle": "The",
+"name": "Prophecy of Isaias",
+"subtitle": "",
+"shortName": "Isaiah",
+"chapters": 66
+},
+{
+"id": "jer",
+"supertitle": "The",
+"name": "Prophecy of Jeremias",
+"subtitle": "",
+"shortName": "Jeremiah",
+"chapters": 52
+},
+{
+"id": "lam",
+"supertitle": "The",
+"name": "Lamentations of Jeremias",
+"subtitle": "",
+"shortName": "Lamentations",
+"chapters": 5
+},
+{
+"id": "bar",
+"supertitle": "The",
+"name": "Prophecy of Baruch",
+"subtitle": "",
+"shortName": "Baruch",
+"chapters": 6
+},
+{
+"id": "ezek",
+"supertitle": "The",
+"name": "Prophecy of Ezechiel",
+"subtitle": "",
+"shortName": "Ezekiel",
+"chapters": 48
+},
+{
+"id": "dan",
+"supertitle": "The",
+"name": "Prophecy of Daniel",
+"subtitle": "",
+"shortName": "Daniel",
+"chapters": 14
+},
+{
+"id": "hos",
+"supertitle": "The",
+"name": "Prophecy of Osee",
+"subtitle": "",
+"shortName": "Hosea",
+"chapters": 14
+},
+{
+"id": "joel",
+"supertitle": "The",
+"name": "Prophecy of Joel",
+"subtitle": "",
+"shortName": "Joel",
+"chapters": 3
+},
+{
+"id": "amos",
+"supertitle": "The",
+"name": "Prophecy of Amos",
+"subtitle": "",
+"shortName": "Amos",
+"chapters": 9
+},
+{
+"id": "obad",
+"supertitle": "The",
+"name": "Prophecy of Abdias",
+"subtitle": "",
+"shortName": "Obadiah",
+"chapters": 1
+},
+{
+"id": "jonah",
+"supertitle": "The",
+"name": "Prophecy of Jonah",
+"subtitle": "",
+"shortName": "Jonah",
+"chapters": 4
+},
+{
+"id": "mic",
+"supertitle": "The",
+"name": "Prophecy of Micheas",
+"subtitle": "",
+"shortName": "Micah",
+"chapters": 7
+},
+{
+"id": "nah",
+"supertitle": "The",
+"name": "Prophecy of Nahum",
+"subtitle": "",
+"shortName": "Nahum",
+"chapters": 3
+},
+{
+"id": "hab",
+"supertitle": "The",
+"name": "Prophecy of Habacuc",
+"subtitle": "",
+"shortName": "Habakkuk",
+"chapters": 3
+},
+{
+"id": "zeph",
+"supertitle": "The",
+"name": "Prophecy of Sophonias",
+"subtitle": "",
+"shortName": "Zephaniah",
+"chapters": 3
+},
+{
+"id": "hag",
+"supertitle": "The",
+"name": "Prophecy of Aggeus",
+"subtitle": "",
+"shortName": "Haggai",
+"chapters": 2
+},
+{
+"id": "zech",
+"supertitle": "The",
+"name": "Prophecy of Zacharias",
+"subtitle": "",
+"shortName": "Zechariah",
+"chapters": 14
+},
+{
+"id": "mal",
+"supertitle": "The",
+"name": "Prophecy of Malachias",
+"subtitle": "",
+"shortName": "Malachi",
+"chapters": 4
+},
+{
+"id": "mt",
+"supertitle": "The",
+"name": "Holy Gospel of Jesus Christ,",
+"subtitle": "according to St. Matthew",
+"shortName": "Matthew",
+"chapters": 28
+},
+{
+"id": "mk",
+"supertitle": "The",
+"name": "Holy Gospel of Jesus Christ,",
+"subtitle": "according to St. Mark",
+"shortName": "Mark",
+"chapters": 16
+},
+{
+"id": "lk",
+"supertitle": "The",
+"name": "Holy Gospel of Jesus Christ,",
+"subtitle": "according to St. Luke",
+"shortName": "Luke",
+"chapters": 24
+},
+{
+"id": "jn",
+"supertitle": "The",
+"name": "Holy Gospel of Jesus Christ,",
+"subtitle": "according to St. John",
+"shortName": "John",
+"chapters": 21
+},
+{
+"id": "acts",
+"supertitle": "The",
+"name": "Acts of the Apostles",
+"subtitle": "",
+"shortName": "Acts",
+"chapters": 28
+},
+{
+"id": "rom",
+"supertitle": "The Epistle of St. Paul the Apostle",
+"name": "to the Romans",
+"subtitle": "",
+"shortName": "Romans",
+"chapters": 16
+},
+{
+"id": "1cor",
+"supertitle": "The First Epistle of St. Paul to the",
+"name": "Corinthians",
+"subtitle": "",
+"shortName": "1 Corinthians",
+"chapters": 16
+},
+{
+"id": "2cor",
+"supertitle": "The Second Epistle of St. Paul to the",
+"name": "Corinthians",
+"subtitle": "",
+"shortName": "2 Corinthians",
+"chapters": 13
+},
+{
+"id": "gal",
+"supertitle": "The Epistle of St. Paul to the",
+"name": "Galatians",
+"subtitle": "",
+"shortName": "Galatians",
+"chapters": 6
+},
+{
+"id": "eph",
+"supertitle": "The Epistle of St. Paul to the",
+"name": "Ephesians",
+"subtitle": "",
+"shortName": "Ephesians",
+"chapters": 6
+},
+{
+"id": "phil",
+"supertitle": "The Epistle of St. Paul to the",
+"name": "Philippians",
+"subtitle": "",
+"shortName": "Philippians",
+"chapters": 4
+},
+{
+"id": "col",
+"supertitle": "The Epistle of St. Paul to the",
+"name": "Colossians",
+"subtitle": "",
+"shortName": "Colossians",
+"chapters": 4
+},
+{
+"id": "1thess",
+"supertitle": "The First Epistle of St. Paul to the",
+"name": "Thessalonians",
+"subtitle": "",
+"shortName": "1 Thessalonians",
+"chapters": 5
+},
+{
+"id": "2thess",
+"supertitle": "The Second Epistle of St. Paul to the",
+"name": "Thessalonians",
+"subtitle": "",
+"shortName": "2 Thessalonians",
+"chapters": 3
+},
+{
+"id": "1tim",
+"supertitle": "The First Epistle of St. Paul to",
+"name": "Timothy",
+"subtitle": "",
+"shortName": "1 Timothy",
+"chapters": 6
+},
+{
+"id": "2tim",
+"supertitle": "The Second Epistle of St. Paul to",
+"name": "Timothy",
+"subtitle": "",
+"shortName": "2 Timothy",
+"chapters": 4
+},
+{
+"id": "tit",
+"supertitle": "The Epistle of St. Paul to",
+"name": "Titus",
+"subtitle": "",
+"shortName": "Titus",
+"chapters": 3
+},
+{
+"id": "phlm",
+"supertitle": "The Epistle of St. Paul to",
+"name": "Philemon",
+"subtitle": "",
+"shortName": "Philemon",
+"chapters": 1
+},
+{
+"id": "heb",
+"supertitle": "The Epistle of St. Paul to the",
+"name": "Hebrews",
+"subtitle": "",
+"shortName": "Hebrews",
+"chapters": 13
+},
+{
+"id": "jam",
+"supertitle": "The",
+"name": "Catholic Epistle of St. James the Apostle",
+"subtitle": "",
+"shortName": "James",
+"chapters": 5
+},
+{
+"id": "1pet",
+"supertitle": "The",
+"name": "First Epistle of St. Peter the Apostle",
+"subtitle": "",
+"shortName": "1 Peter",
+"chapters": 5
+},
+{
+"id": "2pet",
+"supertitle": "The",
+"name": "Second Epistle of St. Peter the Apostle",
+"subtitle": "",
+"shortName": "2 Peter",
+"chapters": 3
+},
+{
+"id": "1jn",
+"supertitle": "The",
+"name": "First Epistle of St. John the Apostle",
+"subtitle": "",
+"shortName": "1 John",
+"chapters": 5
+},
+{
+"id": "2jn",
+"supertitle": "The",
+"name": "Second Epistle of St. John the Apostle",
+"subtitle": "",
+"shortName": "2 John",
+"chapters": 1
+},
+{
+"id": "3jn",
+"supertitle": "The",
+"name": "Third Epistle of St. John the Apostle",
+"subtitle": "",
+"shortName": "3 John",
+"chapters": 1
+},
+{
+"id": "jude",
+"supertitle": "The",
+"name": "Catholic Epistle of St. Jude the Apostle",
+"subtitle": "",
+"shortName": "Jude",
+"chapters": 1
+},
+{
+"id": "rev",
+"supertitle": "The",
+"name": "Apocalypse of St. John the Apostle",
+"subtitle": "",
+"shortName": "Revelation",
+"chapters": 22
+}
+]

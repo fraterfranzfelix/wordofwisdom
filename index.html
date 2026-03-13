@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Word of Wisdom</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Study the Sacred Scripture with commentaries, back by biblical scholarship and Catholic spirituality. Read the Bible, the Catechism, and Haydock's commentary side-by-side.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word of Wisdom</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="assets/lazy-style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/lazy-style.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+
+<body>
+
+<div class="app-layout">
+
+    <!-- ==================== SETTINGS PANEL ==================== -->
+    <aside class="settings-panel">
+        
+        <img src="assets/logo.png" alt="Word of Wisdom" class="app-logo">
+
+        <!-- Appearance Section -->
+        <h4>Appearance</h4>
+        <button id="theme-toggle-btn" class="btn glass">Light Mode</button>
+        <select id="font-picker" class="glass">
+            <option value="IbarraRealNova">Ibarra Real Nova</option>
+            <option value="CormorantGaramond">Cormorant Garamond</option>
+            <option value="LibreBaskerville">Libre Baskerville</option>
+        </select>
+        <div class="font-control-wrapper">
+            <button id="btn-decrease" class="size-btn glass">−</button>
+            <span id="font-size-display">1.2</span>
+            <button id="btn-increase" class="size-btn glass">+</button>
+        </div>
+        
+        <hr>
+
+        <!-- Selection Section -->
+<h4>Selection</h4>
+<button id="orthodoxy-mode-btn" class="btn glass">Heterodoxy Mode</button>
+
+<!-- Book Navigation Row -->
+<div class="nav-control-wrapper">
+    <button id="btn-prev-book" class="nav-btn glass">‹</button>
+    <select id="book-picker" class="glass"></select>
+    <button id="btn-next-book" class="nav-btn glass">›</button>
+</div>
+
+<!-- Chapter Navigation Row -->
+<div class="nav-control-wrapper">
+    <button id="btn-prev-chapter" class="nav-btn glass">‹</button>
+    <select id="chapter-picker" class="glass"></select>
+    <button id="btn-next-chapter" class="nav-btn glass">›</button>
+</div>
+
+<select id="translation-picker" class="glass"></select>
+        
+        <div class="meta-info-wrapper">
+            <div class="meta-section-table">
+                <strong>Year:</strong> <span id="meta-year">...</span><br>
+                <strong>Place:</strong> <span id="meta-place">...</span><br>
+                <strong>Language:</strong> <span id="meta-language">...</span><br>
+                <strong>Translator:</strong> <span id="meta-translator">...</span><br>
+                <strong>Editor:</strong> <span id="meta-editor">...</span><br>
+                <strong>Publisher:</strong> <span id="meta-publisher">...</span><br>
+                <strong>Imprimatur:</strong> <span id="meta-imprimatur">...</span>
+            </div>
+            <div class="meta-section-description">
+                <span id="meta-description">...</span>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <!-- Psalms Section -->
+        <h4>Psalms</h4>
+        <button id="psalm-numbering-btn" class="btn glass"></button>
+        <button id="psalm-superscription-btn" class="btn glass"></button>
+
+        <!-- Citation Section -->
+        <h4>Citation</h4>
+        <button id="citation-style-btn" class="btn glass"></button>
+        
+        <hr>
+        
+        <!-- Credits -->
+        <span class="credits">
+            <i>Word of Wisdom.</i> Alpha v0.3.7. Last update 13.03.2026. 
+            Developed by <i><a href="https://www.instagram.com/sanssaintco/" target="_blank">Sans Saint.</a></i> Hosted via <i><a href="https://github.com/fraterfranzfelix/wordofwisdom" target="_blank">GitHub</a></i>
+        </span>
+        
+    </aside>
+
+    <!-- ==================== BIBLE TEXT PANEL ==================== -->
+    <main class="bibletext-panel" id="bible-text">
+        <!-- Content dynamically loaded by script.js -->
+    </main>
+
+    <!-- ==================== COMMENTARY PANEL ==================== -->
+    <aside class="commentary-panel">
+        
+        <h3>Commentary & Notes</h3>
+        <div id="verse-context">Select a verse...</div>
+        
+        <hr>
+        
+        <!-- Filter Controls -->
+        <div id="filter-cockpit">
+            <select id="filter-language" class="glass">
+                <option value="" disabled selected>Language...</option>
+            </select>
+            <select id="filter-author" class="glass">
+                <option value="" disabled selected>Author...</option>
+            </select>
+            <select id="filter-work" class="glass">
+                <option value="" disabled selected>Work...</option>
+            </select>
+        </div>
+        
+        <!-- Commentary Content -->
+        <div id="commentary-content">
+            <p class="commentary-placeholder">Select a verse to see commentary...</p>
+        </div>
+        
+    </aside>
+
+</div>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+<script src="data/translations/psalms.js" defer></script>
+<script src="assets/fonts/font.js" defer></script>
+<script src="assets/lazy-script.js" defer></script>
+
+</body>
+</html>
