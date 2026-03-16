@@ -1827,3 +1827,20 @@ document.addEventListener('DOMContentLoaded', () => {
     init();
 
 });
+
+/* =============================================================================
+   PERPETUAL PRAYER
+============================================================================= */
+
+let isKyrie = true;
+
+setInterval(() => {
+  if (isKyrie) {
+    console.log("Kyrie eleison");
+  } else {
+    console.log("Christe eleison");
+  }
+  
+  // Flip the toggle for the next round
+  isKyrie = !isKyrie; 
+}, 3000);

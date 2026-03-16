@@ -132,3 +132,17 @@ else:
         print("[3] WARNING: Commentary entries line not found in README.md.")
     if not n2:
         print("[4] WARNING: Bible coverage line not found in README.md.")
+
+# ---------------------------------------------------------------------------
+# Task 5 — Clear addition-process staging files
+# ---------------------------------------------------------------------------
+PLACEHOLDER = "Seek and you will find. (Matthew 7:7)"
+ADDITION_DIR = ROOT / "data" / "addition-process"
+
+for fname in ("proofreading.json", "commentary-unadded.txt"):
+    fpath = ADDITION_DIR / fname
+    if fpath.exists():
+        fpath.write_text(PLACEHOLDER, encoding="utf-8")
+        print(f"[5] Cleared {fname}.")
+    else:
+        print(f"[5] WARNING: {fname} not found.")

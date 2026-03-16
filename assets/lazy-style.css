@@ -357,5 +357,51 @@
 
 
 /* ==========================================================================
+   DAILY MASS READINGS BAR
+   ========================================================================== */
+
+#daily-mass-bar {
+    display: none;
+    position: fixed;
+    bottom: var(--spacing-md);
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 700px;
+    width: max-content;
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-small);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-medium);
+    background-image: var(--grad-neutral-normal);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-s);
+    z-index: 500;
+    text-align: center;
+    text-wrap: balance;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: default;
+}
+
+#daily-mass-bar:hover {
+    background-image: var(--grad-neutral-hover);
+    transform: translateX(-50%) translateY(-1px);
+    box-shadow: var(--shadow-m);
+}
+
+.dmr-label {
+    font-weight: bold;
+}
+
+.dmr-reading {
+    cursor: pointer;
+}
+
+.dmr-reading:hover {
+    color: var(--color-accent);
+}
+
+/* ==========================================================================
    END OF DEFERRED STYLESHEET
    ========================================================================== */

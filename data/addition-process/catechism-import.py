@@ -54,6 +54,59 @@ PARA_TO_PAGE[367] = "93-94"
 for p in range(368, 372): PARA_TO_PAGE[p] = 94
 for p in range(372, 377): PARA_TO_PAGE[p] = 95
 for p in range(377, 385): PARA_TO_PAGE[p] = 96
+for p in range(385, 388): PARA_TO_PAGE[p] = 97    # 385–387
+for p in range(388, 392): PARA_TO_PAGE[p] = 98    # 388–391
+for p in range(392, 396): PARA_TO_PAGE[p] = 99    # 392–395
+for p in range(396, 400): PARA_TO_PAGE[p] = 100   # 396–399
+PARA_TO_PAGE[400] = "100-101"
+for p in range(401, 403): PARA_TO_PAGE[p] = 101   # 401–402
+for p in range(403, 406): PARA_TO_PAGE[p] = 102   # 403–405
+PARA_TO_PAGE[406] = "102-103"
+for p in range(407, 410): PARA_TO_PAGE[p] = 103   # 407–409
+for p in range(410, 414): PARA_TO_PAGE[p] = 104   # 410–413
+PARA_TO_PAGE[414] = "104-105"
+for p in range(415, 422): PARA_TO_PAGE[p] = 105   # 415–421
+for p in range(422, 425): PARA_TO_PAGE[p] = 106   # 422–424
+for p in range(425, 428): PARA_TO_PAGE[p] = 107   # 425–427
+for p in range(428, 432): PARA_TO_PAGE[p] = 108   # 428–431
+for p in range(432, 436): PARA_TO_PAGE[p] = 109   # 432–435
+PARA_TO_PAGE[436] = "109-110"
+for p in range(437, 440): PARA_TO_PAGE[p] = 110   # 437–439
+PARA_TO_PAGE[440] = 111
+PARA_TO_PAGE[441] = 111
+PARA_TO_PAGE[442] = "111-112"
+for p in range(443, 446): PARA_TO_PAGE[p] = 112   # 443–445
+PARA_TO_PAGE[446] = "112-113"
+for p in range(447, 451): PARA_TO_PAGE[p] = 113   # 447–450
+PARA_TO_PAGE[451] = 114
+for p in range(452, 456): PARA_TO_PAGE[p] = 114   # 452–455
+for p in range(456, 460): PARA_TO_PAGE[p] = 115   # 456–459
+for p in range(460, 464): PARA_TO_PAGE[p] = 116   # 460–463
+for p in range(464, 467): PARA_TO_PAGE[p] = 117   # 464–466
+PARA_TO_PAGE[467] = "117-118"
+for p in range(468, 470): PARA_TO_PAGE[p] = 118   # 468–469
+for p in range(470, 473): PARA_TO_PAGE[p] = 119   # 470–472
+PARA_TO_PAGE[473] = "119-120"
+for p in range(474, 477): PARA_TO_PAGE[p] = 120   # 474–476
+PARA_TO_PAGE[477] = "120-121"
+for p in range(478, 484): PARA_TO_PAGE[p] = 121   # 478–483
+for p in range(484, 487): PARA_TO_PAGE[p] = 122   # 484–486
+PARA_TO_PAGE[487] = 122
+PARA_TO_PAGE[488] = "122-123"
+PARA_TO_PAGE[489] = 123
+PARA_TO_PAGE[490] = 123
+PARA_TO_PAGE[491] = "123-124"
+PARA_TO_PAGE[492] = 124
+PARA_TO_PAGE[493] = 124
+PARA_TO_PAGE[494] = "124-125"
+PARA_TO_PAGE[495] = 125
+PARA_TO_PAGE[496] = 125
+PARA_TO_PAGE[497] = 126
+PARA_TO_PAGE[498] = 126
+for p in range(499, 501): PARA_TO_PAGE[p] = 126   # 499–500
+for p in range(501, 506): PARA_TO_PAGE[p] = 127   # 501–505
+PARA_TO_PAGE[506] = "127-128"
+for p in range(507, 512): PARA_TO_PAGE[p] = 128   # 507–511
 
 # ---------------------------------------------------------------------------
 # Bible abbreviation → project book ID
@@ -72,6 +125,7 @@ BOOK_MAP = {
     "1 Kgs":   "1kgs",  "2 Kgs":   "2kgs",
     "1 Chr":   "1chr",  "2 Chr":   "2chr",
     "1 Th":    "1thess","2 Th":    "2thess",   # short forms occasionally used
+    "1 Pt":    "1pet",  "2 Pt":    "2pet",     # short forms occasionally used
     "Gen":  "gen",  "Ex":   "exod", "Exod": "exod",
     "Lev":  "lev",  "Num":  "num",  "Deut": "deut", "Dt": "deut",
     "Josh": "josh", "Judg": "judg", "Ruth": "ruth",
@@ -146,8 +200,10 @@ def parse_txt(path):
     with open(path, encoding="utf-8") as f:
         raw = f.read()
 
-    # The footnote section is separated from paragraphs by 3+ blank lines.
-    parts = re.split(r'\n{3,}', raw, maxsplit=1)
+    # The footnote section is separated from paragraphs by 3+ blank lines
+    # (= 4+ consecutive newline characters). Using \n{4,} avoids false splits
+    # on 2-blank-line gaps that can appear between section headers in main text.
+    parts = re.split(r'\n{4,}', raw, maxsplit=1)
     main_text = parts[0]
     fn_text   = parts[1] if len(parts) > 1 else ""
 
@@ -187,11 +243,11 @@ def parse_txt(path):
     if current_num is not None:
         paragraphs[current_num] = " ".join(current_lines).strip()
 
-    # --- Parse footnotes (3-digit numbers starting a line) ---
+    # --- Parse footnotes (1–3 digit numbers starting a line) ---
     current_fn    = None
     current_fntxt = []
     for line in fn_text.splitlines():
-        m = re.match(r'^(\d{3}) (.+)', line)
+        m = re.match(r'^(\d{1,3})\s*(.+)', line)
         if m:
             fn_num = int(m.group(1))
             if current_fn is not None:
@@ -210,16 +266,16 @@ def parse_txt(path):
 # Step 2: Detect footnote reference numbers in raw paragraph text
 #
 # Three patterns, each safe against false-positive verse numbers:
-#   a) After .  ;  "  '  ,        → 2–3 digit numbers
-#   b) After :  (block-quote intro) → 3-digit only (verse numbers are ≤2 digits
-#                                       and always appear before ) or ; not space)
-#   c) Immediately after a letter  → 2–3 digit numbers followed by whitespace
+#   a) After .  ;  "  '  ,        → 1–3 digit numbers
+#   b) After :  (block-quote intro) → 1–3 digit numbers (verse numbers in body
+#                                       text are rare outside parentheticals)
+#   c) Immediately after a letter  → 1–3 digit numbers followed by whitespace
 #                                     (mid-sentence refs like "earth248 as")
 # ---------------------------------------------------------------------------
 
-_FN_PATTERN_A = re.compile(r'(?<=[.;"\'",])\s*(\d{2,3})(?=\s|$)')
-_FN_PATTERN_B = re.compile(r'(?<=:)\s*(\d{3})(?=\s|$)')
-_FN_PATTERN_C = re.compile(r'(?<=[a-zA-Z])(\d{2,3})(?=\s|$)')
+_FN_PATTERN_A = re.compile(r'(?<=[.;"\'",])\s*(\d{1,3})(?=\s|$)')
+_FN_PATTERN_B = re.compile(r'(?<=:)\s*(\d{1,3})(?=\s|$)')
+_FN_PATTERN_C = re.compile(r'(?<=[a-zA-Z])(\d{1,3})(?=\s|$)')
 
 
 def find_fn_refs(raw_text):
@@ -504,9 +560,13 @@ def stage_commit():
     with open(PROOFREAD_FILE, encoding="utf-8") as f:
         entries = json.load(f)
 
-    # Derive the page set from the current proofreading file for cleanup
-    pages_to_remove = {e["page"] for e in entries}
-    cleanup_previous_run(pages_to_remove)
+    # Derive the page set from the current proofreading file for cleanup.
+    # Skip cleanup with --no-cleanup when a page number overlaps a prior batch.
+    if "--no-cleanup" not in sys.argv:
+        pages_to_remove = {e["page"] for e in entries}
+        cleanup_previous_run(pages_to_remove)
+    else:
+        print("[CLEANUP] Skipped (--no-cleanup).\n")
 
     added   = 0
     skipped = 0

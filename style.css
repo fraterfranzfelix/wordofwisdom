@@ -1084,7 +1084,7 @@ select {
     --color-bg-dark: rgb(57, 56, 59);
     
     /* Accent Colors (same hue, adjusted for dark mode contrast) */
-    --color-accent: rgb(150, 100, 255);
+    --color-accent: rgb(160, 115, 255);
     --color-accent-light: rgb(45, 35, 70);
     
     /* Borders & Dividers */
