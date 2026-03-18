@@ -107,6 +107,32 @@ for p in range(499, 501): PARA_TO_PAGE[p] = 126   # 499–500
 for p in range(501, 506): PARA_TO_PAGE[p] = 127   # 501–505
 PARA_TO_PAGE[506] = "127-128"
 for p in range(507, 512): PARA_TO_PAGE[p] = 128   # 507–511
+for p in range(512, 516): PARA_TO_PAGE[p] = 129   # 512–515
+for p in range(516, 519): PARA_TO_PAGE[p] = 130   # 516–518
+for p in range(519, 522): PARA_TO_PAGE[p] = 131   # 519–521
+PARA_TO_PAGE[522] = "131-132"
+for p in range(523, 526): PARA_TO_PAGE[p] = 132   # 523–525
+for p in range(526, 528): PARA_TO_PAGE[p] = 133   # 526–527
+PARA_TO_PAGE[528] = "133-134"
+for p in range(529, 532): PARA_TO_PAGE[p] = 134   # 529–531
+PARA_TO_PAGE[532] = "134-135"
+for p in range(533, 535): PARA_TO_PAGE[p] = 135   # 533–534
+PARA_TO_PAGE[535] = 136
+PARA_TO_PAGE[536] = 136
+PARA_TO_PAGE[537] = "136-137"
+PARA_TO_PAGE[538] = 137
+PARA_TO_PAGE[539] = 137
+for p in range(540, 543): PARA_TO_PAGE[p] = 138   # 540–542
+for p in range(543, 546): PARA_TO_PAGE[p] = 139   # 543–545
+PARA_TO_PAGE[546] = "139-140"
+for p in range(547, 550): PARA_TO_PAGE[p] = 140   # 547–549
+for p in range(550, 553): PARA_TO_PAGE[p] = 141   # 550–552
+for p in range(553, 555): PARA_TO_PAGE[p] = 142   # 553–554
+PARA_TO_PAGE[555] = "142-143"
+PARA_TO_PAGE[556] = 143
+for p in range(557, 560): PARA_TO_PAGE[p] = 144   # 557–559
+for p in range(560, 568): PARA_TO_PAGE[p] = 145   # 560–567
+for p in range(568, 571): PARA_TO_PAGE[p] = 146   # 568–570
 
 # ---------------------------------------------------------------------------
 # Bible abbreviation → project book ID

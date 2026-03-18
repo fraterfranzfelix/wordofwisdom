@@ -191,8 +191,13 @@
         inset 0 1px 2px rgba(0, 0, 0, 0.2),
         inset 0 2px 4px rgba(0, 0, 0, 0.1),
         0 1px 1px rgba(0, 0, 0, 0.1);
-    
-    
+
+    /* Toggle handle: lateral shadow indicating elevation above adjacent content */
+    --shadow-toggle-handle:
+        3px 0 8px rgba(0, 0, 0, 0.12),
+        1px 0 3px rgba(0, 0, 0, 0.08);
+
+
     /* ----------------------------------------------------------------------
        §1.1.6 Gradients (Glassmorphism)
        
@@ -381,16 +386,9 @@ hr {
 
 .app-layout {
     display: grid;
-    grid-template-columns: 15rem 1fr 1fr;
+    grid-template-columns: auto var(--bible-width, 1fr) 6px var(--commentary-width, 1fr);
     height: 100vh;
     overflow: hidden;
-}
-
-/* Responsive: Narrow the settings panel on smaller screens */
-@media (max-width: 1080px) {
-    .app-layout {
-        grid-template-columns: 12.5rem 1fr 1fr;
-    }
 }
 
 
@@ -406,16 +404,109 @@ hr {
    
    ========================================================================== */
 
-.settings-panel,
 .bibletext-panel,
 .commentary-panel {
     overflow-y: auto;
+    min-height: 0;               /* allow grid items to shrink below content size so scroll kicks in */
 }
 
 .settings-panel {
+    position: relative;          /* anchor for any in-flow children */
+    overflow: hidden;            /* clip content; handle is position:fixed so it escapes regardless */
+    min-height: 0;
     background-color: var(--color-bg-light);
-    padding: var(--spacing-sm);
     border-right: var(--border-width) solid var(--color-border);
+    width: 15rem;
+    transition: width 0.3s ease, border-right-width 0.3s ease;
+}
+
+.settings-content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: var(--spacing-sm);
+}
+
+/* Edge tab — fixed to the viewport so it's always vertically centred */
+.settings-toggle-handle {
+    position: fixed;
+    left: 15rem;                 /* tracks the expanded panel width */
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 0.75rem;              /* thin at rest — hint only, no chevron */
+    height: 33vh;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg-light);
+    border: var(--border-width) solid var(--color-border);
+    border-left: none;           /* flush left — sits against the panel border */
+    border-radius: 0 8px 8px 0;
+    box-shadow: var(--shadow-toggle-handle);
+    cursor: pointer;
+    transition: left 0.3s ease, width 0.2s ease, background-color 0.2s;
+}
+
+.settings-toggle-handle:hover {
+    width: 1.5rem;               /* full width on hover — chevron becomes visible */
+    background-color: var(--color-bg-medium);
+}
+
+.settings-collapse-btn {
+    flex-shrink: 0;              /* prevent squishing inside narrow handle */
+    width: 1.5rem;               /* fixed so it doesn't reflow as handle expands */
+    height: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: var(--font-size-small);
+    font-weight: 800;
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: color 0.2s, opacity 0.15s ease;
+}
+
+.settings-toggle-handle:hover .settings-collapse-btn {
+    opacity: 1;
+}
+
+.settings-collapse-btn:hover {
+    color: var(--color-accent);
+}
+
+.settings-panel.collapsed {
+    width: 0;
+    border-right-width: 0;
+}
+
+.settings-panel.collapsed .settings-content {
+    display: none;
+}
+
+/* Collapsed: always full-width handle with chevron — signals hidden content */
+.settings-panel.collapsed .settings-toggle-handle {
+    left: 0;
+    width: 1.5rem;
+}
+
+.settings-panel.collapsed .settings-collapse-btn {
+    opacity: 1;
+}
+
+/* Responsive: Narrow the settings panel on smaller screens */
+@media (max-width: 1080px) {
+    .settings-panel:not(.collapsed) {
+        width: 12.5rem;
+    }
+    .settings-toggle-handle {
+        left: 12.5rem;
+    }
 }
 
 .bibletext-panel {
@@ -427,6 +518,20 @@ hr {
     background-color: var(--color-bg-dark);
     padding: var(--spacing-lg);
     border-left: var(--border-width) solid var(--color-border);
+}
+
+.panel-resizer {
+    background-color: var(--color-bg-dark);
+    border-left: var(--border-width) solid var(--color-border);
+    cursor: col-resize;
+    transition: background-color 0.2s;
+    z-index: 10;
+}
+
+.panel-resizer:hover,
+.panel-resizer.dragging {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
 }
 
 

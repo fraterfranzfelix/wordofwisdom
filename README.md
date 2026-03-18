@@ -1,6 +1,6 @@
 ***Statistics***
-- 1273 commentary entries in total to annotate the Bible text.
-- 05.49 % of the Bible text covered with commentary.
+- 1474 commentary entries in total to annotate the Bible text.
+- 06.36 % of the Bible text covered with commentary.
 
 ***To-do list***
 - Finish adding Catechism of the Catholic Church.

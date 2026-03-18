@@ -6,13 +6,13 @@
     <meta charset="UTF-8">
     <meta name="description" content="Study the Sacred Scripture with commentaries, backed by biblical scholarship and Catholic spirituality. Read the Bible and the Catechism side-by-side.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preload" href="assets/lazy-style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/lazy-style.css"></noscript>
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/favicon.png">
 
@@ -25,80 +25,89 @@
 
     <!-- ==================== SETTINGS PANEL ==================== -->
     <aside class="settings-panel">
-        
-        <img src="assets/logo.png" alt="Word of Wisdom" class="app-logo">
 
-        <!-- Appearance Section -->
-        <h4>Appearance</h4>
-        <button id="theme-toggle-btn" class="btn glass">Light Mode</button>
-        <select id="font-picker" class="glass">
-            <option value="IbarraRealNova">Ibarra Real Nova</option>
-            <option value="CormorantGaramond">Cormorant Garamond</option>
-            <option value="EBGaramond">EB Garamond</option>
-            <option value="LibreBaskerville">Libre Baskerville</option>
-        </select>
-        <div class="font-control-wrapper">
-            <button id="btn-decrease" class="size-btn glass">−</button>
-            <span id="font-size-display">1.2</span>
-            <button id="btn-increase" class="size-btn glass">+</button>
-        </div>
-        
-        <hr>
+        <div class="settings-content">
 
-        <!-- Selection Section -->
-<h4>Selection</h4>
-<button id="orthodoxy-mode-btn" class="btn glass">Heterodoxy Mode</button>
+            <img src="assets/logo.png" alt="Word of Wisdom" class="app-logo">
 
-<!-- Book Navigation Row -->
-<div class="nav-control-wrapper">
-    <button id="btn-prev-book" class="nav-btn glass">‹</button>
-    <select id="book-picker" class="glass"></select>
-    <button id="btn-next-book" class="nav-btn glass">›</button>
-</div>
-
-<!-- Chapter Navigation Row -->
-<div class="nav-control-wrapper">
-    <button id="btn-prev-chapter" class="nav-btn glass">‹</button>
-    <select id="chapter-picker" class="glass"></select>
-    <button id="btn-next-chapter" class="nav-btn glass">›</button>
-</div>
-
-<select id="translation-picker" class="glass"></select>
-        
-        <div class="meta-info-wrapper">
-            <div class="meta-section-table">
-                <strong>Year:</strong> <span id="meta-year">...</span><br>
-                <strong>Place:</strong> <span id="meta-place">...</span><br>
-                <strong>Language:</strong> <span id="meta-language">...</span><br>
-                <strong>Translator:</strong> <span id="meta-translator">...</span><br>
-                <strong>Editor:</strong> <span id="meta-editor">...</span><br>
-                <strong>Publisher:</strong> <span id="meta-publisher">...</span><br>
-                <strong>Imprimatur:</strong> <span id="meta-imprimatur">...</span>
+            <!-- Appearance Section -->
+            <h4>Appearance</h4>
+            <button id="theme-toggle-btn" class="btn glass">Light Mode</button>
+            <select id="font-picker" class="glass">
+                <option value="IbarraRealNova">Ibarra Real Nova</option>
+                <option value="CormorantGaramond">Cormorant Garamond</option>
+                <option value="EBGaramond">EB Garamond</option>
+                <option value="LibreBaskerville">Libre Baskerville</option>
+            </select>
+            <div class="font-control-wrapper">
+                <button id="btn-decrease" class="size-btn glass">−</button>
+                <span id="font-size-display">1.2</span>
+                <button id="btn-increase" class="size-btn glass">+</button>
             </div>
-            <div class="meta-section-description">
-                <span id="meta-description">...</span>
-            </div>
-        </div>
-        
-        <hr>
-        
-        <!-- Psalms Section -->
-        <h4>Psalms</h4>
-        <button id="psalm-numbering-btn" class="btn glass"></button>
-        <button id="psalm-superscription-btn" class="btn glass"></button>
 
-        <!-- Citation Section -->
-        <h4>Citation</h4>
-        <button id="citation-style-btn" class="btn glass"></button>
-        
-        <hr>
-        
-        <!-- Credits -->
-        <span class="credits">
-            <i>Word of Wisdom.</i> Alpha v0.4.0. Last update 16.03.2026. 
-            Developed by <i><a href="https://www.instagram.com/sanssaintco/" target="_blank">Sans Saint.</a></i> Hosted via <i><a href="https://github.com/fraterfranzfelix/wordofwisdom" target="_blank">GitHub</a></i>
-        </span>
-        
+            <hr>
+
+            <!-- Selection Section -->
+            <h4>Selection</h4>
+            <button id="orthodoxy-mode-btn" class="btn glass">Heterodoxy Mode</button>
+
+            <!-- Book Navigation Row -->
+            <div class="nav-control-wrapper">
+                <button id="btn-prev-book" class="nav-btn glass">‹</button>
+                <select id="book-picker" class="glass"></select>
+                <button id="btn-next-book" class="nav-btn glass">›</button>
+            </div>
+
+            <!-- Chapter Navigation Row -->
+            <div class="nav-control-wrapper">
+                <button id="btn-prev-chapter" class="nav-btn glass">‹</button>
+                <select id="chapter-picker" class="glass"></select>
+                <button id="btn-next-chapter" class="nav-btn glass">›</button>
+            </div>
+
+            <select id="translation-picker" class="glass"></select>
+
+            <div class="meta-info-wrapper">
+                <div class="meta-section-table">
+                    <strong>Year:</strong> <span id="meta-year">...</span><br>
+                    <strong>Place:</strong> <span id="meta-place">...</span><br>
+                    <strong>Language:</strong> <span id="meta-language">...</span><br>
+                    <strong>Translator:</strong> <span id="meta-translator">...</span><br>
+                    <strong>Editor:</strong> <span id="meta-editor">...</span><br>
+                    <strong>Publisher:</strong> <span id="meta-publisher">...</span><br>
+                    <strong>Imprimatur:</strong> <span id="meta-imprimatur">...</span>
+                </div>
+                <div class="meta-section-description">
+                    <span id="meta-description">...</span>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Psalms Section -->
+            <h4>Psalms</h4>
+            <button id="psalm-numbering-btn" class="btn glass"></button>
+            <button id="psalm-superscription-btn" class="btn glass"></button>
+
+            <!-- Citation Section -->
+            <h4>Citation</h4>
+            <button id="citation-style-btn" class="btn glass"></button>
+
+            <hr>
+
+            <!-- Credits -->
+            <span class="credits">
+                <i>Word of Wisdom.</i> Alpha v0.4.0. Last update 18.03.2026.
+                Developed by <i><a href="https://www.instagram.com/sanssaintco/" target="_blank">Sans Saint.</a></i> Hosted via <i><a href="https://github.com/fraterfranzfelix/wordofwisdom" target="_blank">GitHub</a></i>
+            </span>
+
+        </div>
+
+        <!-- Edge tab — protrudes past the panel's right border into the bible text area -->
+        <div class="settings-toggle-handle">
+            <button class="settings-collapse-btn" aria-label="Collapse settings">‹</button>
+        </div>
+
     </aside>
 
     <!-- ==================== BIBLE TEXT PANEL ==================== -->
@@ -106,14 +115,17 @@
         <!-- Content dynamically loaded by script.js -->
     </main>
 
+    <!-- ==================== PANEL RESIZER ==================== -->
+    <div class="panel-resizer" aria-hidden="true"></div>
+
     <!-- ==================== COMMENTARY PANEL ==================== -->
     <aside class="commentary-panel">
-        
+
         <h3>Commentary & Notes</h3>
         <div id="verse-context">Select a verse...</div>
-        
+
         <hr>
-        
+
         <!-- Filter Controls -->
         <div id="filter-cockpit">
             <select id="filter-language" class="glass">
@@ -126,12 +138,12 @@
                 <option value="" disabled selected>Work...</option>
             </select>
         </div>
-        
+
         <!-- Commentary Content -->
         <div id="commentary-content">
             <p class="commentary-placeholder">Select a verse to see commentary...</p>
         </div>
-        
+
     </aside>
 
 </div>

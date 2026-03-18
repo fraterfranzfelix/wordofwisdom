@@ -1073,16 +1073,122 @@ async function initDailyMassBar() {
         .filter(Boolean).map(dmrBuildLinks);
 
     bar.innerHTML =
+        `<div class="dmr-strip"><button class="dmr-collapse-btn" aria-label="Collapse daily readings">›</button></div>` +
+        `<div class="dmr-body">` +
         `<div class="dmr-label">Daily Mass Readings</div>` +
-        `<div class="dmr-list">${parts.join('; ')}</div>`;
+        `<div class="dmr-list">${parts.join('; ')}</div>` +
+        `</div>`;
 
     bar.addEventListener('click', (e) => {
         const span = e.target.closest('.dmr-reading');
         if (span?.dataset.ref) dmrNavigateTo(span.dataset.ref);
     });
 
-    dmrOnStyleReady(() => { bar.style.display = 'block'; });
+    const collapseBtn = bar.querySelector('.dmr-collapse-btn');
+    collapseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const collapsed = bar.classList.toggle('dmr-collapsed');
+        collapseBtn.setAttribute('aria-label', collapsed ? 'Expand daily readings' : 'Collapse daily readings');
+        localStorage.setItem('dmrCollapsed', collapsed);
+    });
+
+    dmrOnStyleReady(() => {
+        bar.style.display = 'block';
+        if (localStorage.getItem('dmrCollapsed') === 'true') {
+            bar.classList.add('dmr-collapsed');
+            collapseBtn.setAttribute('aria-label', 'Expand daily readings');
+        }
+    });
 }
 
 initDailyMassBar();
+
+
+/* ==========================================================================
+   SETTINGS PANEL COLLAPSE
+   ========================================================================== */
+
+(function initSettingsCollapse() {
+    const panel = document.querySelector('.settings-panel');
+    const btn = document.querySelector('.settings-collapse-btn');
+    if (!panel || !btn) return;
+
+    function applyCollapsed(collapsed) {
+        panel.classList.toggle('collapsed', collapsed);
+        btn.innerHTML = collapsed ? '›' : '‹';
+        btn.setAttribute('aria-label', collapsed ? 'Expand settings' : 'Collapse settings');
+    }
+
+    btn.addEventListener('click', () => {
+        const collapsed = !panel.classList.contains('collapsed');
+        applyCollapsed(collapsed);
+        localStorage.setItem('settingsCollapsed', collapsed);
+    });
+
+    if (localStorage.getItem('settingsCollapsed') === 'true') {
+        applyCollapsed(true);
+    }
+})();
+
+
+/* ==========================================================================
+   PANEL RESIZE (BIBLE ↔ COMMENTARY)
+   ========================================================================== */
+
+(function initPanelResize() {
+    const resizer = document.querySelector('.panel-resizer');
+    if (!resizer) return;
+
+    const root = document.documentElement;
+    const MIN = 1 / 3;
+    const MAX = 2 / 3;
+
+    function applyRatio(ratio) {
+        ratio = Math.max(MIN, Math.min(MAX, ratio));
+        const bibleFr = ratio / (1 - ratio);
+        root.style.setProperty('--bible-width', bibleFr + 'fr');
+        root.style.setProperty('--commentary-width', '1fr');
+    }
+
+    // Restore saved ratio
+    const saved = parseFloat(localStorage.getItem('panelRatio'));
+    if (saved && saved >= MIN && saved <= MAX) applyRatio(saved);
+
+    let startX, startBibleWidth, totalWidth;
+
+    resizer.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        resizer.classList.add('dragging');
+
+        const biblePanel = document.querySelector('.bibletext-panel');
+        const commentaryPanel = document.querySelector('.commentary-panel');
+        startX = e.clientX;
+        startBibleWidth = biblePanel.getBoundingClientRect().width;
+        totalWidth = startBibleWidth + commentaryPanel.getBoundingClientRect().width;
+
+        function onMouseMove(e) {
+            const dx = e.clientX - startX;
+            const newBibleWidth = startBibleWidth + dx;
+            const ratio = newBibleWidth / totalWidth;
+            applyRatio(ratio);
+        }
+
+        function onMouseUp(e) {
+            resizer.classList.remove('dragging');
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+            document.body.style.cursor = '';
+            document.body.style.userSelect = '';
+
+            const dx = e.clientX - startX;
+            const ratio = Math.max(MIN, Math.min(MAX, (startBibleWidth + dx) / totalWidth));
+            localStorage.setItem('panelRatio', ratio);
+        }
+
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
+    });
+})();
 
