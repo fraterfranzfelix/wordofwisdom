@@ -132,7 +132,16 @@ PARA_TO_PAGE[555] = "142-143"
 PARA_TO_PAGE[556] = 143
 for p in range(557, 560): PARA_TO_PAGE[p] = 144   # 557–559
 for p in range(560, 568): PARA_TO_PAGE[p] = 145   # 560–567
-for p in range(568, 571): PARA_TO_PAGE[p] = 146   # 568–570
+for p in range(568, 573): PARA_TO_PAGE[p] = 146   # 568–572
+PARA_TO_PAGE[573] = "146-147"
+for p in range(574, 577): PARA_TO_PAGE[p] = 147   # 574–576
+for p in range(577, 580): PARA_TO_PAGE[p] = 148   # 577–579
+PARA_TO_PAGE[580] = "148-149"
+for p in range(581, 583): PARA_TO_PAGE[p] = 149   # 581–582
+PARA_TO_PAGE[583] = "149-150"
+for p in range(584, 587): PARA_TO_PAGE[p] = 150   # 584–586
+for p in range(587, 591): PARA_TO_PAGE[p] = 151   # 587–590
+for p in range(591, 595): PARA_TO_PAGE[p] = 152   # 591–594
 
 # ---------------------------------------------------------------------------
 # Bible abbreviation → project book ID
@@ -396,7 +405,10 @@ def smartquotes(text):
 def clean_text(raw_text, footnotes):
     step1 = italicize_in_parens(raw_text)       # italicize inside inline parens
     step2 = substitute_fn_refs(step1, footnotes) # replace fn numbers with text
-    return smartquotes(step2)                    # curly quotes
+    step3 = smartquotes(step2)                   # curly quotes
+    # Move commas/periods that follow a closing double quote to before it
+    step4 = re.sub('\u201D([,.])', r'\1' + '\u201D', step3)
+    return step4
 
 # ---------------------------------------------------------------------------
 # Step 4: Parse Bible references from a ref string

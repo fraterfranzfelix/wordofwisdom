@@ -1,1 +1,1276 @@
-Seek and you will find. (Matthew 7:7)
+[
+  {
+    "para": 574,
+    "page": 147,
+    "text": "574. From the beginning of Jesus‘ public ministry, certain Pharisees and partisans of Herod together with priests and scribes agreed together to destroy him. (Cf. <i>Mk</i> 3:6; 14:1.) Because of certain acts of his expelling demons, forgiving sins, healing on the sabbath day, his novel interpretation of the precepts of the Law regarding purity, and his familiarity with tax collectors and public sinners (Cf. <i>Mt</i> 12:24; <i>Mk</i> 2:7, 14-17; 3:1-6; 7:14-23.) — some ill-intentioned persons suspected Jesus of demonic possession. (Cf. <i>Mk</i> 3:22; <i>Jn</i> 8:48; 10:20.) He is accused of blasphemy and false prophecy, religious crimes which the Law punished with death by stoning. (Cf. <i>Mk</i> 2:7; <i>Jn</i> 5:18; 7:12, 52; 8:59; 10:31, 33.)",
+    "targets": [
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": 6,
+        "p": 147,
+        "file": "mk/3.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 14,
+        "v": 1,
+        "p": 147,
+        "file": "mk/14.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": 22,
+        "p": 147,
+        "file": "mk/3.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 48,
+        "p": 147,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 20,
+        "p": 147,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 2,
+        "v": 7,
+        "p": 147,
+        "file": "mk/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 18,
+        "p": 147,
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 12,
+        "p": 147,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 52,
+        "p": 147,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 59,
+        "p": 147,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 31,
+        "p": 147,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 33,
+        "p": 147,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 24,
+        "p": 147,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 2,
+        "v": "14-17",
+        "p": 147,
+        "file": "mk/2.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": "1-6",
+        "p": 147,
+        "file": "mk/3.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 7,
+        "v": "14-23",
+        "p": 147,
+        "file": "mk/7.json"
+      }
+    ]
+  },
+  {
+    "para": 575,
+    "page": 147,
+    "text": "575. Many of Jesus‘ deeds and words constituted a “sign of contradiction,” (<i>Lk</i> 2:34.) but more so for the religious authorities in Jerusalem, whom the Gospel according to John often calls simply “the Jews,” (Cf. <i>Jn</i> 1:19; 2:18; 5:10; 7:13; 9:22; 18:12; 19:38; 20:19.) than for the ordinary People of God. (<i>Jn</i> 7:48-49.) To be sure, Christ’s relations with the Pharisees were not exclusively polemical. Some Pharisees warn him of the danger he was courting; (Cf. <i>Lk</i> 13:31.) Jesus praises some of them, like the scribe of Mark 12:34, and dines several times at their homes. (Cf. <i>Lk</i> 7:36; 14:1.) Jesus endorses some of the teachings imparted by this religious elite of God’s people: the resurrection of the dead, (Cf. <i>Mt</i> 22:23-34; <i>Lk</i> 20:39.) certain forms of piety (almsgiving, fasting and prayer), (Cf. <i>Mt</i> 6:18.) The custom of addressing God as Father, and the centrality of the commandment to love God and neighbour. (Cf. <i>Mk</i> 12:28-34.)",
+    "targets": [
+      {
+        "book": "lk",
+        "chapter": 2,
+        "v": 34,
+        "p": 147,
+        "file": "lk/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 1,
+        "v": 19,
+        "p": 147,
+        "file": "jn/1.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 2,
+        "v": 18,
+        "p": 147,
+        "file": "jn/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 10,
+        "p": 147,
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 13,
+        "p": 147,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 9,
+        "v": 22,
+        "p": 147,
+        "file": "jn/9.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 18,
+        "v": 12,
+        "p": 147,
+        "file": "jn/18.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 19,
+        "v": 38,
+        "p": 147,
+        "file": "jn/19.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 20,
+        "v": 19,
+        "p": 147,
+        "file": "jn/20.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": "48-49",
+        "p": 147,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 13,
+        "v": 31,
+        "p": 147,
+        "file": "lk/13.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 7,
+        "v": 36,
+        "p": 147,
+        "file": "lk/7.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 14,
+        "v": 1,
+        "p": 147,
+        "file": "lk/14.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 22,
+        "v": "23-34",
+        "p": 147,
+        "file": "mt/22.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 20,
+        "v": 39,
+        "p": 147,
+        "file": "lk/20.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 6,
+        "v": 18,
+        "p": 147,
+        "file": "mt/6.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 12,
+        "v": "28-34",
+        "p": 147,
+        "file": "mk/12.json"
+      }
+    ]
+  },
+  {
+    "para": 577,
+    "page": 148,
+    "text": "577.\u2003At the beginning of the Sermon on the Mount Jesus issued a solemn warning in which he presented God\u2019s law, given on Sinai during the first covenant, in light of the grace of the New Covenant:\nDo not think that I have come to abolish the law or the prophets: I have come not to abolish but to fulfil. For truly I tell you, until heaven and earth pass away, not one letter, not one stroke of a letter, will pass from the law, until all is accomplished. Therefore, whoever breaks one of the least of these commandments, and teaches others to do the same, will be called least in the kingdom of heaven; but whoever does them and teaches them will be called great in the kingdom of heaven. (<i>Mt</i> 5:17-19.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": "17-19",
+        "p": 148,
+        "file": "mt/5.json"
+      }
+    ]
+  },
+  {
+    "para": 578,
+    "page": 148,
+    "text": "578. Jesus, Israel’s Messiah and therefore the greatest in the kingdom of heaven, was to fulfil the Law by keeping it in its all embracing detail - according to his own words, down to “the least of these commandments.” (<i>Mt</i> 5:19.) He is in fact the only one who could keep it perfectly. (Cf. <i>Jn</i> 8:46.) On their own admission the Jews were never able to observe the Law in its entirety without violating the least of its precepts. (Cf. <i>Jn</i> 7:19; <i>Acts</i> 13:38-41; 15:10.) This is why every year on the Day of Atonement the children of Israel ask God’s forgiveness for their transgressions of the Law. the Law indeed makes up one inseparable whole, and St. James recalls, “Whoever keeps the whole law but fails in one point has become guilty of all of it.” (<i>Jas</i> 2:10; cf. <i>Gal</i> 3:10; 5:3.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": 19,
+        "p": 148,
+        "file": "mt/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 46,
+        "p": 148,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 19,
+        "p": 148,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 13,
+        "v": "38-41",
+        "p": 148,
+        "file": "acts/13.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 15,
+        "v": 10,
+        "p": 148,
+        "file": "acts/15.json"
+      },
+      {
+        "book": "jam",
+        "chapter": 2,
+        "v": 10,
+        "p": 148,
+        "file": "jam/2.json"
+      },
+      {
+        "book": "gal",
+        "chapter": 3,
+        "v": 10,
+        "p": 148,
+        "file": "gal/3.json"
+      },
+      {
+        "book": "gal",
+        "chapter": 5,
+        "v": 3,
+        "p": 148,
+        "file": "gal/5.json"
+      }
+    ]
+  },
+  {
+    "para": 579,
+    "page": 148,
+    "text": "579. This principle of integral observance of the Law not only in letter but in spirit was dear to the Pharisees. By giving Israel this principle they had led many Jews of Jesus‘ time to an extreme religious zeal. (Cf. <i>Rom</i> 10:2.) This zeal, were it not to lapse into “hypocritical” casuistry, (Cf. <i>Mt</i> 15:31; <i>Lk</i> 11:39-54.) could only prepare the People for the unprecedented intervention of God through the perfect fulfilment of the Law by the only Righteous One in place of all sinners. (Cf. <i>Is</i> 53:11; <i>Heb</i> 9:15.)",
+    "targets": [
+      {
+        "book": "rom",
+        "chapter": 10,
+        "v": 2,
+        "p": 148,
+        "file": "rom/10.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 15,
+        "v": 31,
+        "p": 148,
+        "file": "mt/15.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 11,
+        "v": "39-54",
+        "p": 148,
+        "file": "lk/11.json"
+      },
+      {
+        "book": "isa",
+        "chapter": 53,
+        "v": 11,
+        "p": 148,
+        "file": "isa/53.json"
+      },
+      {
+        "book": "heb",
+        "chapter": 9,
+        "v": 15,
+        "p": 148,
+        "file": "heb/9.json"
+      }
+    ]
+  },
+  {
+    "para": 580,
+    "page": "148-149",
+    "text": "580. The perfect fulfilment of the Law could be the work of none but the divine legislator, born subject to the Law in the person of the Son. (Cf. <i>Gal</i> 4:4.) In Jesus, the Law no longer appears engraved on tables of stone but “upon the heart” of the Servant who becomes “a covenant to the people,” because he will “faithfully bring forth justice.” (<i>Jer</i> 31:33; <i>Is</i> 42:3, 6.) Jesus fulfils the Law to the point of taking upon himself “the curse of the Law” incurred by those who do not “abide by the things written in the book of the Law, and do them,” for his death took place to redeem them “from the transgressions under the first covenant.” (<i>Gal</i> 3:13; 3:10; <i>Heb</i> 9:15.)",
+    "targets": [
+      {
+        "book": "gal",
+        "chapter": 4,
+        "v": 4,
+        "p": "148-149",
+        "file": "gal/4.json"
+      },
+      {
+        "book": "jer",
+        "chapter": 31,
+        "v": 33,
+        "p": "148-149",
+        "file": "jer/31.json"
+      },
+      {
+        "book": "isa",
+        "chapter": 42,
+        "v": 3,
+        "p": "148-149",
+        "file": "isa/42.json"
+      },
+      {
+        "book": "isa",
+        "chapter": 42,
+        "v": 6,
+        "p": "148-149",
+        "file": "isa/42.json"
+      },
+      {
+        "book": "gal",
+        "chapter": 3,
+        "v": 13,
+        "p": "148-149",
+        "file": "gal/3.json"
+      },
+      {
+        "book": "gal",
+        "chapter": 3,
+        "v": 10,
+        "p": "148-149",
+        "file": "gal/3.json"
+      },
+      {
+        "book": "heb",
+        "chapter": 9,
+        "v": 15,
+        "p": "148-149",
+        "file": "heb/9.json"
+      }
+    ]
+  },
+  {
+    "para": 581,
+    "page": 149,
+    "text": "581. The Jewish people and their spiritual leaders viewed Jesus as a rabbi. (Cf. <i>Jn</i> 11:28; 3:2; <i>Mt</i> 22:23-24, 34-36.) He often argued within the framework of rabbinical interpretation of the Law. (Cf. <i>Mt</i> 12:5; 9:12; <i>Mk</i> 2:23-27; <i>Lk</i> 6:6-g; <i>Jn</i> 7:22-23.) Yet Jesus could not help but offend the teachers of the Law, for he was not content to propose his interpretation alongside theirs but taught the people “as one who had authority, and not as their scribes.” (<i>Mt</i> 7:28-29.) In Jesus, the same Word of God that had resounded on Mount Sinai to give the written Law to Moses, made itself heard anew on the Mount of the Beatitudes. (Cf. <i>Mt</i> 5:1.) Jesus did not abolish the Law but fulfilled it by giving its ultimate interpretation in a divine way: “You have heard that it was said to the men of old. … But I say to you. …” (<i>Mt</i> 5:33-34.) With this same divine authority, he disavowed certain human traditions of the Pharisees that were “making void the word of God.” (<i>Mk</i> 7:13; cf. 3:8.)",
+    "targets": [
+      {
+        "book": "jn",
+        "chapter": 11,
+        "v": 28,
+        "p": 149,
+        "file": "jn/11.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 3,
+        "v": 2,
+        "p": 149,
+        "file": "jn/3.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 22,
+        "v": "23-24",
+        "p": 149,
+        "file": "mt/22.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 22,
+        "v": "34-36",
+        "p": 149,
+        "file": "mt/22.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 5,
+        "p": 149,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 9,
+        "v": 12,
+        "p": 149,
+        "file": "mt/9.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 2,
+        "v": "23-27",
+        "p": 149,
+        "file": "mk/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": "22-23",
+        "p": 149,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 7,
+        "v": "28-29",
+        "p": 149,
+        "file": "mt/7.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": 1,
+        "p": 149,
+        "file": "mt/5.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": "33-34",
+        "p": 149,
+        "file": "mt/5.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 7,
+        "v": 13,
+        "p": 149,
+        "file": "mk/7.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": 8,
+        "p": 149,
+        "file": "mk/3.json"
+      }
+    ]
+  },
+  {
+    "para": 582,
+    "page": 149,
+    "text": "582. Going even further, Jesus perfects the dietary law, so important in Jewish daily life, by revealing its pedagogical meaning through a divine interpretation: “Whatever goes into a man from outside cannot defile him … (Thus he declared all foods clean.). What comes out of a man is what defiles a man. For from within, out of the heart of man, come evil thoughts. …” (<i>Mk</i> 7:18-21; cf. <i>Gal</i> 3:24.) In presenting with divine authority the definitive interpretation of the Law, Jesus found himself confronted by certain teachers of the Law who did not accept his interpretation of the Law, guaranteed though it was by the divine signs that accompanied it. (Cf. <i>Jn</i> 5:36; 10:25, 37-38; 12:37.) This was the case especially with the sabbath laws, for he recalls, often with rabbinical arguments, that the sabbath rest is not violated by serving God and neighbour, (Cf. <i>Num</i> 28:9; <i>Mt</i> 12:5; <i>Mk</i> 2:25-27; <i>Lk</i> 13:15-16; 14:3-4; <i>Jn</i> 7:22-24.) which his own healings did.",
+    "targets": [
+      {
+        "book": "mk",
+        "chapter": 7,
+        "v": "18-21",
+        "p": 149,
+        "file": "mk/7.json"
+      },
+      {
+        "book": "gal",
+        "chapter": 3,
+        "v": 24,
+        "p": 149,
+        "file": "gal/3.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 36,
+        "p": 149,
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 25,
+        "p": 149,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": "37-38",
+        "p": 149,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 12,
+        "v": 37,
+        "p": 149,
+        "file": "jn/12.json"
+      },
+      {
+        "book": "num",
+        "chapter": 28,
+        "v": 9,
+        "p": 149,
+        "file": "num/28.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 5,
+        "p": 149,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 2,
+        "v": "25-27",
+        "p": 149,
+        "file": "mk/2.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 13,
+        "v": "15-16",
+        "p": 149,
+        "file": "lk/13.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 14,
+        "v": "3-4",
+        "p": 149,
+        "file": "lk/14.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": "22-24",
+        "p": 149,
+        "file": "jn/7.json"
+      }
+    ]
+  },
+  {
+    "para": 583,
+    "page": "149-150",
+    "text": "583. Like the prophets before him Jesus expressed the deepest respect for the Temple in Jerusalem. It was in the Temple that Joseph and Mary presented him forty days after his birth. (<i>Lk</i> 2:22-39.) At the age of twelve he decided to remain in the Temple to remind his parents that he must be about his Father’s business. (Cf. <i>Lk</i> 2:46-49.) He went there each year during his hidden life at least for Passover. (Cf. <i>Lk</i> 2:41.) His public ministry itself was patterned by his pilgrimages to Jerusalem for the great Jewish feasts. (Cf. <i>Jn</i> 2:13-14; 5:1, 14; 7:1, 10, 14; 8:2; 10:22-23.)",
+    "targets": [
+      {
+        "book": "lk",
+        "chapter": 2,
+        "v": "22-39",
+        "p": "149-150",
+        "file": "lk/2.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 2,
+        "v": "46-49",
+        "p": "149-150",
+        "file": "lk/2.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 2,
+        "v": 41,
+        "p": "149-150",
+        "file": "lk/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 2,
+        "v": "13-14",
+        "p": "149-150",
+        "file": "jn/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 1,
+        "p": "149-150",
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 14,
+        "p": "149-150",
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 1,
+        "p": "149-150",
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 10,
+        "p": "149-150",
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 14,
+        "p": "149-150",
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 2,
+        "p": "149-150",
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": "22-23",
+        "p": "149-150",
+        "file": "jn/10.json"
+      }
+    ]
+  },
+  {
+    "para": 584,
+    "page": 150,
+    "text": "584. Jesus went up to the Temple as the privileged place of encounter with God. For him, the Temple was the dwelling of his Father, a house of prayer, and he was angered that its outer court had become a place of commerce. (Cf. <i>Mt</i> 21:13.) He drove merchants out of it because of jealous love for his Father: “You shall not make my Father’s house a house of trade. His disciples remembered that it was written, ‘Zeal for your house will consume me.’” (<i>Jn</i> 2:16-17; cf. <i>Ps</i> 69:10.) After his Resurrection his apostles retained their reverence for the Temple. (Cf. <i>Acts</i> 2:46; 3:1; 5:20, 21; etc.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 21,
+        "v": 13,
+        "p": 150,
+        "file": "mt/21.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 2,
+        "v": "16-17",
+        "p": 150,
+        "file": "jn/2.json"
+      },
+      {
+        "book": "ps",
+        "chapter": 69,
+        "v": 10,
+        "p": 150,
+        "file": "ps/69.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 2,
+        "v": 46,
+        "p": 150,
+        "file": "acts/2.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 3,
+        "v": 1,
+        "p": 150,
+        "file": "acts/3.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 5,
+        "v": 20,
+        "p": 150,
+        "file": "acts/5.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 5,
+        "v": 21,
+        "p": 150,
+        "file": "acts/5.json"
+      }
+    ]
+  },
+  {
+    "para": 585,
+    "page": 150,
+    "text": "585. On the threshold of his Passion Jesus announced the coming destruction of this splendid building, of which there would not remain “one stone upon another.” (Cf. <i>Mt</i> 24:1-2.) By doing so, he announced a sign of the last days, which were to begin with his own Passover. (Cf. <i>Mt</i> 24:3; <i>Lk</i> 13:35.) But this prophecy would be distorted in its telling by false witnesses during his interrogation at the high priest’s house, and would be thrown back at him as an insult when he was nailed to the cross. (Cf. <i>Mk</i> 14:57-58; <i>Mt</i> 27:39-40.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 24,
+        "v": "1-2",
+        "p": 150,
+        "file": "mt/24.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 24,
+        "v": 3,
+        "p": 150,
+        "file": "mt/24.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 13,
+        "v": 35,
+        "p": 150,
+        "file": "lk/13.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 14,
+        "v": "57-58",
+        "p": 150,
+        "file": "mk/14.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 27,
+        "v": "39-40",
+        "p": 150,
+        "file": "mt/27.json"
+      }
+    ]
+  },
+  {
+    "para": 586,
+    "page": 150,
+    "text": "586. Far from having been hostile to the Temple, where he gave the essential part of his teaching, Jesus was willing to pay the Temple-tax, associating with him Peter, whom he had just made the foundation of his future Church. (Cf. <i>Mt</i> 8:4; 16:18; 17:24-27; <i>Lk</i> 17:14; <i>Jn</i> 4:22; 18:20.) He even identified himself with the Temple by presenting himself as God’s definitive dwelling-place among men. (Cf. <i>Jn</i> 2:21; <i>Mt</i> 12:6.) Therefore his being put to bodily death (Cf. <i>Jn</i> 2:18-22.) presaged the destruction of the Temple, which would manifest the dawning of a new age in the history of salvation: “The hour is coming when neither on this mountain nor in Jerusalem will you worship the Father.” (<i>Jn</i> 4:21; cf. 4:23-24; <i>Mt</i> 27:5; <i>Heb</i> 9:11; <i>Rev</i> 21:22.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 8,
+        "v": 4,
+        "p": 150,
+        "file": "mt/8.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 16,
+        "v": 18,
+        "p": 150,
+        "file": "mt/16.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 17,
+        "v": "24-27",
+        "p": 150,
+        "file": "mt/17.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 17,
+        "v": 14,
+        "p": 150,
+        "file": "lk/17.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 4,
+        "v": 22,
+        "p": 150,
+        "file": "jn/4.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 18,
+        "v": 20,
+        "p": 150,
+        "file": "jn/18.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 2,
+        "v": 21,
+        "p": 150,
+        "file": "jn/2.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 6,
+        "p": 150,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 2,
+        "v": "18-22",
+        "p": 150,
+        "file": "jn/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 4,
+        "v": 21,
+        "p": 150,
+        "file": "jn/4.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 4,
+        "v": "23-24",
+        "p": 150,
+        "file": "jn/4.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 27,
+        "v": 5,
+        "p": 150,
+        "file": "mt/27.json"
+      },
+      {
+        "book": "heb",
+        "chapter": 9,
+        "v": 11,
+        "p": 150,
+        "file": "heb/9.json"
+      },
+      {
+        "book": "rev",
+        "chapter": 21,
+        "v": 22,
+        "p": 150,
+        "file": "rev/21.json"
+      }
+    ]
+  },
+  {
+    "para": 587,
+    "page": 151,
+    "text": "587. If the Law and the Jerusalem Temple could be occasions of opposition to Jesus by Israel’s religious authorities, his role in the redemption of sins, the divine work par excellence, was the true stumbling-block for them. (Cf. <i>Lk</i> 2:34; 20:17-18; <i>Ps</i> 118:22.)",
+    "targets": [
+      {
+        "book": "lk",
+        "chapter": 2,
+        "v": 34,
+        "p": 151,
+        "file": "lk/2.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 20,
+        "v": "17-18",
+        "p": 151,
+        "file": "lk/20.json"
+      },
+      {
+        "book": "ps",
+        "chapter": 118,
+        "v": 22,
+        "p": 151,
+        "file": "ps/118.json"
+      }
+    ]
+  },
+  {
+    "para": 588,
+    "page": 151,
+    "text": "588. Jesus scandalized the Pharisees by eating with tax collectors and sinners as familiarly as with themselves. (Cf. <i>Lk</i> 5:30; 7:36; 11:37; 14:1.) Against those among them “who trusted in themselves that they were righteous and despised others,” Jesus affirmed: “I have not come to call the righteous, but sinners to repentance.” (<i>Lk</i> 18:9; 5:32; cf. <i>Jn</i> 7:49; 9:34.) He went further by proclaiming before the Pharisees that, since sin is universal, those who pretend not to need salvation are blind to themselves. (Cf. <i>Jn</i> 8:33-36; 9:40-41.)",
+    "targets": [
+      {
+        "book": "lk",
+        "chapter": 5,
+        "v": 30,
+        "p": 151,
+        "file": "lk/5.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 7,
+        "v": 36,
+        "p": 151,
+        "file": "lk/7.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 11,
+        "v": 37,
+        "p": 151,
+        "file": "lk/11.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 14,
+        "v": 1,
+        "p": 151,
+        "file": "lk/14.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 18,
+        "v": 9,
+        "p": 151,
+        "file": "lk/18.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 5,
+        "v": 32,
+        "p": 151,
+        "file": "lk/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 7,
+        "v": 49,
+        "p": 151,
+        "file": "jn/7.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 9,
+        "v": 34,
+        "p": 151,
+        "file": "jn/9.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": "33-36",
+        "p": 151,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 9,
+        "v": "40-41",
+        "p": 151,
+        "file": "jn/9.json"
+      }
+    ]
+  },
+  {
+    "para": 589,
+    "page": 151,
+    "text": "589. Jesus gave scandal above all when he identified his merciful conduct toward sinners with God’s own attitude toward them. (Cf. <i>Mt</i> 9:13; <i>Hos</i> 6:6.) He went so far as to hint that by sharing the table of sinners he was admitting them to the messianic banquet. (Cf. <i>Lk</i> 15:1-2, 22-32.) But it was most especially by forgiving sins that Jesus placed the religious authorities of Israel on the horns of a dilemma. Were they not entitled to demand in consternation, “Who can forgive sins but God alone?” (<i>Mk</i> 2:7.) By forgiving sins Jesus either is blaspheming as a man who made himself God’s equal, or is speaking the truth and his person really does make present and reveal God’s name. (Cf. <i>Jn</i> 5:18; 10:33; 17:6,26.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 9,
+        "v": 13,
+        "p": 151,
+        "file": "mt/9.json"
+      },
+      {
+        "book": "hos",
+        "chapter": 6,
+        "v": 6,
+        "p": 151,
+        "file": "hos/6.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 15,
+        "v": "1-2",
+        "p": 151,
+        "file": "lk/15.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 15,
+        "v": "22-32",
+        "p": 151,
+        "file": "lk/15.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 2,
+        "v": 7,
+        "p": 151,
+        "file": "mk/2.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": 18,
+        "p": 151,
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 33,
+        "p": 151,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 17,
+        "v": 6,
+        "p": 151,
+        "file": "jn/17.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 17,
+        "v": 26,
+        "p": 151,
+        "file": "jn/17.json"
+      }
+    ]
+  },
+  {
+    "para": 590,
+    "page": 151,
+    "text": "590. Only the divine identity of Jesus‘ person can justify so absolute a claim as “He who is not with me is against me”; and his saying that there was in him “something greater than Jonah, … greater than Solomon,” something “greater than the Temple”; his reminder that David had called the Messiah his Lord, (Cf.<i>Mt</i> 12:6, 0, 36, 37, 41-42.) and his affirmations, “Before Abraham was, I AM,” and even “I and the Father are one.” (<i>Jn</i> 8:58; 10:30.)",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 6,
+        "p": 151,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 0,
+        "p": 151,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 36,
+        "p": 151,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": 37,
+        "p": 151,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 12,
+        "v": "41-42",
+        "p": 151,
+        "file": "mt/12.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 58,
+        "p": 151,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 30,
+        "p": 151,
+        "file": "jn/10.json"
+      }
+    ]
+  },
+  {
+    "para": 591,
+    "page": 152,
+    "text": "591. Jesus asked the religious authorities of Jerusalem to believe in him because of the Father’s works which he accomplished. (<i>Jn</i> 10:36-38.) But such an act of faith must go through a mysterious death to self, for a new “birth from above” under the influence of divine grace. (Cf. <i>Jn</i> 3:7; 6:44.) Such a demand for conversion in the face of so surprising a fulfilment of the promises (Cf. <i>Is</i> 53:1.) allows one to understand the Sanhedrin’s tragic misunderstanding of Jesus: they judged that he deserved the death sentence as a blasphemer. (Cf. <i>Mk</i> 3:6; <i>Mt</i> 26:64-66.) The members of the Sanhedrin were thus acting at the same time out of “ignorance” and the “hardness” of their “unbelief.” (Cf. <i>Lk</i> 23:34; <i>Acts</i> 3:17-18; <i>Mk</i> 3:5; <i>Rom</i> 11:25, 20.)",
+    "targets": [
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": "36-38",
+        "p": 152,
+        "file": "jn/10.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 3,
+        "v": 7,
+        "p": 152,
+        "file": "jn/3.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 6,
+        "v": 44,
+        "p": 152,
+        "file": "jn/6.json"
+      },
+      {
+        "book": "isa",
+        "chapter": 53,
+        "v": 1,
+        "p": 152,
+        "file": "isa/53.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": 6,
+        "p": 152,
+        "file": "mk/3.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 26,
+        "v": "64-66",
+        "p": 152,
+        "file": "mt/26.json"
+      },
+      {
+        "book": "lk",
+        "chapter": 23,
+        "v": 34,
+        "p": 152,
+        "file": "lk/23.json"
+      },
+      {
+        "book": "acts",
+        "chapter": 3,
+        "v": "17-18",
+        "p": 152,
+        "file": "acts/3.json"
+      },
+      {
+        "book": "mk",
+        "chapter": 3,
+        "v": 5,
+        "p": 152,
+        "file": "mk/3.json"
+      },
+      {
+        "book": "rom",
+        "chapter": 11,
+        "v": 25,
+        "p": 152,
+        "file": "rom/11.json"
+      },
+      {
+        "book": "rom",
+        "chapter": 11,
+        "v": 20,
+        "p": 152,
+        "file": "rom/11.json"
+      }
+    ]
+  },
+  {
+    "para": 592,
+    "page": 152,
+    "text": "592. Jesus did not abolish the Law of Sinai, but rather fulfilled it (cf. <i>Mt</i> 5:17-19) with such perfection (cf. <i>Jn</i> 8:46) that he revealed its ultimate meaning (cf. <i>Mt</i> 5:33) and redeemed the transgressions against it (cf. <i>Heb</i> 9:15).",
+    "targets": [
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": "17-19",
+        "p": 152,
+        "file": "mt/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 8,
+        "v": 46,
+        "p": 152,
+        "file": "jn/8.json"
+      },
+      {
+        "book": "mt",
+        "chapter": 5,
+        "v": 33,
+        "p": 152,
+        "file": "mt/5.json"
+      },
+      {
+        "book": "heb",
+        "chapter": 9,
+        "v": 15,
+        "p": 152,
+        "file": "heb/9.json"
+      }
+    ]
+  },
+  {
+    "para": 594,
+    "page": 152,
+    "text": "594. Jesus performed acts, such as pardoning sins, that manifested him to be the Saviour God himself (cf. <i>Jn</i> 5:16-18). Certain Jews, who did not recognize God made man (cf. <i>Jn</i> 1:14), saw in him only a man who made himself God (<i>Jn</i> 10:33), and judged him as a blasphemer.",
+    "targets": [
+      {
+        "book": "jn",
+        "chapter": 5,
+        "v": "16-18",
+        "p": 152,
+        "file": "jn/5.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 1,
+        "v": 14,
+        "p": 152,
+        "file": "jn/1.json"
+      },
+      {
+        "book": "jn",
+        "chapter": 10,
+        "v": 33,
+        "p": 152,
+        "file": "jn/10.json"
+      }
+    ]
+  }
+]
