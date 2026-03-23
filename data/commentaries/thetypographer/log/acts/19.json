@@ -1,7 +1,16 @@
 {
-"verses": [
-{"v": 7,"text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"},
-{"v": 28,"text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"},
-{"v": 35,"text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"}
-]
+  "verses": [
+    {
+      "v": 7,
+      "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+    },
+    {
+      "v": 28,
+      "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+    },
+    {
+      "v": 35,
+      "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+    }
+  ]
 }

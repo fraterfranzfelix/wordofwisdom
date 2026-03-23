@@ -93,6 +93,25 @@
    
    ========================================================================== */
 
+/* +++ IBARRA REAL NOVA (default font — load blocking) +++ */
+@font-face {
+  font-family: "IbarraRealNova";
+  font-style: normal;
+  src:
+    local("Ibarra Real Nova"),
+    url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-VariableFont_wght.woff2") format("woff2"),
+    url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IbarraRealNova";
+  font-style: italic;
+  src:
+    local("Ibarra Real Nova"),
+    url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -318,7 +337,6 @@ h1 {
     color: var(--color-text-primary);
     text-align: center;
     margin: 0 0 var(--spacing-xs) 0;
-    transition: font-size 0.3s ease;
     text-wrap: balance;
 }
 
@@ -331,7 +349,6 @@ h2 {
     color: var(--color-text-secondary);
     text-align: center;
     margin: var(--spacing-lg) 0 0 0;
-    transition: font-size 0.3s ease;
 }
 
 h3, h4 {
@@ -417,7 +434,6 @@ hr {
     background-color: var(--color-bg-light);
     border-right: var(--border-width) solid var(--color-border);
     width: 15rem;
-    transition: width 0.3s ease, border-right-width 0.3s ease;
 }
 
 .settings-content {
@@ -446,12 +462,6 @@ hr {
     border-radius: 0 8px 8px 0;
     box-shadow: var(--shadow-toggle-handle);
     cursor: pointer;
-    transition: left 0.3s ease, width 0.2s ease, background-color 0.2s;
-}
-
-.settings-toggle-handle:hover {
-    width: 1.5rem;               /* full width on hover — chevron becomes visible */
-    background-color: var(--color-bg-medium);
 }
 
 .settings-collapse-btn {
@@ -469,15 +479,6 @@ hr {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: color 0.2s, opacity 0.15s ease;
-}
-
-.settings-toggle-handle:hover .settings-collapse-btn {
-    opacity: 1;
-}
-
-.settings-collapse-btn:hover {
-    color: var(--color-accent);
 }
 
 .settings-panel.collapsed {
@@ -524,15 +525,9 @@ hr {
     background-color: var(--color-bg-dark);
     border-left: var(--border-width) solid var(--color-border);
     cursor: col-resize;
-    transition: background-color 0.2s;
     z-index: 10;
 }
 
-.panel-resizer:hover,
-.panel-resizer.dragging {
-    background-color: var(--color-accent);
-    border-color: var(--color-accent);
-}
 
 
 /* **************************************************************************
@@ -818,7 +813,6 @@ hr {
     color: var(--color-text-primary);
     margin: var(--spacing-sm) 0 0 0;
     text-wrap: pretty;
-    transition: font-size 0.3s ease;
 }
 
 .citation-footnote {
@@ -882,7 +876,6 @@ select {
     width: 100%;
     margin: 0 0 var(--spacing-xs) 0;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 
 
@@ -957,7 +950,6 @@ select {
     flex-shrink: 0;
     min-width: 36px;
     text-align: center;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .nav-control-wrapper .nav-btn {
@@ -1027,9 +1019,6 @@ select {
     border: var(--border-width) solid var(--color-border);
     border-radius: var(--border-radius);
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    background-image: var(--grad-neutral-normal);
-    box-shadow: var(--shadow-s);
 }
 
 .custom-select-value {
@@ -1049,7 +1038,6 @@ select {
     width: 12px;
     height: 12px;
     margin-left: var(--spacing-sm);
-    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     flex-shrink: 0;
 }
 
@@ -1080,23 +1068,15 @@ select {
     right: 0;
     z-index: 1000;
     
-    /* Frosted glass background */
     background: color-mix(in srgb, var(--color-bg-light), transparent 33.3%);
-    backdrop-filter: blur(0.5rem);
-    -webkit-backdrop-filter: blur(0.5rem);
-    
+
     border: var(--border-width) solid var(--color-border);
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-l);
-    
-    /* Hidden by default with animation setup */
+
+    /* Hidden by default */
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
-    transition: 
-        opacity 0.2s ease,
-        transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1),
-        visibility 0.2s;
     
     overflow: hidden;
 }
@@ -1122,12 +1102,7 @@ select {
 .custom-select-option {
     padding: var(--spacing-sm) var(--spacing-sm);
     cursor: pointer;
-    transition: all 0.15s ease;
     color: var(--color-text-primary);
-}
-
-.custom-select-option:hover {
-    background: var(--color-bg-dark);
 }
 
 .custom-select-option.selected {
@@ -1137,11 +1112,6 @@ select {
     font-weight: 500;
 }
 
-.custom-select-option.selected:hover {
-    background: var(--color-accent-light);
-    background-image: var(--grad-neutral-selected);
-}
-
 /* Disabled option styling */
 .custom-select-option.disabled {
     color: var(--color-text-secondary);
@@ -1149,14 +1119,11 @@ select {
     font-style: italic;
 }
 
-.custom-select-option.disabled:hover {
-    background: transparent;
-}
 
 
 /* **************************************************************************
    **************************************************************************
-   
+
    PART V: THEMES
    
    Color scheme overrides for different themes. The default theme is
@@ -1215,6 +1182,54 @@ select {
         inset 0 1px 2px rgba(0, 0, 0, 0.2),
         inset 0 2px 4px rgba(0, 0, 0, 0.1),
         0 1px 1px rgba(0, 0, 0, 0.1);
+
+    /* Logo */
+    --logo-url: url('assets/logo_negative.png');
+
+    /* Shimmer */
+    --shimmer-opacity-peak: 0.05;
+
+    /* Gradients (Glassmorphism — dark mode overrides) */
+    --grad-neutral-normal: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0.00)
+    );
+    --grad-neutral-hover: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.1)
+    );
+    --grad-neutral-active: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.00)
+    );
+    --grad-neutral-selected: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.50),
+        rgba(255, 255, 255, 0.10)
+    );
+    --grad-accent-normal: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.20),
+        rgba(255, 255, 255, 0.00)
+    );
+    --grad-accent-hover: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0.05)
+    );
+    --grad-accent-active: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.00)
+    );
+    --grad-accent-selected: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.0)
+    );
 }
 
     /* Button text color overrides for dark mode visibility */

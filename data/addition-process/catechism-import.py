@@ -142,6 +142,19 @@ PARA_TO_PAGE[583] = "149-150"
 for p in range(584, 587): PARA_TO_PAGE[p] = 150   # 584–586
 for p in range(587, 591): PARA_TO_PAGE[p] = 151   # 587–590
 for p in range(591, 595): PARA_TO_PAGE[p] = 152   # 591–594
+for p in range(595, 597): PARA_TO_PAGE[p] = 153   # 595–596
+PARA_TO_PAGE[597] = "153-154"
+PARA_TO_PAGE[598] = 154
+for p in range(599, 602): PARA_TO_PAGE[p] = 155   # 599–601
+for p in range(602, 605): PARA_TO_PAGE[p] = 156   # 602–604
+PARA_TO_PAGE[605] = "156-157"
+for p in range(606, 608): PARA_TO_PAGE[p] = 157   # 606–607
+PARA_TO_PAGE[608] = "157-158"
+for p in range(609, 612): PARA_TO_PAGE[p] = 158   # 609–611
+for p in range(612, 615): PARA_TO_PAGE[p] = 159   # 612–614
+for p in range(615, 618): PARA_TO_PAGE[p] = 160   # 615–617
+PARA_TO_PAGE[618] = "160-161"
+for p in range(619, 624): PARA_TO_PAGE[p] = 161   # 619–623
 
 # ---------------------------------------------------------------------------
 # Bible abbreviation → project book ID

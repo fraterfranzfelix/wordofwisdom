@@ -1,7 +1,7 @@
 // ==========================================================================
 // LAZY SCRIPT
 // ==========================================================================
-// Combines: custom-select.js · navigation.js · theme.js
+// Combines: custom-select.js · navigation.js · theme.js · font.js
 // ==========================================================================
 
 
@@ -1192,3 +1192,55 @@ initDailyMassBar();
     });
 })();
 
+/* =============================================================================
+   PERPETUAL PRAYER
+============================================================================= */
+
+let isKyrie = true;
+
+setInterval(() => {
+  if (isKyrie) {
+    console.log("Kyrie eleison");
+  } else {
+    console.log("Christe eleison");
+  }
+  
+  // Flip the toggle for the next round
+  isKyrie = !isKyrie; 
+}, 3000);
+
+
+// ==========================================================================
+// FONT CONTROLS - Font Family & Font Size
+// ==========================================================================
+
+const btnDecrease = document.getElementById('btn-decrease');
+const btnIncrease = document.getElementById('btn-increase');
+const sizeDisplay = document.getElementById('font-size-display');
+
+let currentFontSize = 1.2;
+
+function updateFontSize(newSize) {
+    currentFontSize = parseFloat(newSize.toFixed(1));
+    sizeDisplay.textContent = currentFontSize;
+    document.documentElement.style.setProperty('--font-size-base', currentFontSize + 'rem');
+}
+
+btnDecrease.addEventListener('click', function() {
+    if (currentFontSize > 0.8) {
+        updateFontSize(currentFontSize - 0.1);
+    }
+});
+
+btnIncrease.addEventListener('click', function() {
+    if (currentFontSize < 1.8) {
+        updateFontSize(currentFontSize + 0.1);
+    }
+});
+
+const fontPicker = document.getElementById('font-picker');
+
+fontPicker.addEventListener('change', function() {
+    const selectedFont = fontPicker.value;
+    document.documentElement.style.setProperty('--font-serif', selectedFont + ', serif');
+});

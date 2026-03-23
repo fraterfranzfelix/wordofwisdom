@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preload" href="assets/lazy-style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/lazy-style.css"></noscript>
@@ -17,6 +16,18 @@
     <link rel="icon" type="image/png" href="assets/favicon.png">
 
     <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- Theme detection: must be synchronous and inline to prevent FOUC.
+         Runs before first paint; sets data-theme="dark" on <html> if needed. -->
+    <script>
+    (function() {
+        var saved = localStorage.getItem('color-theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.dataset.theme = 'dark';
+        }
+    })();
+    </script>
 </head>
 
 <body>
@@ -84,9 +95,9 @@
 
             <hr>
 
-            <!-- Psalms Section -->
-            <h4>Psalms</h4>
-            <button id="psalm-numbering-btn" class="btn glass"></button>
+            <!-- Structure Section -->
+            <h4>Structure</h4>
+            <button id="tradition-btn" class="btn glass"></button>
             <button id="psalm-superscription-btn" class="btn glass"></button>
 
             <!-- Citation Section -->
@@ -97,7 +108,7 @@
 
             <!-- Credits -->
             <span class="credits">
-                <i>Word of Wisdom.</i> Alpha v0.4.0. Last update 18.03.2026.
+                <i>Word of Wisdom.</i> Alpha v0.5.2. Last update 23.03.2026.
                 Developed by <i><a href="https://www.instagram.com/sanssaintco/" target="_blank">Sans Saint.</a></i> Hosted via <i><a href="https://github.com/fraterfranzfelix/wordofwisdom" target="_blank">GitHub</a></i>
             </span>
 
@@ -150,8 +161,6 @@
 
 <!-- Scripts -->
 <script src="script.js"></script>
-<script src="data/translations/psalms.js" defer></script>
-<script src="assets/fonts/font.js" defer></script>
 <script src="assets/lazy-script.js" defer></script>
 
 <div id="daily-mass-bar"></div>

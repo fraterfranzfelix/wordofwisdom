@@ -59,7 +59,7 @@ if not deleted:
 # ---------------------------------------------------------------------------
 COMMENTARIES_DIR = ROOT / "data" / "commentaries"
 TOTAL_BIBLE_VERSES = 35_527
-EXCLUDED_NAMES = {"meta.json", "index.json"}
+EXCLUDED_NAMES = {"meta.json", "index.json", "thetypographer.json"}
 
 total_entries = 0
 covered_verses: set[tuple[str, str, int]] = set()

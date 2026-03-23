@@ -1,12 +1,17 @@
 The first number is the page number. The subsequent two numbers are the range of paragraphs contained within that page.
 
-146, 571-573.
-147, 573-576.
-148, 577-580.
-149, 580-583.
-150, 583-586.
-151, 587-590.
-152, 591-594.
 153, 595-597.
 154, 597-598.
 155, 599-601.
+156, 602-605.
+157, 605-608.
+158, 608-611.
+159, 612-614.
+160, 615-618.
+161, 618-623.
+162, 624-626.
+163, 626-630.
+
+Paragraphs with quotation blocks:
+
+597, 598, 625, 626.

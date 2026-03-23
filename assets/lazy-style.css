@@ -18,9 +18,86 @@
      §4.1  Glassmorphism Utility Class
      §4.2  Verse Interactions
      §4.3  Button Animations
-     §5.x  Dark Mode Supplemental Overrides
+     §6.0  Deferred Transitions, Hover States & Glassmorphism
 
    ========================================================================== */
+
+
+/* ==========================================================================
+   ADDITIONAL FONT FACES (deferred — not the default font)
+   ========================================================================== */
+
+/* +++ LIBRE BASKERVILLE +++ */
+@font-face {
+  font-family: "LibreBaskerville";
+  font-style: normal;
+  src:
+    local("Libre Baskerville"),
+    url("../fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LibreBaskerville";
+  font-style: italic;
+  src:
+    local("Libre Baskerville"),
+    url("../fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+/* +++ CORMORANT GARAMOND +++ */
+@font-face {
+  font-family: "CormorantGaramond";
+  font-style: normal;
+  src:
+    local("Cormorant Garamond"),
+    url("../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CormorantGaramond";
+  font-style: italic;
+  src:
+    local("Cormorant Garamond"),
+    url("../fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+/* +++ EB GARAMOND +++ */
+@font-face {
+  font-family: "EBGaramond";
+  font-style: normal;
+  src:
+    local("EB Garamond"),
+    url("../fonts/EB_Garamond/EBGaramond-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EBGaramond";
+  font-style: italic;
+  src:
+    local("EB Garamond"),
+    url("../fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+/* +++ INTER +++ */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src:
+    local("Inter"),
+    url("../fonts/Inter/InterVariable.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  src:
+    local("Inter"),
+    url("../fonts/Inter/InterVariable-Italic.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+}
 
 
 /* ==========================================================================
@@ -296,63 +373,113 @@
 
 
 /* ==========================================================================
-   §5.x DARK MODE SUPPLEMENTAL OVERRIDES
+   §6.0 DEFERRED TRANSITIONS, HOVER STATES & GLASSMORPHISM
    ==========================================================================
 
-   Gradient, animation, and logo overrides for dark mode.
-   Core dark mode color variables stay in style.css (critical for FOUC prevention).
+   Rules moved here from style.css to reduce blocking CSS size.
+   None of these affect initial layout or first-paint appearance —
+   they only activate on user interaction (hover, click, font-size change).
 
    ========================================================================== */
 
-[data-theme="dark"] {
-    --shimmer-opacity-peak: 0.05;
+
+/* --- Transitions (font size, panel collapse, interactive controls) --- */
+
+h1, h2 {
+    transition: font-size 0.3s ease;
 }
 
-[data-theme="dark"] {
-    --grad-neutral-normal: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.15),
-        rgba(255, 255, 255, 0.00)
-    );
-    --grad-neutral-hover: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0.1)
-    );
-    --grad-neutral-active: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.25),
-        rgba(255, 255, 255, 0.00)
-    );
-    --grad-neutral-selected: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.50),
-        rgba(255, 255, 255, 0.10)
-    );
-    --grad-accent-normal: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.20),
-        rgba(255, 255, 255, 0.00)
-    );
-    --grad-accent-hover: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.35),
-        rgba(255, 255, 255, 0.05)
-    );
-    --grad-accent-active: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.25),
-        rgba(255, 255, 255, 0.00)
-    );
-    --grad-accent-selected: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.25),
-        rgba(255, 255, 255, 0.0)
-    );
+select {
+    transition: background 0.3s ease, border-color 0.3s ease;
 }
 
-[data-theme="dark"] {
-    --logo-url: url('../assets/logo_negative.png');
+.settings-panel {
+    transition: width 0.3s ease, border-right-width 0.3s ease;
+}
+
+.settings-toggle-handle {
+    transition: left 0.3s ease, width 0.2s ease, background-color 0.2s;
+}
+
+.settings-collapse-btn {
+    transition: color 0.2s, opacity 0.15s ease;
+}
+
+.panel-resizer {
+    transition: background-color 0.2s;
+}
+
+.nav-btn {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.commentary-text {
+    transition: font-size 0.3s ease;
+}
+
+.custom-select-trigger {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.custom-select-arrow {
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.custom-select-dropdown {
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+    box-shadow: var(--shadow-l);
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1),
+        visibility 0.2s;
+}
+
+.custom-select-option {
+    transition: all 0.15s ease;
+}
+
+
+/* --- Glassmorphism sheen on dropdown trigger --- */
+
+.custom-select-trigger {
+    background-image: var(--grad-neutral-normal);
+    box-shadow: var(--shadow-s);
+}
+
+
+/* --- Hover & active states --- */
+
+.settings-toggle-handle:hover {
+    width: 1.5rem;
+    background-color: var(--color-bg-medium);
+}
+
+.settings-toggle-handle:hover .settings-collapse-btn {
+    opacity: 1;
+}
+
+.settings-collapse-btn:hover {
+    color: var(--color-accent);
+}
+
+.panel-resizer:hover,
+.panel-resizer.dragging {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.custom-select-option:hover {
+    background: var(--color-bg-dark);
+}
+
+.custom-select-option.selected:hover {
+    background: var(--color-accent-light);
+    background-image: var(--grad-neutral-selected);
+}
+
+.custom-select-option.disabled:hover {
+    background: transparent;
 }
 
 

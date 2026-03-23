@@ -1,0 +1,1400 @@
+[
+  {
+    "book": "1chr",
+    "chapter": 15,
+    "v": 22,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "1chr",
+    "chapter": 22,
+    "v": 15,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 1,
+    "v": 45,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 2,
+    "v": 12,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 4,
+    "v": 51,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 6,
+    "v": 19,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 9,
+    "v": 37,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 9,
+    "v": 50,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1esd",
+    "chapter": 9,
+    "v": 55,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1jn",
+    "chapter": 1,
+    "v": 1,
+    "text": "In Middle English manuscripts, you will sometimes find the word “the” abbreviated by a thorn letter (Þ) with a superscript <i>e</i> right above. In traditional printing, this would have been done not by printing a thorn and a superscript <i>e</i> on top each other, as that would have required one page to be set and printed twice; but by creating a special <i>sort</i> or <i>type</i> (a movable, metallic glyph used for early typesetting) that would have been treated as a ligature (like <i>fi</i>).\nThis rare thorn glyph is only contained in a handful of digital fonts such as Noto Sans, Noto Serif, EB Garamond, or Inter, and is therefore difficult to display even in modern typography. When William Caxton in the 1470s imported his printing press from Cologne, Germany to Westminster, England, he faced a similar issue: the Germans did not supply him with a thorn type, because the German did not use one, thus forcing him to replace the thorn with a <i>y.</i> Hence, when “the King’s printer” Robert Barker printed the 1611 King James Version of the Bible, that new glyph, now with a <i>y</i> instead of a thorn, had already become a standard of Early Modern English typography. You will find it, for example, in Shakespeare's First Folio from 1623 or in some of John Milton’s handwriting.\nModern Internet browsers render these letters by <i>Combining Diacritical Marks,</i> in this case U+0079 for the lowercase <i>y</i> and U+0364 for the superscript <i>e,</i> which is then passed on to a <i>Text Shaping Engine</i> (such as HarfBuzz for Google Chrome or CoreText for Apple devices) to convert the data into visible glyphs. Or in other words, the early printers did not stack these two glyphs, but our modern devices do. This tedious rendering process is done because there exists no Unicode for the yͤ glyph. Though at least this process allows for more than a handful of digital fonts to display this glyph, because the combination process does not require the creation of a new glyph.\nHence, when you see the yͤ glyph in the 1611 KJV, read it as “the”, not as “ye”. Such as in this case: “That which was from yͤ beginning…” = “That which was from <i>the</i> beginning...” The biblical text of the 1611 KJV holds a total of 187 instances where this abbreviation was used, such as here in 1 John 1:1, in 1 John 4:10, in Judith 1:1, etc. Like most abbreviation, the yͤ was used for <i>line justification,</i> to squeeze the line so it fits into the narrow columns of the 1611 KJV."
+  },
+  {
+    "book": "1jn",
+    "chapter": 4,
+    "v": 10,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1kgs",
+    "chapter": 11,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 1,
+    "v": 16,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 2,
+    "v": 47,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 3,
+    "v": 48,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 6,
+    "v": 47,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 7,
+    "v": 36,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 8,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 10,
+    "v": 38,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 11,
+    "v": 10,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 11,
+    "v": 14,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 11,
+    "v": 39,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 11,
+    "v": 44,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 12,
+    "v": 51,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 14,
+    "v": 46,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1macc",
+    "chapter": 14,
+    "v": 49,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "1sam",
+    "chapter": 16,
+    "v": 16,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "1sam",
+    "chapter": 16,
+    "v": 18,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "1tim",
+    "chapter": 1,
+    "v": 17,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 2,
+    "v": 7,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 2,
+    "v": 8,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 2,
+    "v": 13,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 8,
+    "v": 18,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 34,
+    "v": 12,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "2chr",
+    "chapter": 35,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2cor",
+    "chapter": 4,
+    "v": 18,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2cor",
+    "chapter": 5,
+    "v": 5,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2cor",
+    "chapter": 13,
+    "v": 7,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 4,
+    "v": 7,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 6,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 6,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 8,
+    "v": 2,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 9,
+    "v": 44,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 10,
+    "v": 22,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 10,
+    "v": 51,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 16,
+    "v": 30,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2esd",
+    "chapter": 16,
+    "v": 33,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2jn",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 1,
+    "v": 21,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 1,
+    "v": 34,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 2,
+    "v": 24,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 7,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 8,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 8,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 8,
+    "v": 27,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 9,
+    "v": 2,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 9,
+    "v": 4,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 9,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 10,
+    "v": 11,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 10,
+    "v": 34,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 11,
+    "v": 23,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 11,
+    "v": 27,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 11,
+    "v": 34,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 12,
+    "v": 2,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 12,
+    "v": 8,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 12,
+    "v": 22,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 12,
+    "v": 40,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 12,
+    "v": 42,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 13,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 13,
+    "v": 19,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 13,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 13,
+    "v": 21,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 30,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:16 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 31,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 32,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 34,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 37,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 14,
+    "v": 38,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 15,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 15,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2macc",
+    "chapter": 15,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "2sam",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 1,
+    "v": 15,
+    "text": "In the 1611 King James Version of the Bible, you will find here a letter that looks to be a <i>y</i> with a <i>superscript t.</i> This rare yͭ glyph does not have its own Unicode, but is instead rendered by combining U+0079 and U+036D, and is to be read as an abbreviation of the word <i>that:</i> “…which was guide to them that took Iesus.” There are a total of 12 instances of this rare glyph in the 1611 King James Version. (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 7,
+    "v": 38,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 10,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 10,
+    "v": 34,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 10,
+    "v": 39,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See ACts 1:15 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 19,
+    "v": 7,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 19,
+    "v": 28,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 19,
+    "v": 35,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 20,
+    "v": 36,
+    "text": "In the 1611 King James Version, Genesis 1:6 marks the first instance where “the King’s Printer” Robert Barker uses a pilcrow (¶) to mark the beginning of a new paragraph. Here, Acts 20:36 marks the last time where a pilcrow is used.\nOne may assume it to be due to logistical or theological reasons, but the fact is that there are no records of why Robert Barker and his crew stopped using the pilcrow after Acts 20:36. I can only point out that Robert Barker and his colleague Martin Lucas would later be fined for their sloppy craftsmanship in the 1631 KJV, which gives reason to attribute the pilcrow’s disappearance to poor logistics. (See Exodus 20:14 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 21,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 21,
+    "v": 28,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 21,
+    "v": 35,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 22,
+    "v": 14,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "acts",
+    "chapter": 22,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "amos",
+    "chapter": 5,
+    "v": 16,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 2,
+    "v": 8,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 2,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 2,
+    "v": 18,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 2,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 2,
+    "v": 22,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "bar",
+    "chapter": 6,
+    "v": 1,
+    "text": "The 1611 King James Version of the Bible has this as chapter 6 of Baruch also, but adds the title: “¶ The Epistle of Ieremie.”"
+  },
+  {
+    "book": "bar",
+    "chapter": 6,
+    "v": 2,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "col",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "dan",
+    "chapter": 1,
+    "v": 4,
+    "text": "The word “skillful” appears about 24 times in late-19th to early-20th-century editions of the Douay-Rheims Bible. In other 19th-century editions which were printed from Irish printing plates (such as those by M. H. Hill & Son or Robert & Daniel Read, or American reprints by the Benzinger Brothers), it was spelled as “skilful” with only one L. The 1611 King James Version also has it as “skilful” with one L, because this was the standard spelling at the time, and is retained as the <i>European</i> or <i>British spelling</i> until today. John Murphy Press changed the spelling to “skillful” with two Ls for their 1899 Baltimore edition to make it more akin to modern American English; although some American editions from the 20th century, such as a 1914 reprint of the Douay-Rheims Bible by P. J. & Sons, retained the British spelling. (See Genesis 11:3 for more.)"
+  },
+  {
+    "book": "dan",
+    "chapter": 2,
+    "v": 17,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "dan",
+    "chapter": 3,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "dan",
+    "chapter": 3,
+    "v": 24,
+    "text": "In the 1611 KJV, this verse is where a self-taught scholar might start to get confused. The original text of the 1611 KJV puts into its place: “Then Nebuchad-nezzar the king was astonied…”, what I have reordered to be Daniel 3:91 in this digitalized version of the 1611 KJV. To fill the otherwise empty gap, I put Daniel 3:24 from the 1609 Douay Old Testament in its place. May Henry VIII forgive me."
+  },
+  {
+    "book": "dan",
+    "chapter": 3,
+    "v": 25,
+    "text": "In the 1611 KJV, the following two songs, starting from this verse (Daniel 3:25–90), were in the 1611 KJV removed from Daniel and put into the Apocrypha instead, titled “The Song of the three holy children, which followeth in the third Chapter of Daniel after this place, [And they walked in the midst of the fire…”, etc. However, Roman Catholic editions of the Bible (such as the 1609 Douay Old Testament or 1985 New Jerusalem Bible) have these two songs as part of Daniel 3."
+  },
+  {
+    "book": "dan",
+    "chapter": 3,
+    "v": 91,
+    "text": "In the 1611 KJV, this verse and the following (Daniel 3:91–97) were initially numbered as Daniel 3:24–30. (See Daniel 3:25 for more.)"
+  },
+  {
+    "book": "dan",
+    "chapter": 13,
+    "v": 1,
+    "text": "The story of Susanna was in the 1611 King James Version of the Bible removed from Daniel, and put into the Apocrypha instead, titled: “The historie of Susanna, set apart from the beginning of Daniel, because it is not in Hebrew, as neither the narration of Bel and the Dragon.” However, because Roman Catholic editions of the Bible (such as the 1609 Douay Old Testament) recognize it as the 13th chapter of Daniel, it appears here in the digitalized text of the 1611 KJV as Daniel 14."
+  },
+  {
+    "book": "dan",
+    "chapter": 13,
+    "v": 65,
+    "text": "This verse appears in the 1611 KJV not at the end of “The historie of Susanna” (commonly Daniel 13), as you will find it here, but at the beginning of the story of Bel and the Dragon (commonly Daniel 14)."
+  },
+  {
+    "book": "dan",
+    "chapter": 14,
+    "v": 1,
+    "text": "The story of Bel and the Dragon was in the 1611 King James Version removed from Daniel, where it usually appears as chapter 14, and put into the Apocrypha instead, titled: “The history of the destruction of Bel and the Dragon, cut off from the end of Daniel.” For the digitalized text of the 1611 KJV, I cut off the first verse from the chapter and relocated it to the end of the previous chapter as Daniel 13:65. The subsequent verses, therefore, are not numbered as they were in the original 1611 KJV: this verse was originally the 2nd verse of Bel and the Dragon, Daniel 14:2 the 3rd verse, Daniel 14:3 the 4th verse, etc."
+  },
+  {
+    "book": "dan",
+    "chapter": 14,
+    "v": 42,
+    "text": "The original text of the 1611 KJV has here for verse 42 what in other editions of the Bible is verse 41. For the digitalized text of the 1611 KJV, I have renumbered the verses of this chapter, and the gap here is now filled by Daniel 14:42 from the 1609 Douay Old Testament."
+  },
+  {
+    "book": "eccl",
+    "chapter": 9,
+    "v": 11,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "esth",
+    "chapter": 10,
+    "v": 4,
+    "text": "Here starts Esther 10:4 which in the 1611 King James Version has been relocated to the Apocrypha, and titled “The rest of the Chapters of the Booke of Esther, which are found neither in the Hebrew, nor in the Calde,” but which I have reattached to the Esther chapter 10."
+  },
+  {
+    "book": "exod",
+    "chapter": 1,
+    "v": 19,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "exod",
+    "chapter": 4,
+    "v": 11,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "exod",
+    "chapter": 20,
+    "v": 14,
+    "text": "In the 1631 print of the King James Version, the commandment in Exodus 20:14 saying “Thou shalt not commit adultery” has been accidentally rendered as “Thou shalt commit adultery,” omitting the word <i>not.</i> Its printers Robert Barker, who before printed the 1611 KJV, and Martin Lucas were summoned to court before King Charles I for this mistake, fined £300 (= ca. £63,000 in 2023), and stripped of their printing licenses.\nVery few of these 1631 KJV prints have survived, and specimen are only to be found in the US, UK, and Ireland, though rumours surround many of them. Bonhams in London, England auctioned one specimen in November 11, 2015 for an asking price of £10,000 to £15,000. Another specimen allegedly found its way to New Zealand in 2018, and The Guardian published an article on it in 2022.\nThe 1631 KJV is now called the “Wicked Bible” or “Sinners Bible” for endorsing the sin of adultery; not that Henry VIII would have minded adultery."
+  },
+  {
+    "book": "exod",
+    "chapter": 24,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "exod",
+    "chapter": 31,
+    "v": 6,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "exod",
+    "chapter": 35,
+    "v": 25,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "exod",
+    "chapter": 36,
+    "v": 2,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 15,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 18,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 18,
+    "v": 32,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 20,
+    "v": 47,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 21,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 21,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 32,
+    "v": 28,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 34,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 38,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 42,
+    "v": 12,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 42,
+    "v": 13,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 46,
+    "v": 19,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezek",
+    "chapter": 48,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ezra",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "gal",
+    "chapter": 2,
+    "v": 19,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 1,
+    "v": 1,
+    "text": "When Johannes Gutenberg started printing the Bible in Mainz in the 1550s, he hired illustrators who would illuminate the first letter of each chapter with hand-painted initials, thus imitating the late-medieval illuminated manuscripts produced in the monasteries at the time. The 1560 Geneva Bible has adopted this art, though it already uses pre-casted <i>sorts</i> instead of hand-painted initials, as do later the 1582 Rheims New Testament or the very famous 1611 King James Bible.\nThe Irish-American Catholic printing press has later adopted an even simpler technique under ongoing industrilization: the 1899 Baltimore edition of the Douay-Rheims Bible, now in reprint by Saint Benedict Press and Baronius Press, uses <i>two-line drop caps</i> set in what appears to be Bodoni or Didot instead of fully-fledged initials. The New York prints of the Douay-Rheims Bible at the time, such as an 1885 edition by Bryan Taylor & Co., an 1899 edition by the Benzinger Brothers, or a 1914 edition by P. J. Kenedy & Sons, share the same drop caps. The Benzinger Brothers got their printing plates from M. H. Gill & Son in Dublin.\nBy the mid-20th century, we would see the art of the initial disappear almost completely from public bookshelves: the Jerusalem Bible editions by Éditions du Cerf, or in English by Doubleday & Company, Inc. and later Darton, Longman & Todd Ltd. come with only the chapter number as a drop cap at the beginning of each chapter, and the 1952 Revised Standard Version by Thomas Nelson & Sons comes with nothing that even slightly resembles an initial. In Germany also, it is difficult to find a Luther Bible with drop caps that is earlier than the mid-19th century, even though Dr. Martin Luther’s own 1545 edition came with printed initials."
+  },
+  {
+    "book": "gen",
+    "chapter": 1,
+    "v": 6,
+    "text": "“The King’s printer” Robert Barker, when he printed the 1611 King James Version of the Bible, faced the issue that he seemingly wanted a new line for every new verse. To separate paragraphs in the biblical text then, he used the pilcrow glyph (¶) instead of line breaks. When you see the pilcrow (¶) in the 1611 KJV, therefore, know that there begins a new paragraph, and thereby a new subject matter: such as, for example, here in Genesis 1 where each day begins with a pilcrow. (See Acts 20:36 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 1,
+    "v": 8,
+    "text": "Seeing the word “Heaven”, I must make a confession. Saint Benedict Press and Baronius Press have since the turn of the century undergone the effort of distributing a Douay-Rheims Bible that is a near fascimile of the famous 1899 Baltimore edition of the Douay-Rheims Bible, published by John Murphy Company, “Printers to the Holy See,” and with an imprimatur by James Cardinal Gibbons, the Archbishop of Baltimore and head of the American Catholic Church at the time.\nHowever, I have not used a specimen of this edition to produce the digital text that is here named “1899 Baltimore Douay-Rheims Bible”, because I do not possess an original specimen, only two reprints by the aforementioned two publishers. Instead, I have digitally reconstructed the 1899 Baltimore text from two other editions. One of them is a scan of an 1899 reprint produced by the Benzinger Brothers, who purchased the printing plates for a Douay-Rheims Bible from Patrick Donahoe.\nPatrick Donahoe was an Irish-American publisher who used these plates to reprint an 1846 Belfast edition of the Douay-Rheims Bible, appropriated by a man named “the Most Rev. Dr. Denvir.” Bishop Cornelius Denvir, who, in turn, reprinted an edition he got in Dublin. The 1899 Benzinger Brothers edition credits M. H. Gill & Son on the title page, who were the printers for the University of Dublin. Hence, the 1899 Benzinger Brothers edition is a reprint of a reprint of reprint from Dublin. Their edition was, however, published not in Dublin, but in New York, Cincinnati, and Chicago, thus adding to the chaos that was the 19th-century Irish-American Catholic printing press.\nRegardless of their exact origin and journey, by the time the Benzinger Brothers purchased the printing plates, they had already deteriorated over many years of usage. Here in this verse, the letter <i>H</i> in “Heaven” is missing its lower half. Letters missing their legs and arms can be observed throughout the 1899 Benzinger Brothers edition. None of this is seen when reading the digital text of the 1899 Baltimore edition here, but be assured that a lot of research went into confirming the validity of each verse of the 1899 Baltimore Douay-Rheims Bible, which under Saint Benedict Press is instead so hastily printed and distributed."
+  },
+  {
+    "book": "gen",
+    "chapter": 1,
+    "v": 11,
+    "text": "In a 1899 Benzinger Brothers edition of the Douay-Rheims Bible as well as in a 1914 reprint by P. J. Kenedy & Sons, the word “fruit tree” in this verse has a hyphen (= “fruit-tree”). I cannot confirm with certainty if the 1899 Baltimore edition has this word with a hyphen or not, because I do not own an original specimen; but reprints by Saint Benedict Press and Baronius Press as well as online versions of the 1899 Baltimore text (such as those on Project Gutenberg or Bible Gateway) have it without.\nThe Benzinger Brothers got their printing plates from M. H. Hill & Son in Dublin, so it is likely that the hyphenated form is the original European one. It seems John Murphy Company under James Cardinal Gibbons has, with the authority of the Holy See, <i>americanized</i> the text of the Douay-Rheims Bible in certain areas by removing hyphens which are commonly used in European English. I laid my eyes upon a handful of cases where the hyphen was removed for the 1899 Baltimore edition, but there may be well over a hundred in total. There are also other differences between the 1899 Baltimore edition and the 1899 Benzinger Brothers edition, such as <i>European spellings</i> that were changed to <i>American spellings</i> in the Baltimore edition. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 2,
+    "v": 19,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 25,
+    "v": 27,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 31,
+    "v": 40,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 39,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "gen",
+    "chapter": 39,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "hab",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "hag",
+    "chapter": 1,
+    "v": 10,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "heb",
+    "chapter": 1,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "heb",
+    "chapter": 7,
+    "v": 21,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "heb",
+    "chapter": 9,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "heb",
+    "chapter": 10,
+    "v": 29,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "hos",
+    "chapter": 9,
+    "v": 3,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "isa",
+    "chapter": 3,
+    "v": 3,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "isa",
+    "chapter": 40,
+    "v": 20,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "jam",
+    "chapter": 3,
+    "v": 12,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jdt",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jdt",
+    "chapter": 12,
+    "v": 4,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "jdt",
+    "chapter": 13,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 18,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 19,
+    "v": 20,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 38,
+    "v": 7,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 46,
+    "v": 7,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 48,
+    "v": 7,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jer",
+    "chapter": 49,
+    "v": 17,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 2,
+    "v": 5,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 3,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 3,
+    "v": 16,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 5,
+    "v": 23,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 7,
+    "v": 4,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 8,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 10,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 11,
+    "v": 47,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 12,
+    "v": 2,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 12,
+    "v": 10,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "jn",
+    "chapter": 12,
+    "v": 48,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "job",
+    "chapter": 1,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "joel",
+    "chapter": 3,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "jonah",
+    "chapter": 3,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "josh",
+    "chapter": 21,
+    "v": 11,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "judg",
+    "chapter": 20,
+    "v": 27,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "judg",
+    "chapter": 20,
+    "v": 42,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lam",
+    "chapter": 1,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 2,
+    "v": 8,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 7,
+    "v": 24,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 8,
+    "v": 1,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 9,
+    "v": 47,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 14,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 15,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 20,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 22,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 23,
+    "v": 35,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 23,
+    "v": 39,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "lk",
+    "chapter": 24,
+    "v": 44,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mal",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mal",
+    "chapter": 2,
+    "v": 9,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mal",
+    "chapter": 3,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mic",
+    "chapter": 1,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mk",
+    "chapter": 1,
+    "v": 38,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mk",
+    "chapter": 6,
+    "v": 24,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mk",
+    "chapter": 9,
+    "v": 30,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "mk",
+    "chapter": 10,
+    "v": 35,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 8,
+    "v": 29,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 11,
+    "v": 24,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 14,
+    "v": 34,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 16,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 19,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 27,
+    "v": 23,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "mt",
+    "chapter": 27,
+    "v": 44,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "neh",
+    "chapter": 7,
+    "v": 65,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "ps",
+    "chapter": 116,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "rev",
+    "chapter": 5,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "rev",
+    "chapter": 9,
+    "v": 13,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "rev",
+    "chapter": 20,
+    "v": 6,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "rom",
+    "chapter": 15,
+    "v": 29,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ruth",
+    "chapter": 1,
+    "v": 1,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "ruth",
+    "chapter": 3,
+    "v": 15,
+    "text": "Allegedly, some early-17th-century prints of the King James Version had this verse as “…he went into the city,” while some others had it as “…she went into the city,” though I have not seen enough of the early KJV prints to confirm this. The 1609 Douay Old Testament has it as “…vpon her. Who carying it entred into the citie, and came to her mother in law.”"
+  },
+  {
+    "book": "sir",
+    "chapter": 1,
+    "v": 1,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "sir",
+    "chapter": 3,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "sir",
+    "chapter": 17,
+    "v": 30,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "sir",
+    "chapter": 37,
+    "v": 22,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "sir",
+    "chapter": 49,
+    "v": 1,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "song",
+    "chapter": 7,
+    "v": 1,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "tob",
+    "chapter": 12,
+    "v": 20,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "tob",
+    "chapter": 14,
+    "v": 10,
+    "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
+  },
+  {
+    "book": "wis",
+    "chapter": 5,
+    "v": 14,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "wis",
+    "chapter": 5,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "wis",
+    "chapter": 12,
+    "v": 15,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  },
+  {
+    "book": "wis",
+    "chapter": 13,
+    "v": 11,
+    "text": "In some other Douay-Rheims Bible editions: “skilful”. (See Daniel 1:4 for more.)"
+  },
+  {
+    "book": "zeph",
+    "chapter": 1,
+    "v": 6,
+    "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+  }
+]

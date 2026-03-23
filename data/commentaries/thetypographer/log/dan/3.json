@@ -1,13 +1,16 @@
 {
   "verses": [
-    {"v": 1,"text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"},
+    {
+      "v": 1,
+      "text": "In the 1611 KJV: yͤ = <i>the.</i> (See 1 John 1:1 for more.)"
+    },
     {
       "v": 24,
-      "text": "In the 1611 King James Version, this verse is where a self-taught scholar might start to get confused. The original text of the 1611 KJV puts into its place: “Then Nebuchad-nezzar the king was astonied...”, what I have reordered to be Daniel 3:91 in this digitalized version of the 1611 KJV. To fill the otherwise empty gap, I put Daniel 3:24 from the 1609 Douay Old Testament in its place."
+      "text": "In the 1611 KJV, this verse is where a self-taught scholar might start to get confused. The original text of the 1611 KJV puts into its place: “Then Nebuchad-nezzar the king was astonied…”, what I have reordered to be Daniel 3:91 in this digitalized version of the 1611 KJV. To fill the otherwise empty gap, I put Daniel 3:24 from the 1609 Douay Old Testament in its place. May Henry VIII forgive me."
     },
     {
       "v": 25,
-      "text": "In the 1611 KJV, the following two songs, starting from this verse (Daniel 3:25–90), were in the 1611 KJV removed from Daniel and put into the Apocrypha instead, titled “The Song of the three holy children, which followeth in the third Chapter of Daniel after this place, [And they walked in the midst of the fire...”, etc. However, Roman Catholic editions of the Bible (such as the 1609 Douay Old Testament or 1985 New Jerusalem Bible) have these two songs as part of Daniel 3."
+      "text": "In the 1611 KJV, the following two songs, starting from this verse (Daniel 3:25–90), were in the 1611 KJV removed from Daniel and put into the Apocrypha instead, titled “The Song of the three holy children, which followeth in the third Chapter of Daniel after this place, [And they walked in the midst of the fire…”, etc. However, Roman Catholic editions of the Bible (such as the 1609 Douay Old Testament or 1985 New Jerusalem Bible) have these two songs as part of Daniel 3."
     },
     {
       "v": 91,
