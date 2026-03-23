@@ -93,6 +93,24 @@
    
    ========================================================================== */
 
+/* +++ INTER (load blocking — used for all UI elements) +++ */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src:
+    local("Inter"),
+    url("assets/fonts/Inter/InterVariable.woff2") format("woff2"),
+    url("assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  src:
+    local("Inter"),
+    url("assets/fonts/Inter/InterVariable-Italic.woff2") format("woff2"),
+    url("assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
 /* +++ IBARRA REAL NOVA (default font — load blocking) +++ */
 @font-face {
   font-family: "IbarraRealNova";

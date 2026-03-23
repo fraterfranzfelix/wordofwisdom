@@ -33,16 +33,16 @@
   font-style: normal;
   src:
     local("Libre Baskerville"),
-    url("../fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf") format("truetype");
+    url("fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "LibreBaskerville";
   font-style: italic;
   src:
     local("Libre Baskerville"),
-    url("../fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.ttf") format("truetype");
+    url("fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/Libre_Baskerville/LibreBaskerville-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 /* +++ CORMORANT GARAMOND +++ */
@@ -51,16 +51,16 @@
   font-style: normal;
   src:
     local("Cormorant Garamond"),
-    url("../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+    url("fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "CormorantGaramond";
   font-style: italic;
   src:
     local("Cormorant Garamond"),
-    url("../fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+    url("fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 /* +++ EB GARAMOND +++ */
@@ -69,34 +69,16 @@
   font-style: normal;
   src:
     local("EB Garamond"),
-    url("../fonts/EB_Garamond/EBGaramond-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf") format("truetype");
+    url("fonts/EB_Garamond/EBGaramond-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "EBGaramond";
   font-style: italic;
   src:
     local("EB Garamond"),
-    url("../fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
-}
-
-/* +++ INTER +++ */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  src:
-    local("Inter"),
-    url("../fonts/Inter/InterVariable.woff2") format("woff2"),
-    url("../fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  src:
-    local("Inter"),
-    url("../fonts/Inter/InterVariable-Italic.woff2") format("woff2"),
-    url("../fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    url("fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.woff2") format("woff2"),
+    url("fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 
@@ -482,128 +464,6 @@ select {
     background: transparent;
 }
 
-
-/* ==========================================================================
-   DAILY MASS READINGS BAR
-   ========================================================================== */
-
-#daily-mass-bar {
-    display: none;
-    position: fixed;
-    bottom: var(--spacing-md);
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 700px;
-    width: max-content;
-    padding: var(--spacing-sm) var(--spacing-md);
-    font-family: var(--font-sans);
-    font-size: var(--font-size-small);
-    color: var(--color-text-primary);
-    background-color: var(--color-bg-medium);
-    background-image: var(--grad-neutral-normal);
-    border: var(--border-width) solid var(--color-border);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-s);
-    z-index: 500;
-    text-align: center;
-    text-wrap: balance;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    cursor: default;
-}
-
-#daily-mass-bar:not(.dmr-collapsed):hover {
-    background-image: var(--grad-neutral-hover);
-    transform: translateX(-50%) translateY(-1px);
-    box-shadow: var(--shadow-m);
-}
-
-/* Edge tab sits above the bar, centred horizontally */
-.dmr-strip {
-    position: absolute;
-    bottom: 100%;                /* protrudes above the bar's top border */
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    width: 3rem;
-    height: 0.5rem;              /* thin at rest — hint only, no chevron */
-    background-color: var(--color-bg-medium);
-    border: var(--border-width) solid var(--color-border);
-    border-bottom: none;         /* flush bottom — sits against the bar border */
-    border-radius: 8px 8px 0 0;
-    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.1), 0 -1px 3px rgba(0, 0, 0, 0.07);
-    cursor: pointer;
-    transition: height 0.2s ease, background-color 0.2s;
-}
-
-.dmr-strip:hover {
-    height: 1.5rem;              /* full height on hover — chevron becomes visible */
-    background-color: var(--color-bg-dark);
-}
-
-.dmr-collapse-btn {
-    flex-shrink: 0;              /* fixed so it doesn't reflow as strip expands */
-    width: 100%;
-    height: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-sans);
-    font-size: var(--font-size-small);
-    font-weight: 800;
-    color: var(--color-text-secondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transform: rotate(90deg);    /* › pointing down = collapse */
-    transition: color 0.2s, opacity 0.15s ease, transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.dmr-strip:hover .dmr-collapse-btn {
-    opacity: 1;
-}
-
-.dmr-collapse-btn:hover {
-    color: var(--color-accent);
-}
-
-#daily-mass-bar.dmr-collapsed .dmr-body {
-    display: none;
-}
-
-#daily-mass-bar.dmr-collapsed {
-    bottom: 0;                   /* snap to the very bottom edge of the viewport */
-    padding: 0 var(--spacing-md);
-    width: auto;
-    cursor: default;
-    border-radius: 0;
-    border-bottom: none;
-}
-
-/* Collapsed: always full-height strip with chevron — signals hidden content */
-#daily-mass-bar.dmr-collapsed .dmr-strip {
-    height: 1.5rem;
-}
-
-#daily-mass-bar.dmr-collapsed .dmr-collapse-btn {
-    opacity: 1;
-    transform: rotate(-90deg);   /* › pointing up = expand */
-}
-
-.dmr-label {
-    font-weight: bold;
-}
-
-.dmr-reading {
-    cursor: pointer;
-}
-
-.dmr-reading:hover {
-    color: var(--color-accent);
-}
 
 /* ==========================================================================
    END OF DEFERRED STYLESHEET

@@ -5,7 +5,10 @@ pre-commit.py — Run before every git commit/push.
 2. Deletes any individual file (not folder) over 100 MB in the project root.
 3. Counts total commentary entries across all JSON files in data/commentaries/.
 4. Calculates how many of the 35,527 Bible verses are covered.
-   Updates both statistics in README.md.
+5. Calculates average commentary entries per Bible verse (multi-verse entries
+   are expanded so each verse in the range is counted individually).
+   Updates all three statistics in README.md.
+6. Clears addition-process staging files.
 """
 
 import json
@@ -62,6 +65,7 @@ TOTAL_BIBLE_VERSES = 35_527
 EXCLUDED_NAMES = {"meta.json", "index.json", "thetypographer.json"}
 
 total_entries = 0
+total_verse_entry_count = 0  # expanded: multi-verse entries count once per verse
 covered_verses: set[tuple[str, str, int]] = set()
 
 for json_file in COMMENTARIES_DIR.rglob("*.json"):
@@ -92,6 +96,8 @@ for json_file in COMMENTARIES_DIR.rglob("*.json"):
         if "-" in v_str:
             try:
                 start, end = v_str.split("-", 1)
+                span = int(end) - int(start) + 1
+                total_verse_entry_count += span
                 for verse_num in range(int(start), int(end) + 1):
                     covered_verses.add((book, chapter, verse_num))
             except ValueError:
@@ -99,13 +105,16 @@ for json_file in COMMENTARIES_DIR.rglob("*.json"):
         else:
             try:
                 covered_verses.add((book, chapter, int(v_str)))
+                total_verse_entry_count += 1
             except ValueError:
                 pass
 
 unique_covered = len(covered_verses)
 pct = (unique_covered / TOTAL_BIBLE_VERSES) * 100
+avg_entries = total_verse_entry_count / TOTAL_BIBLE_VERSES
 print(f"[3] Total commentary entries: {total_entries}")
 print(f"[4] Unique verses covered: {unique_covered} / {TOTAL_BIBLE_VERSES} ({pct:05.2f} %)")
+print(f"[5] Average commentary entries per Bible verse: {avg_entries:05.2f}")
 
 # ---------------------------------------------------------------------------
 # Update README.md
@@ -123,18 +132,25 @@ readme_text, n2 = re.subn(
     f"- {pct:05.2f} % of the Bible text covered with commentary.",
     readme_text,
 )
+readme_text, n3 = re.subn(
+    r"- Ø [\d.]+ commentary entries per Bible verse[^\n]+",
+    f"- Ø {avg_entries:05.2f} commentary entries per Bible verse.",
+    readme_text,
+)
 
-if n1 and n2:
+if n1 and n2 and n3:
     readme.write_text(readme_text, encoding="utf-8")
-    print("[3/4] README.md statistics updated.")
+    print("[3/4/5] README.md statistics updated.")
 else:
     if not n1:
         print("[3] WARNING: Commentary entries line not found in README.md.")
     if not n2:
         print("[4] WARNING: Bible coverage line not found in README.md.")
+    if not n3:
+        print("[5] WARNING: Average entries per verse line not found in README.md.")
 
 # ---------------------------------------------------------------------------
-# Task 5 — Clear addition-process staging files
+# Task 6 — Clear addition-process staging files
 # ---------------------------------------------------------------------------
 PLACEHOLDER = "Seek and you will find. (Matthew 7:7)"
 ADDITION_DIR = ROOT / "data" / "addition-process"
@@ -143,6 +159,6 @@ for fname in ("proofreading.json", "commentary-unadded.txt"):
     fpath = ADDITION_DIR / fname
     if fpath.exists():
         fpath.write_text(PLACEHOLDER, encoding="utf-8")
-        print(f"[5] Cleared {fname}.")
+        print(f"[6] Cleared {fname}.")
     else:
-        print(f"[5] WARNING: {fname} not found.")
+        print(f"[6] WARNING: {fname} not found.")
