@@ -1,0 +1,46 @@
+{
+  "book": "lam",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 17,
+          "refs": [
+            "lev:26:14",
+            "deut:28:15"
+          ]
+        },
+        {
+          "v": 18,
+          "refs": [
+            "jer:14:17",
+            "lam:1:16"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 37,
+          "refs": [
+            "amos:3:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "gen:19:24"
+          ]
+        }
+      ]
+    }
+  ]
+}

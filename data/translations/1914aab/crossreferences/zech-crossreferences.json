@@ -1,0 +1,29 @@
+{
+  "book": "zech",
+  "chapters": [
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "v": 9,
+          "refs": [
+            "exod:22:22",
+            "isa:1:23",
+            "jer:5:28"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "v": 11,
+          "refs": [
+            "2chr:35:22"
+          ]
+        }
+      ]
+    }
+  ]
+}

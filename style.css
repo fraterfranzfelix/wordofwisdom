@@ -51,22 +51,8 @@
      §3.3  Form Elements
            §3.3.1  Native Select
            §3.3.2  Buttons (Base, Size, Navigation)
-     §3.4  Custom Select Dropdown
-           §3.4.1  Container & Hidden Native Select
-           §3.4.2  Trigger Button & Arrow
-           §3.4.3  Dropdown Panel
-           §3.4.4  Options List
-           §3.4.5  Scrollbar Styling
-           §3.4.6  States & Animations
-   
-   PART IV: EFFECTS & ANIMATIONS
-     §4.0  Keyframe Definitions
-     §4.1  Glassmorphism Utility Class
-     §4.2  Verse Interactions
-     §4.3  Button Animations
-   
-   PART V: THEMES
-     §5.0  Dark Mode Overrides
+   PART IV: THEMES
+     §4.0  Dark Mode Overrides
    
    ========================================================================== */
 
@@ -97,6 +83,7 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
+  font-display: swap;
   src:
     local("Inter"),
     url("assets/fonts/Inter/InterVariable.woff2") format("woff2"),
@@ -105,6 +92,7 @@
 @font-face {
   font-family: "Inter";
   font-style: italic;
+  font-display: swap;
   src:
     local("Inter"),
     url("assets/fonts/Inter/InterVariable-Italic.woff2") format("woff2"),
@@ -115,6 +103,7 @@
 @font-face {
   font-family: "IbarraRealNova";
   font-style: normal;
+  font-display: swap;
   src:
     local("Ibarra Real Nova"),
     url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-VariableFont_wght.woff2") format("woff2"),
@@ -123,6 +112,7 @@
 @font-face {
   font-family: "IbarraRealNova";
   font-style: italic;
+  font-display: swap;
   src:
     local("Ibarra Real Nova"),
     url("assets/fonts/Ibarra_Real_Nova/IbarraRealNova-Italic-VariableFont_wght.woff2") format("woff2"),
@@ -742,6 +732,22 @@ hr {
     margin-right: -3px;
 }
 
+.chapter-superscription {
+    font-family: var(--font-serif);
+    font-size: calc(var(--font-size-base));
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+    padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-sm) calc(var(--spacing-sm) + 1rem);
+    margin-bottom: -16px;
+    pointer-events: none;
+    text-wrap: pretty;
+}
+
+.chapter-superscription b {
+    font-style: normal;
+    font-weight: 700;
+}
+
 
 /* ==========================================================================
    §3.2 COMMENTARY PANEL COMPONENTS
@@ -975,174 +981,10 @@ select {
 }
 
 
-/* ==========================================================================
-   §3.4 CUSTOM SELECT DROPDOWN
-   ========================================================================== 
-   
-   A fully styled dropdown select component that replaces the native
-   <select> element while maintaining accessibility by keeping the
-   native element in the DOM (hidden but focusable).
-   
-   Structure:
-   - .custom-select: Container wrapper
-   - .custom-select select: Hidden native element (for accessibility)
-   - .custom-select-trigger: Visible button that opens dropdown
-   - .custom-select-value: Currently selected option text
-   - .custom-select-arrow: Chevron indicator
-   - .custom-select-dropdown: Dropdown panel container
-   - .custom-select-options: Scrollable list of options
-   - .custom-select-option: Individual option item
-   
-   States:
-   - .custom-select.open: Dropdown is visible
-   - .custom-select.focused: Component has keyboard focus
-   - .custom-select-option.selected: Currently selected option
-   - .custom-select-option.disabled: Non-selectable option
-   - .custom-select-option.just-selected: Shimmer animation state
-   
-   ========================================================================== */
-
-/* ----------------------------------------------------------------------
-   §3.4.1 Container & Hidden Native Select
-   ---------------------------------------------------------------------- */
-
-.custom-select {
-    position: relative;
-    width: 100%;
-    margin: 0 0 var(--spacing-xs) 0;
-    font-family: var(--font-sans);
-    font-size: var(--font-size-small);
-}
-
-/* Hide the native select but keep it accessible for screen readers */
-.custom-select select {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-    width: 100%;
-    height: 100%;
-}
-
-
-/* ----------------------------------------------------------------------
-   §3.4.2 Trigger Button & Arrow
-   ---------------------------------------------------------------------- */
-
-.custom-select-trigger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--spacing-sm);
-    background: var(--color-bg-medium);
-    border: var(--border-width) solid var(--color-border);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-}
-
-.custom-select-value {
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: var(--color-text-primary);
-}
-
-.custom-select-value.placeholder {
-    color: var(--color-text-secondary);
-}
-
-/* Arrow Icon */
-.custom-select-arrow {
-    width: 12px;
-    height: 12px;
-    margin-left: var(--spacing-sm);
-    flex-shrink: 0;
-}
-
-.custom-select-arrow svg {
-    width: 100%;
-    height: 100%;
-    fill: none;
-    stroke: var(--color-text-primary);
-    stroke-width: 3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-
-/* Arrow rotates when dropdown is open */
-.custom-select.open .custom-select-arrow {
-    transform: rotate(180deg);
-}
-
-
-/* ----------------------------------------------------------------------
-   §3.4.3 Dropdown Panel
-   ---------------------------------------------------------------------- */
-
-.custom-select-dropdown {
-    position: absolute;
-    top: calc(100% + 4px);
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    
-    background: color-mix(in srgb, var(--color-bg-light), transparent 33.3%);
-
-    border: var(--border-width) solid var(--color-border);
-    border-radius: var(--border-radius);
-
-    /* Hidden by default */
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    
-    overflow: hidden;
-}
-
-/* Show dropdown when open */
-.custom-select.open .custom-select-dropdown {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-
-/* ----------------------------------------------------------------------
-   §3.4.4 Options List
-   ---------------------------------------------------------------------- */
-
-.custom-select-options {
-    max-height: 21rem;
-    overflow-y: auto;
-    padding: var(--spacing-xs) 0;
-}
-
-.custom-select-option {
-    padding: var(--spacing-sm) var(--spacing-sm);
-    cursor: pointer;
-    color: var(--color-text-primary);
-}
-
-.custom-select-option.selected {
-    background: var(--color-accent-light);
-    background-image: var(--grad-neutral-active);
-    color: var(--color-text-primary);
-    font-weight: 500;
-}
-
-/* Disabled option styling */
-.custom-select-option.disabled {
-    color: var(--color-text-secondary);
-    cursor: not-allowed;
-    font-style: italic;
-}
-
-
-
 /* **************************************************************************
    **************************************************************************
 
-   PART V: THEMES
+   PART IV: THEMES
    
    Color scheme overrides for different themes. The default theme is
    light mode (defined in :root). Dark mode inverts the color palette
@@ -1153,7 +995,7 @@ select {
 
 
 /* ==========================================================================
-   §5.0 DARK MODE OVERRIDES
+   §4.0 DARK MODE OVERRIDES
    ========================================================================== 
    
    Dark theme color palette. All other styles (layout, spacing, typography)

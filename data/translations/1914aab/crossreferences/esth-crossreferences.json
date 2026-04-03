@@ -1,0 +1,40 @@
+{
+  "book": "esth",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "2kgs:24:15",
+            "esth:11:4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "v": 4,
+          "refs": [
+            "1sam:24:15",
+            "esth:2:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "v": 10,
+          "refs": [
+            "esth:3:1"
+          ]
+        }
+      ]
+    }
+  ]
+}

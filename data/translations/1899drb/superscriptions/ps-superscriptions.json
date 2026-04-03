@@ -1,0 +1,754 @@
+{
+  "superscriptions": [
+    {
+      "chapter": 1,
+      "verse": 1,
+      "text": "Beatus vir. The happiness of the just and the evil state of the wicked."
+    },
+    {
+      "chapter": 2,
+      "verse": 1,
+      "text": "Quare fremuerunt. The vain efforts of persecutors against Christ and his church."
+    },
+    {
+      "chapter": 3,
+      "verse": 1,
+      "text": "Domine, quid multiplicati. The prophet's danger and delivery from his son Absalom: mystically, the passion and resurrection of Christ."
+    },
+    {
+      "chapter": 4,
+      "verse": 1,
+      "text": "Cum invocarem. The prophet teacheth us to flee to God in tribulation, with confidence in him."
+    },
+    {
+      "chapter": 5,
+      "verse": 1,
+      "text": "Verba mea auribus. A prayer to God against the iniquities of men."
+    },
+    {
+      "chapter": 6,
+      "verse": 1,
+      "text": "Domine, ne in furore. A prayer of a penitent sinner, under the scourge of God. The first penitential psalm."
+    },
+    {
+      "chapter": 7,
+      "verse": 1,
+      "text": "Domine, Deus meus. David, trusting in the justice of his cause, prayeth for God's help against his enemies."
+    },
+    {
+      "chapter": 8,
+      "verse": 1,
+      "text": "Domine, Dominus noster. God is wonderful in his works; especially in mankind, singularly exalted by the incarnation of Christ."
+    },
+    {
+      "chapter": 9,
+      "verse": 1,
+      "text": "Confitebor tibi, Domine. The church praiseth God for his protection against her enemies. [Note. The second part below verses 1-21 is the Hebrew Psalm 10.]"
+    },
+    {
+      "chapter": 10,
+      "verse": 1,
+      "text": "In Domino confido. The just man's confidence in God in the midst of persecutions."
+    },
+    {
+      "chapter": 11,
+      "verse": 1,
+      "text": "Salvum me fac. The prophet calls for God's help against the wicked."
+    },
+    {
+      "chapter": 12,
+      "verse": 1,
+      "text": "Usquequo, Domine. A prayer in tribulation."
+    },
+    {
+      "chapter": 13,
+      "verse": 1,
+      "text": "Dixit insipiens. The general corruption of man before our redemption by Christ."
+    },
+    {
+      "chapter": 14,
+      "verse": 1,
+      "text": "Domine, quis habitabit. What kind of men shall dwell in the heavenly Sion."
+    },
+    {
+      "chapter": 15,
+      "verse": 1,
+      "text": "Conserva me, Domine. Christ's future victory and triumph over the world and death."
+    },
+    {
+      "chapter": 16,
+      "verse": 1,
+      "text": "Exaudi, Domine, justitiam. A just man's prayer in tribulation against the malice of his enemy."
+    },
+    {
+      "chapter": 17,
+      "verse": 1,
+      "text": "Diligam te, Domine. David's thanks to God for his delivery from all his enemies."
+    },
+    {
+      "chapter": 18,
+      "verse": 1,
+      "text": "Coeli enarrant. The works of God shew forth his glory: his law is greatly to be esteemed and loved."
+    },
+    {
+      "chapter": 19,
+      "verse": 1,
+      "text": "Exaudiat te Dominus. A prayer for the king."
+    },
+    {
+      "chapter": 20,
+      "verse": 1,
+      "text": "Domine, in virtute. Praise to God for Christ's exaltation after his passion."
+    },
+    {
+      "chapter": 21,
+      "verse": 1,
+      "text": "Deus Deus meus. Christ's passion: and the conversion of the Gentiles."
+    },
+    {
+      "chapter": 22,
+      "verse": 1,
+      "text": "Dominus regit me. God's spiritual benefits to faithful souls."
+    },
+    {
+      "chapter": 23,
+      "verse": 1,
+      "text": "Domini est terra. Who are they that shall ascend to heaven: Christ's triumphant ascension thither."
+    },
+    {
+      "chapter": 24,
+      "verse": 1,
+      "text": "Ad te, Domine, levavi. A prayer for grace, mercy, and protection against our enemies."
+    },
+    {
+      "chapter": 25,
+      "verse": 1,
+      "text": "Judica me, Domine. David's prayer to God in his distress, to be delivered, that he may come to worship him in his tabernacle."
+    },
+    {
+      "chapter": 26,
+      "verse": 1,
+      "text": "Dominus illuminatio. David's faith and hope in God."
+    },
+    {
+      "chapter": 27,
+      "verse": 1,
+      "text": "Ad te, Domine, clamabo. David's prayer that his enemies may not prevail over him."
+    },
+    {
+      "chapter": 28,
+      "verse": 1,
+      "text": "Afferte Domino. An invitation to glorify God, with a commemoration of his mighty works."
+    },
+    {
+      "chapter": 29,
+      "verse": 1,
+      "text": "Exaltabo te, Domine. David praiseth God for his deliverance, and his merciful dealings with him."
+    },
+    {
+      "chapter": 30,
+      "verse": 1,
+      "text": "In te, Domine, speravi. A prayer of a just man under affliction."
+    },
+    {
+      "chapter": 31,
+      "verse": 1,
+      "text": "Beati quorum. The second penitential psalm."
+    },
+    {
+      "chapter": 32,
+      "verse": 1,
+      "text": "Exultate, justi. An exhortation to praise God, and to trust in him."
+    },
+    {
+      "chapter": 33,
+      "verse": 1,
+      "text": "Benedicam Dominum. An exhortation to the praise, and service of God."
+    },
+    {
+      "chapter": 34,
+      "verse": 1,
+      "text": "Judica, Domine, nocentes me. David, in the person of Christ, prayeth against his persecutors: prophetically foreshewing the punishments that shall fall upon them."
+    },
+    {
+      "chapter": 35,
+      "verse": 1,
+      "text": "Dixit injustus. The malice of sinners, and the goodness of God."
+    },
+    {
+      "chapter": 36,
+      "verse": 1,
+      "text": "Noli aemulari. An exhortation to despise this world; and the short prosperity of the wicked; and to trust in Providence."
+    },
+    {
+      "chapter": 37,
+      "verse": 1,
+      "text": "Domine, ne in furore. A prayer of a penitent for the remission of his sins. The third penitential psalm."
+    },
+    {
+      "chapter": 38,
+      "verse": 1,
+      "text": "Dixi custodiam. A just man's peace and patience in his sufferings; considering the vanity of the world, and the providence of God."
+    },
+    {
+      "chapter": 39,
+      "verse": 1,
+      "text": "Expectans expectavi. Christ's coming, and redeeming mankind."
+    },
+    {
+      "chapter": 40,
+      "verse": 1,
+      "text": "Beatus qui intelligit. The happiness of him that shall believe in Christ; notwithstanding the humility and poverty in which he shall come: the malice of his enemies, especially of the traitor Judas."
+    },
+    {
+      "chapter": 41,
+      "verse": 1,
+      "text": "Quemadmodum desiderat. The fervent desire of the just after God: hope in afflictions."
+    },
+    {
+      "chapter": 42,
+      "verse": 1,
+      "text": "Judica me, Deus. The prophet aspireth after the temple and altar of God."
+    },
+    {
+      "chapter": 43,
+      "verse": 1,
+      "text": "Deus auribus nostris. The church commemorates former favours, and present afflictions; under which she prays for succour."
+    },
+    {
+      "chapter": 44,
+      "verse": 1,
+      "text": "Eructavit cor meum. The excellence of Christ's kingdom, and the endowments of his church."
+    },
+    {
+      "chapter": 45,
+      "verse": 1,
+      "text": "Deus noster refugium. The church in persecution trusteth in the protection of God."
+    },
+    {
+      "chapter": 46,
+      "verse": 1,
+      "text": "Omnes gentes, plaudite. The Gentiles are invited to praise God for the establishment of the kingdom of Christ."
+    },
+    {
+      "chapter": 47,
+      "verse": 1,
+      "text": "Magnus Dominus. God is greatly to be praised for the establishment of his church."
+    },
+    {
+      "chapter": 48,
+      "verse": 1,
+      "text": "Audite haec, omnes gentes. The folly of worldlings, who live on in sin, without thinking of death or hell."
+    },
+    {
+      "chapter": 49,
+      "verse": 1,
+      "text": "Deus deorum. The coming of Christ: who prefers virtue and inward purity before the blood of victims."
+    },
+    {
+      "chapter": 50,
+      "verse": 1,
+      "text": "Miserere. The repentance and confession of David after his sin. The fourth penitential psalm."
+    },
+    {
+      "chapter": 51,
+      "verse": 1,
+      "text": "Quid gloriaris. David condemneth the wickedness of Doeg, and foretelleth his destruction."
+    },
+    {
+      "chapter": 52,
+      "verse": 1,
+      "text": "Dixit insipiens. The general corruption of man before the coming of Christ."
+    },
+    {
+      "chapter": 53,
+      "verse": 1,
+      "text": "Deus, in nomine tuo. A prayer for help in distress."
+    },
+    {
+      "chapter": 54,
+      "verse": 1,
+      "text": "Exaudi, Deus. A prayer of a just man under persecution from the wicked. It agrees to Christ persecuted by the Jews, and betrayed by Judas."
+    },
+    {
+      "chapter": 55,
+      "verse": 1,
+      "text": "Miserere mei, Deus. A prayer of David in danger and distress."
+    },
+    {
+      "chapter": 56,
+      "verse": 1,
+      "text": "Miserere mei, Deus. The prophet prays in his affliction, and praises God for his delivery."
+    },
+    {
+      "chapter": 57,
+      "verse": 1,
+      "text": "Si vere utique. David reproveth the wicked, and foretelleth their punishment."
+    },
+    {
+      "chapter": 58,
+      "verse": 1,
+      "text": "Eripe me. A prayer to be delivered from the wicked, with confidence in God's help and protection. It agrees to Christ and his enemies the Jews."
+    },
+    {
+      "chapter": 59,
+      "verse": 1,
+      "text": "Deus, repulisti nos. After many afflictions, the church of Christ shall prevail."
+    },
+    {
+      "chapter": 60,
+      "verse": 1,
+      "text": "Exaudi, Deus. A prayer for the coming of the kingdom of Christ, which shall have no end."
+    },
+    {
+      "chapter": 61,
+      "verse": 1,
+      "text": "Nonne Deo. The prophet encourageth himself and all others to trust in God, and serve him."
+    },
+    {
+      "chapter": 62,
+      "verse": 1,
+      "text": "Deus Deus meus, ad te. The prophet aspireth after God."
+    },
+    {
+      "chapter": 63,
+      "verse": 1,
+      "text": "Exaudi Deus orationem. A prayer in affliction, with confidence in God that he will bring to nought the machinations of persecutors."
+    },
+    {
+      "chapter": 64,
+      "verse": 1,
+      "text": "Te decet. God is to be praised in his church, to which all nations shall be called."
+    },
+    {
+      "chapter": 65,
+      "verse": 1,
+      "text": "Jubilate Deo. An invitation to praise God."
+    },
+    {
+      "chapter": 66,
+      "verse": 1,
+      "text": "Deus misereatur. A prayer for the propagation of the church."
+    },
+    {
+      "chapter": 67,
+      "verse": 1,
+      "text": "Exurgat Deus. The glorious establishment of the church of the New Testament, prefigured by the benefits bestowed on the people of Israel."
+    },
+    {
+      "chapter": 68,
+      "verse": 1,
+      "text": "Salvum me fac, Deus. Christ in his passion declareth the greatness of his sufferings, and the malice of his persecutors the Jews; and foretelleth their reprobation."
+    },
+    {
+      "chapter": 69,
+      "verse": 1,
+      "text": "Deus in adjutorium. A prayer in persecution."
+    },
+    {
+      "chapter": 70,
+      "verse": 1,
+      "text": "In te, Domine. A prayer for perseverance."
+    },
+    {
+      "chapter": 71,
+      "verse": 1,
+      "text": "Deus, judicium tuum. A prophecy of the coming of Christ, and of his kingdom: prefigured by Solomon and his happy reign."
+    },
+    {
+      "chapter": 72,
+      "verse": 1,
+      "text": "Quam bonus Israel Deus. The temptation of the weak, upon seeing the prosperity of the wicked, is overcome by the consideration of the justice of God, who will quickly render to every one according to his works."
+    },
+    {
+      "chapter": 73,
+      "verse": 1,
+      "text": "Ut quid, Deus. A prayer of the church under grievous persecutions."
+    },
+    {
+      "chapter": 74,
+      "verse": 1,
+      "text": "Confitebimur tibi. There is a just judgment to come: therefore let the wicked take care."
+    },
+    {
+      "chapter": 75,
+      "verse": 1,
+      "text": "Notus in Judaea. God is known in his church: and exerts his power in protecting it. It alludes to the slaughter of the Assyrians, in the days of king Ezechias."
+    },
+    {
+      "chapter": 76,
+      "verse": 1,
+      "text": "Voce mea. The faithful have recourse to God in trouble of mind, with confidence in his mercy and power."
+    },
+    {
+      "chapter": 77,
+      "verse": 1,
+      "text": "Attendite. God's great benefits to the people of Israel, notwithstanding their ingratitude."
+    },
+    {
+      "chapter": 78,
+      "verse": 1,
+      "text": "Deus, venerunt gentes. The church in time of persecution prayeth for relief. It seems to belong to the time of the Machabees."
+    },
+    {
+      "chapter": 79,
+      "verse": 1,
+      "text": "Qui regis Israel. A prayer for the church in tribulation, commemorating God's former favours."
+    },
+    {
+      "chapter": 80,
+      "verse": 1,
+      "text": "Exultate Deo. An invitation to a solemn praising of God."
+    },
+    {
+      "chapter": 81,
+      "verse": 1,
+      "text": "Deus stetit. An exhortation to judges and men in power."
+    },
+    {
+      "chapter": 82,
+      "verse": 1,
+      "text": "Deus, quis similis. A prayer against the enemies of God's church."
+    },
+    {
+      "chapter": 83,
+      "verse": 1,
+      "text": "Quam dilecta. The soul aspireth after heaven; rejoicing in the mean time, in being in the communion of God's church upon earth."
+    },
+    {
+      "chapter": 84,
+      "verse": 1,
+      "text": "Benedixisti, Domine. The coming of Christ, to bring peace and salvation to man."
+    },
+    {
+      "chapter": 85,
+      "verse": 1,
+      "text": "Inclina, Domine. A prayer for God's grace to assist us to the end."
+    },
+    {
+      "chapter": 86,
+      "verse": 1,
+      "text": "Fundamenta ejus. The glory of the church of Christ."
+    },
+    {
+      "chapter": 87,
+      "verse": 1,
+      "text": "Domine, Deus salutis. A prayer of one under grievous affliction: it agrees to Christ in his passion, and alludes to his death and burial."
+    },
+    {
+      "chapter": 88,
+      "verse": 1,
+      "text": "Misericordias Domini. The perpetuity of the church of Christ, in consequence of the promise of God: which, notwithstanding, God permits her to suffer sometimes most grievous afflictions."
+    },
+    {
+      "chapter": 89,
+      "verse": 1,
+      "text": "Domine, refugium. A prayer for the mercy of God: recounting the shortness and miseries of the days of man."
+    },
+    {
+      "chapter": 90,
+      "verse": 1,
+      "text": "Qui habitat. The just is secure under the protection of God."
+    },
+    {
+      "chapter": 91,
+      "verse": 1,
+      "text": "Bonum est confiteri. God is to be praised for his wondrous works."
+    },
+    {
+      "chapter": 92,
+      "verse": 1,
+      "text": "Dominus regnavit. The glory and stability of the kingdom; that is, of the church of Christ. Praise in the way of a canticle, for David himself, on the day before the sabbath, when the earth was founded."
+    },
+    {
+      "chapter": 93,
+      "verse": 1,
+      "text": "Deus ultionum. God shall judge and punish the oppressors of his people. A psalm for David himself on the fourth day of the week."
+    },
+    {
+      "chapter": 94,
+      "verse": 1,
+      "text": "Venite exultemus. An invitation to adore and serve God, and to hear his voice. Praise of a canticle for David himself."
+    },
+    {
+      "chapter": 95,
+      "verse": 1,
+      "text": "Cantate Domino. An exhortation to praise God for the coming of Christ and his kingdom."
+    },
+    {
+      "chapter": 96,
+      "verse": 1,
+      "text": "Dominus regnavit. All are invited to rejoice at the glorious coming and reign of Christ."
+    },
+    {
+      "chapter": 97,
+      "verse": 1,
+      "text": "Cantate Domino. All are again invited to praise the Lord, for the victories of Christ."
+    },
+    {
+      "chapter": 98,
+      "verse": 1,
+      "text": "Dominus regnavit. The reign of the Lord in Sion: that is, of Christ in his church."
+    },
+    {
+      "chapter": 99,
+      "verse": 1,
+      "text": "Jubilate Deo. All are invited to rejoice in God the creator of all."
+    },
+    {
+      "chapter": 100,
+      "verse": 1,
+      "text": "Misericordiam et judicium. The prophet exhorteth all by his example, to follow mercy and justice."
+    },
+    {
+      "chapter": 101,
+      "verse": 1,
+      "text": "Domine, exaudi. A prayer for one in affliction: the fifth penitential psalm."
+    },
+    {
+      "chapter": 102,
+      "verse": 1,
+      "text": "Benedic, anima. Thanksgiving to God for his mercies."
+    },
+    {
+      "chapter": 103,
+      "verse": 1,
+      "text": "Benedic, anima. God is to be praised for his mighty works, and wonderful providence."
+    },
+    {
+      "chapter": 104,
+      "verse": 1,
+      "text": "Confitemini Domino. A thanksgiving to God for his benefits to his people Israel. Alleluia."
+    },
+    {
+      "chapter": 105,
+      "verse": 1,
+      "text": "Confitemini Domino. A confession of the manifold sins and ingratitudes of the Israelites. Alleluia."
+    },
+    {
+      "chapter": 106,
+      "verse": 1,
+      "text": "Confitemini Domino. All are invited to give thanks to God for his perpetual providence over men. Alleluia."
+    },
+    {
+      "chapter": 107,
+      "verse": 1,
+      "text": "Paratum cor meum. The prophet praiseth God for benefits received."
+    },
+    {
+      "chapter": 108,
+      "verse": 1,
+      "text": "Deus, laudem meam. David in the person of Christ, prayeth against his persecutors; more especially the traitor Judas: foretelling and approving his just punishment for his obstinacy in sin and final impenitence."
+    },
+    {
+      "chapter": 109,
+      "verse": 1,
+      "text": "Dixit Dominus. Christ's exaltation and everlasting priesthood."
+    },
+    {
+      "chapter": 110,
+      "verse": 1,
+      "text": "Confitebor tibi, Domine. God is to be praised for his graces, and benefits to his church. Alleluia."
+    },
+    {
+      "chapter": 111,
+      "verse": 1,
+      "text": "Beatus vir. The good man is happy. Alleluia, of the returning of Aggeus and Zacharias. Of the returning, etc. This is in the Greek and Latin, but not in the Hebrew. It signifies that this psalm was proper to be sung at the time of the return of the people from their captivity; to inculcate to them, how happy they might be, if they would be constant in the service of God."
+    },
+    {
+      "chapter": 112,
+      "verse": 1,
+      "text": "Laudate, pueri. God is to be praised for his regard to the poor and humble. Alleluia."
+    },
+    {
+      "chapter": 113,
+      "verse": 1,
+      "text": "In exitu Israel. God hath shewn his power in delivering his people: idols are vain. The Hebrews divide this into two psalms. Alleluia."
+    },
+    {
+      "chapter": 114,
+      "verse": 1,
+      "text": "Dilexi. The prayer of a just man in affliction, with a lively confidence in God. Alleluia."
+    },
+    {
+      "chapter": 115,
+      "verse": 1,
+      "text": "Credidi. This in the Hebrew is joined with the foregoing psalm, and continues to express the faith and gratitude of the psalmist. Alleluia."
+    },
+    {
+      "chapter": 116,
+      "verse": 1,
+      "text": "Laudate Dominum. All nations are called upon to praise God for his mercy and truth. Alleluia."
+    },
+    {
+      "chapter": 117,
+      "verse": 1,
+      "text": "Confitemini Domino. The psalmist praiseth God for his delivery from evils: putteth his whole trust in him; and foretelleth the coming of Christ. Alleluia."
+    },
+    {
+      "chapter": 118,
+      "verse": 1,
+      "text": "Beati immaculati. Of the excellence of virtue consisting in the love and observance of the commandments of God. Alleluia."
+    },
+    {
+      "chapter": 119,
+      "verse": 1,
+      "text": "Ad Dominum. A prayer in tribulation. A gradual canticle. The following psalms, in number fifteen, are called gradual psalms, or canticles, from the word gradus, signifying steps, ascensions, or degrees: either because they were appointed to be sung on the fifteen steps, by which the people ascended to the temple: or, that in the singing of them the voice was to be raised by certain steps or ascensions: or, that they were to be sung by the people returning from their captivity and ascending to Jerusalem, which was seated amongst mountains. The holy fathers, in a mystical sense, understand these steps, or ascensions, of the degrees by which Christians spiritually ascend to virtue and perfection; and to the true temple of God in the heavenly Jerusalem."
+    },
+    {
+      "chapter": 120,
+      "verse": 1,
+      "text": "Levavi oculos. God is the keeper of his servants. A gradual canticle."
+    },
+    {
+      "chapter": 121,
+      "verse": 1,
+      "text": "Laetatus sum in his. The desire and hope of the just for the coming of the kingdom of God, and the peace of his church."
+    },
+    {
+      "chapter": 122,
+      "verse": 1,
+      "text": "Ad te levavi. A prayer in affliction, with confidence in God. A gradual canticle."
+    },
+    {
+      "chapter": 123,
+      "verse": 1,
+      "text": "Nisi quia Domini. The church giveth glory to God for her deliverance, from the hands of her enemies."
+    },
+    {
+      "chapter": 124,
+      "verse": 1,
+      "text": "Qui confidunt. The just are always under God's protection."
+    },
+    {
+      "chapter": 125,
+      "verse": 1,
+      "text": "In convertendo. The people of God rejoice at their delivery from captivity."
+    },
+    {
+      "chapter": 126,
+      "verse": 1,
+      "text": "Nisi Dominus. Nothing can be done without God's grace and blessing."
+    },
+    {
+      "chapter": 127,
+      "verse": 1,
+      "text": "Beati omnes. The fear of God is the way to happiness."
+    },
+    {
+      "chapter": 128,
+      "verse": 1,
+      "text": "Saepe expugnaverunt. The church of God is invincible: her persecutors come to nothing."
+    },
+    {
+      "chapter": 129,
+      "verse": 1,
+      "text": "De profundis. A prayer of a sinner, trusting in the mercies of God. The sixth penitential psalm."
+    },
+    {
+      "chapter": 130,
+      "verse": 1,
+      "text": "Domine, non est. The prophet's humility."
+    },
+    {
+      "chapter": 131,
+      "verse": 1,
+      "text": "Memento, Domine. A prayer for the fulfilling of the promise made to David."
+    },
+    {
+      "chapter": 132,
+      "verse": 1,
+      "text": "Ecce quam bonum. The happiness of brotherly love and concord."
+    },
+    {
+      "chapter": 133,
+      "verse": 1,
+      "text": "Ecce nunc benedicite. An exhortation to praise God continually."
+    },
+    {
+      "chapter": 134,
+      "verse": 1,
+      "text": "Laudate nomen. An exhortation to praise God: the vanity of idols."
+    },
+    {
+      "chapter": 135,
+      "verse": 1,
+      "text": "Confitemini Domino. God is to be praised for his wonderful works."
+    },
+    {
+      "chapter": 136,
+      "verse": 1,
+      "text": "Super flumina. The lamentation of the people of God in their captivity in Babylon. A psalm of David, for Jeremias. For the time of Jeremias, and the captivity of Babylon."
+    },
+    {
+      "chapter": 137,
+      "verse": 1,
+      "text": "Confitebor tibi. Thanksgiving to God for his benefits."
+    },
+    {
+      "chapter": 138,
+      "verse": 1,
+      "text": "Domine, probasti. God's special providence over his servants."
+    },
+    {
+      "chapter": 139,
+      "verse": 1,
+      "text": "Eripe me, Domine. A prayer to be delivered from the wicked."
+    },
+    {
+      "chapter": 140,
+      "verse": 1,
+      "text": "Domine, clamavi. A prayer against sinful words, and deceitful flatterers. A psalm of David."
+    },
+    {
+      "chapter": 141,
+      "verse": 1,
+      "text": "Voce mea. A prayer of David in extremity of danger."
+    },
+    {
+      "chapter": 142,
+      "verse": 1,
+      "text": "Domine, exaudi. The psalmist in tribulation calleth upon God for his delivery. The seventh penitential psalm."
+    },
+    {
+      "chapter": 143,
+      "verse": 1,
+      "text": "Benedictus Dominus. The prophet praiseth God, and prayeth to be delivered from his enemies. No worldly happiness is to be compared with that of serving God. A psalm of David against Goliath."
+    },
+    {
+      "chapter": 144,
+      "verse": 1,
+      "text": "Exaltabo te, Deus. A psalm of praise, to the infinite majesty of God."
+    },
+    {
+      "chapter": 145,
+      "verse": 1,
+      "text": "Lauda, anima. We are not to trust in men, but in God alone."
+    },
+    {
+      "chapter": 146,
+      "verse": 1,
+      "text": "Laudate Dominum. An exhortation to praise God for his benefits."
+    },
+    {
+      "chapter": 147,
+      "verse": 1,
+      "text": "Lauda, Jerusalem. The church is called upon to praise God for his peculiar graces and favours to his people. In the Hebrew, this psalm is joined to the foregoing. Alleluia."
+    },
+    {
+      "chapter": 148,
+      "verse": 1,
+      "text": "Laudate Dominum de caelis. All creatures are invited to praise their Creator. Alleluia."
+    },
+    {
+      "chapter": 149,
+      "verse": 1,
+      "text": "Cantate Domino. The church is particularly bound to praise God. Alleluia."
+    },
+    {
+      "chapter": 150,
+      "verse": 1,
+      "text": "Laudate Dominum in sanctis. An exhortation to praise God with all sorts of instruments. Alleluia."
+    }
+  ]
+}

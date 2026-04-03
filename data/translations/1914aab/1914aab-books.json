@@ -1,0 +1,1023 @@
+[
+{
+"id": "gen",
+
+"supertitle": "Das erste Buch Moses.",
+
+"name": "Genesis.",
+
+"subtitle": "",
+
+"shortName": "Genesis",
+
+"chapters": 50
+},
+
+{
+"id": "exod",
+
+"supertitle": "Das zweite Buch Moses.",
+
+"name": "Exodus.",
+
+"subtitle": "",
+
+"shortName": "Exodus",
+
+"chapters": 40
+},
+
+{
+"id": "lev",
+
+"supertitle": "Das dritte Buch Moses.",
+
+"name": "Leviticus.",
+
+"subtitle": "",
+
+"shortName": "Levitikus",
+
+"chapters": 27
+},
+
+{
+"id": "num",
+
+"supertitle": "Das vierte Buch Moses.",
+
+"name": "Numeri.",
+
+"subtitle": "",
+
+"shortName": "Numeri",
+
+"chapters": 36
+},
+
+{
+"id": "deut",
+
+"supertitle": "Das fünfte Buch Moses.",
+
+"name": "Deuteronomium.",
+
+"subtitle": "",
+
+"shortName": "Deuteronomium",
+
+"chapters": 34
+},
+
+{
+"id": "josh",
+
+"supertitle": "",
+
+"name": "Das Buch Josue.",
+
+"subtitle": "",
+
+"shortName": "Josua",
+
+"chapters": 24
+},
+
+{
+"id": "judg",
+
+"supertitle": "",
+
+"name": "Das Buch der Richter.",
+
+"subtitle": "",
+
+"shortName": "Richter",
+
+"chapters": 21
+},
+
+{
+"id": "ruth",
+
+"supertitle": "",
+
+"name": "Das Buch Ruth.",
+
+"subtitle": "",
+
+"shortName": "Rut",
+
+"chapters": 4
+},
+
+{
+"id": "1sam",
+
+"supertitle": "",
+
+"name": "Das erste Buch Samuels oder der Könige.",
+
+"subtitle": "",
+
+"shortName": "1 Samuel",
+
+"chapters": 31
+},
+
+{
+"id": "2sam",
+
+"supertitle": "",
+
+"name": "Das zweite Buch Samuels oder der Könige.",
+
+"subtitle": "",
+
+"shortName": "2 Samuel",
+
+"chapters": 24
+},
+
+{
+"id": "1kgs",
+
+"supertitle": "Das dritte, nach dem Hebräischen",
+
+"name": "das erste Buch der Könige.",
+
+"subtitle": "",
+
+"shortName": "1 Könige",
+
+"chapters": 22
+},
+
+{
+"id": "2kgs",
+
+"supertitle": "Das vierte, nach dem Hebräischen",
+
+"name": "das zweite Buch der Könige.",
+
+"subtitle": "",
+
+"shortName": "2 Könige",
+
+"chapters": 25
+},
+
+{
+"id": "1chr",
+
+"supertitle": "",
+
+"name": "Das erste Buch Paralipomenon",
+
+"subtitle": "oder der Chronik.",
+
+"shortName": "1 Chronik",
+
+"chapters": 29
+},
+
+{
+"id": "2chr",
+
+"supertitle": "",
+
+"name": "Das zweite Buch Paralipomenon",
+
+"subtitle": "oder der Chronik.",
+
+"shortName": "2 Chronik",
+
+"chapters": 36
+},
+
+{
+"id": "ezra",
+
+"supertitle": "",
+
+"name": "Das erste Buch Esdras,",
+
+"subtitle": "im Hebräischen Buch Esra genannt.",
+
+"shortName": "Esra",
+
+"chapters": 10
+},
+
+{
+"id": "neh",
+
+"supertitle": "",
+
+"name": "Das Buch Nehemias,",
+
+"subtitle": "auch das zweite Buch Esdras genannt.",
+
+"shortName": "Nehemia",
+
+"chapters": 13
+},
+
+{
+"id": "tob",
+
+"supertitle": "",
+
+"name": "Das Buch Tobias.",
+
+"subtitle": "",
+
+"shortName": "Tobit",
+
+"chapters": 14
+},
+
+{
+"id": "jdt",
+
+"supertitle": "",
+
+"name": "Das Buch Judith.",
+
+"subtitle": "",
+
+"shortName": "Judit",
+
+"chapters": 16
+},
+
+{
+"id": "esth",
+
+"supertitle": "",
+
+"name": "Das Buch Esther.",
+
+"subtitle": "",
+
+"shortName": "Ester",
+
+"chapters": 16
+},
+
+{
+"id": "1macc",
+
+"supertitle": "",
+
+"name": "Erstes Buch der Machabäer.",
+
+"subtitle": "",
+
+"shortName": "1 Makkabäer",
+
+"chapters": 16
+},
+
+{
+"id": "2macc",
+
+"supertitle": "",
+
+"name": "Zweites Buch der Machabäer.",
+
+"subtitle": "",
+
+"shortName": "2 Makkabäer",
+
+"chapters": 15
+},
+
+{
+"id": "job",
+
+"supertitle": "",
+
+"name": "Das Buch Job.",
+
+"subtitle": "",
+
+"shortName": "Ijob",
+
+"chapters": 42
+},
+
+{
+"id": "ps",
+
+"supertitle": "",
+
+"name": "Das Buch der Psalmen.",
+
+"subtitle": "",
+
+"shortName": "Psalmen",
+
+"chapters": 150
+},
+
+{
+"id": "prov",
+
+"supertitle": "",
+
+"name": "Die Sprüche Salomons.",
+
+"subtitle": "",
+
+"shortName": "Sprichwörter",
+
+"chapters": 31
+},
+
+{
+"id": "eccl",
+
+"supertitle": "",
+
+"name": "Ekklesiastes oder Prediger.",
+
+"subtitle": "Von den Hebräern Koheleth genannt.",
+
+"shortName": "Kohelet",
+
+"chapters": 12
+},
+
+{
+"id": "song",
+
+"supertitle": "",
+
+"name": "Das Hohelied Salomons.",
+
+"subtitle": "Hebräisch: Sir Hasirim.",
+
+"shortName": "Hoheslied",
+
+"chapters": 8
+},
+
+{
+"id": "wis",
+
+"supertitle": "",
+
+"name": "Das Buch der Weisheit.",
+
+"subtitle": "",
+
+"shortName": "Weisheit",
+
+"chapters": 19
+},
+
+{
+"id": "sir",
+
+"supertitle": "",
+
+"name": "Ekllesiastikus,",
+
+"subtitle": "Buch Jesus Sirach.",
+
+"shortName": "Sirach",
+
+"chapters": 51
+},
+
+{
+"id": "isa",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Isaias.",
+
+"subtitle": "",
+
+"shortName": "Jesaja",
+
+"chapters": 66
+},
+
+{
+"id": "jer",
+
+"supertitle": "",
+
+"name": "Die Prophezeiung des Jeremias.",
+
+"subtitle": "",
+
+"shortName": "Jeremia",
+
+"chapters": 52
+},
+
+{
+"id": "lam",
+
+"supertitle": "",
+
+"name": "Threni,",
+
+"subtitle": "das ist Klagelieder des Propheten Jeremias.",
+
+"shortName": "Klagelieder",
+
+"chapters": 5
+},
+
+{
+"id": "bar",
+
+"supertitle": "",
+
+"name": "Prophezeiung Baruchs.",
+
+"subtitle": "",
+
+"shortName": "Baruch",
+
+"chapters": 6
+},
+
+{
+"id": "ezek",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Ezechiel.",
+
+"subtitle": "",
+
+"shortName": "Ezechiel",
+
+"chapters": 48
+},
+
+{
+"id": "dan",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Daniel.",
+
+"subtitle": "",
+
+"shortName": "Daniel",
+
+"chapters": 14
+},
+
+{
+"id": "hos",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Osee.",
+
+"subtitle": "",
+
+"shortName": "Hosea",
+
+"chapters": 14
+},
+
+{
+"id": "joel",
+
+"supertitle": "",
+
+"name": "Prophezeiung Joels.",
+
+"subtitle": "",
+
+"shortName": "Joel",
+
+"chapters": 3
+},
+
+{
+"id": "amos",
+
+"supertitle": "",
+
+"name": "Die Prophezeiung des Amos.",
+
+"subtitle": "",
+
+"shortName": "Amos",
+
+"chapters": 9
+},
+
+{
+"id": "obad",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Abdias.",
+
+"subtitle": "",
+
+"shortName": "Obadja",
+
+"chapters": 1
+},
+
+{
+"id": "jonah",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Jonas.",
+
+"subtitle": "",
+
+"shortName": "Jona",
+
+"chapters": 4
+},
+
+{
+"id": "mic",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Michäas.",
+
+"subtitle": "",
+
+"shortName": "Micha",
+
+"chapters": 7
+},
+
+{
+"id": "nah",
+
+"supertitle": "",
+
+"name": "Prophezeiung Nahums.",
+
+"subtitle": "",
+
+"shortName": "Nahum",
+
+"chapters": 3
+},
+
+{
+"id": "hab",
+
+"supertitle": "",
+
+"name": "Prophezeiung Habakuks.",
+
+"subtitle": "",
+
+"shortName": "Habakuk",
+
+"chapters": 3
+},
+
+{
+"id": "zeph",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Sophonias.",
+
+"subtitle": "",
+
+"shortName": "Zefanja",
+
+"chapters": 3
+},
+
+{
+"id": "hag",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Aggäus.",
+
+"subtitle": "",
+
+"shortName": "Haggai",
+
+"chapters": 2
+},
+
+{
+"id": "zech",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Zacharias.",
+
+"subtitle": "",
+
+"shortName": "Sacharja",
+
+"chapters": 14
+},
+
+{
+"id": "mal",
+
+"supertitle": "",
+
+"name": "Prophezeiung des Malachias.",
+
+"subtitle": "",
+
+"shortName": "Maleachi",
+
+"chapters": 4
+},
+
+{
+"id": "mt",
+
+"supertitle": "",
+
+"name": "Das heilige Evangelium Jesu Christi",
+
+"subtitle": "nach Matthäus.",
+
+"shortName": "Matthäus",
+
+"chapters": 28
+},
+
+{
+"id": "mk",
+
+"supertitle": "",
+
+"name": "Das heilige Evangelium Jesu Christi",
+
+"subtitle": "nach Markus.",
+
+"shortName": "Markus",
+
+"chapters": 16
+},
+
+{
+"id": "lk",
+
+"supertitle": "",
+
+"name": "Das heilige Evangelium Jesu Christi",
+
+"subtitle": "nach Lukas.",
+
+"shortName": "Lukas",
+
+"chapters": 24
+},
+
+{
+"id": "jn",
+
+"supertitle": "",
+
+"name": "Das heilige Evangelium Jesu Christi",
+
+"subtitle": "nach Johannes",
+
+"shortName": "Johannes",
+
+"chapters": 21
+},
+
+{
+"id": "acts",
+
+"supertitle": "",
+
+"name": "Die Apostelgeschichte.",
+
+"subtitle": "",
+
+"shortName": "Apostelgeschichte",
+
+"chapters": 28
+},
+
+{
+"id": "rom",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Römer.",
+
+"subtitle": "",
+
+"shortName": "Römer",
+
+"chapters": 16
+},
+
+{
+"id": "1cor",
+
+"supertitle": "Erster Brief des heiligen Apostels Paulus",
+
+"name": "an die Korinther.",
+
+"subtitle": "",
+
+"shortName": "1 Korinther",
+
+"chapters": 16
+},
+
+{
+"id": "2cor",
+
+"supertitle": "Zweiter Brief des heiligen Apostels Paulus",
+
+"name": "an die Korinther.",
+
+"subtitle": "",
+
+"shortName": "2 Korinther",
+
+"chapters": 13
+},
+
+{
+"id": "gal",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Galater.",
+
+"subtitle": "",
+
+"shortName": "Galater",
+
+"chapters": 6
+},
+
+{
+"id": "eph",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Epheser.",
+
+"subtitle": "",
+
+"shortName": "Epheser",
+
+"chapters": 6
+},
+
+{
+"id": "phil",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Philipper.",
+
+"subtitle": "",
+
+"shortName": "Philipper",
+
+"chapters": 4
+},
+
+{
+"id": "col",
+
+"supertitle":   "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Kolosser.",
+
+"subtitle": "",
+
+"shortName": "Kolosser",
+
+"chapters": 4
+},
+
+{
+"id": "1thess",
+
+"supertitle": "Erster Brief des heiligen Apostels Paulus",
+
+"name": "an die Thessalonicher.",
+
+"subtitle": "",
+
+"shortName": "1 Thessalonicher",
+
+"chapters": 5
+},
+
+{
+"id": "2thess",
+
+"supertitle": "Zweiter Brief des heiligen Apostels Paulus",
+
+"name": "an die Thessalonicher.",
+
+"subtitle": "",
+
+"shortName": "2 Thessalonicher",
+
+"chapters": 3
+},
+
+{
+"id": "1tim",
+
+"supertitle": "Erster Brief des heiligen Apostels Paulus",
+
+"name": "an Timotheus.",
+
+"subtitle": "",
+
+"shortName": "1 Timotheus",
+
+"chapters": 6
+},
+
+{
+"id": "2tim",
+
+"supertitle": "Zweiter Brief des heiligen Apostels Paulus",
+
+"name": "an Timotheus.",
+
+"subtitle": "",
+
+"shortName": "2 Timotheus",
+
+"chapters": 4
+},
+
+{
+"id": "tit",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an Titus.",
+
+"subtitle": "",
+
+"shortName": "Titus",
+
+"chapters": 3
+},
+
+{
+"id": "phlm",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an Philemon.",
+
+"subtitle": "",
+
+"shortName": "Philemon",
+
+"chapters": 1
+},
+
+{
+"id": "heb",
+
+"supertitle": "Der Brief des heiligen Apostels Paulus",
+
+"name": "an die Hebräer.",
+
+"subtitle": "",
+
+"shortName": "Hebräer",
+
+"chapters": 13
+},
+
+{
+"id": "jam",
+
+"supertitle": "",
+
+"name": "Der katholische Brief",
+
+"subtitle": "des heiligen Apostels Jakobus.",
+
+"shortName": "Jakobus",
+
+"chapters": 5
+},
+
+{
+"id": "1pet",
+
+"supertitle": "",
+
+"name": "Erster Brief",
+
+"subtitle": "des heiligen Apostels Petrus.",
+
+"shortName": "1 Petrus",
+
+"chapters": 5
+},
+
+{
+"id": "2pet",
+
+"supertitle": "",
+
+"name": "Zweiter Brief",
+
+"subtitle": "des heiligen Apostels Petrus.",
+
+"shortName": "2 Petrus",
+
+"chapters": 3
+},
+
+{
+"id": "1jn",
+
+"supertitle": "",
+
+"name": "Erster Brief",
+
+"subtitle": "des heiligen Apostels Johannes.",
+
+"shortName": "1 Johannes",
+
+"chapters": 5
+},
+
+{
+"id": "2jn",
+
+"supertitle": "",
+
+"name": "Zweiter Brief",
+
+"subtitle": "des heiligen Apostels Johannes.",
+
+"shortName": "2 Johannes",
+
+"chapters": 1
+},
+
+{
+"id": "3jn",
+
+"supertitle": "",
+
+"name": "Dritter Brief",
+
+"subtitle": "des heiligen Apostels Johannes.",
+
+"shortName": "3 Johannes",
+
+"chapters": 1
+},
+
+{
+"id": "jude",
+
+"supertitle": "",
+
+"name": "Der katholische Brief",
+
+"subtitle": "des heiligen Apostels Judas.",
+
+"shortName": "Judas",
+
+"chapters": 1
+},
+
+{
+"id": "rev",
+
+"supertitle": "",
+
+"name": "Die Offenbarung",
+
+"subtitle": "des heiligen Apostels Johannes.",
+
+"shortName": "Offenbarung",
+
+"chapters": 22
+}
+]

@@ -1,0 +1,44 @@
+{
+  "book": "tit",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 15,
+          "refs": [
+            "rom:14:20"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 9,
+          "refs": [
+            "eph:6:5"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 5,
+          "refs": [
+            "2tim:1:9"
+          ]
+        },
+        {
+          "v": 9,
+          "refs": [
+            "2tim:2:23"
+          ]
+        }
+      ]
+    }
+  ]
+}

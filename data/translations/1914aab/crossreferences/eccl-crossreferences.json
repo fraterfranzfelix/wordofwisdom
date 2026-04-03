@@ -1,0 +1,102 @@
+{
+  "book": "eccl",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 14,
+          "refs": [
+            "eccl:8:1",
+            "prov:17:24"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 17,
+          "refs": [
+            "1sam:15:22",
+            "hos:6:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "v": 14,
+          "refs": [
+            "job:1:21",
+            "1tim:6:7"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "v": 10,
+          "refs": [
+            "1sam:13:14",
+            "1kgs:13:2"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "v": 2,
+          "refs": [
+            "prov:22:1"
+          ]
+        },
+        {
+          "v": 21,
+          "refs": [
+            "1kgs:8:46",
+            "2chr:6:36",
+            "prov:20:9",
+            "1jn:1:8"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "v": 18,
+          "refs": [
+            "eccl:7:20"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "v": 4,
+          "refs": [
+            "deut:1:29"
+          ]
+        },
+        {
+          "v": 8,
+          "refs": [
+            "prov:26:27",
+            "sir:27:29"
+          ]
+        }
+      ]
+    }
+  ]
+}

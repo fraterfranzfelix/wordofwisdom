@@ -1,0 +1,64 @@
+{
+  "book": "ezra",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 1,
+          "refs": [
+            "2chr:36:22",
+            "jer:25:12",
+            "jer:29:10"
+          ]
+        },
+        {
+          "v": 7,
+          "refs": [
+            "2chr:36:7.18"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 1,
+          "refs": [
+            "neh:7:6"
+          ]
+        },
+        {
+          "v": 63,
+          "refs": [
+            "neh:7:65"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "v": 18,
+          "refs": [
+            "num:3:6",
+            "num:8:9"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "v": 12,
+          "refs": [
+            "deut:7:3"
+          ]
+        }
+      ]
+    }
+  ]
+}

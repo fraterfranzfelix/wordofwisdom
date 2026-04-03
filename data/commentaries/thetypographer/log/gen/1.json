@@ -1,6 +1,10 @@
 {
   "verses": [
     {
+      "v": 9,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
+    },
+    {
       "v": 1,
       "text": "When Johannes Gutenberg started printing the Bible in Mainz in the 1550s, he hired illustrators who would illuminate the first letter of each chapter with hand-painted initials, thus imitating the late-medieval illuminated manuscripts produced in the monasteries at the time. The 1560 Geneva Bible has adopted this art, though it already uses pre-casted <i>sorts</i> instead of hand-painted initials, as do later the 1582 Rheims New Testament or the very famous 1611 King James Bible.\nThe Irish-American Catholic printing press has later adopted an even simpler technique under ongoing industrilization: the 1899 Baltimore edition of the Douay-Rheims Bible, now in reprint by Saint Benedict Press and Baronius Press, uses <i>two-line drop caps</i> set in what appears to be Bodoni or Didot instead of fully-fledged initials. The New York prints of the Douay-Rheims Bible at the time, such as an 1885 edition by Bryan Taylor & Co., an 1899 edition by the Benzinger Brothers, or a 1914 edition by P. J. Kenedy & Sons, share the same drop caps. The Benzinger Brothers got their printing plates from M. H. Gill & Son in Dublin.\nBy the mid-20th century, we would see the art of the initial disappear almost completely from public bookshelves: the Jerusalem Bible editions by Éditions du Cerf, or in English by Doubleday & Company, Inc. and later Darton, Longman & Todd Ltd. come with only the chapter number as a drop cap at the beginning of each chapter, and the 1952 Revised Standard Version by Thomas Nelson & Sons comes with nothing that even slightly resembles an initial. In Germany also, it is difficult to find a Luther Bible with drop caps that is earlier than the mid-19th century, even though Dr. Martin Luther’s own 1545 edition came with printed initials."
     },
@@ -15,6 +19,22 @@
     {
       "v": 11,
       "text": "In a 1899 Benzinger Brothers edition of the Douay-Rheims Bible as well as in a 1914 reprint by P. J. Kenedy & Sons, the word “fruit tree” in this verse has a hyphen (= “fruit-tree”). I cannot confirm with certainty if the 1899 Baltimore edition has this word with a hyphen or not, because I do not own an original specimen; but reprints by Saint Benedict Press and Baronius Press as well as online versions of the 1899 Baltimore text (such as those on Project Gutenberg or Bible Gateway) have it without.\nThe Benzinger Brothers got their printing plates from M. H. Hill & Son in Dublin, so it is likely that the hyphenated form is the original European one. It seems John Murphy Company under James Cardinal Gibbons has, with the authority of the Holy See, <i>americanized</i> the text of the Douay-Rheims Bible in certain areas by removing hyphens which are commonly used in European English. I laid my eyes upon a handful of cases where the hyphen was removed for the 1899 Baltimore edition, but there may be well over a hundred in total. There are also other differences between the 1899 Baltimore edition and the 1899 Benzinger Brothers edition, such as <i>European spellings</i> that were changed to <i>American spellings</i> in the Baltimore edition. (See Daniel 1:4 for more.)"
+    },
+    {
+      "v": 14,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
+    },
+    {
+      "v": 24,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
+    },
+    {
+      "v": 26,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
+    },
+    {
+      "v": 29,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
     }
   ]
 }

@@ -4,7 +4,6 @@
   "translation-abbreviation": "1899-DRB",
   "psalms-structure": "greek",
   "psalms-superscription": true,
-
   "metadata": {
     "year": 1899,
     "place": "Baltimore, Maryland",
@@ -15,5 +14,6 @@
     "language": "Modern English"
   },
   "copyright": "Public Domain",
-  "description": "Richard Challoner's revision of the Douay-Rheims Bible, published in Baltimore 1899."
+  "description": "Rev. Richard Challoner's revision of the Douay-Rheims Bible, translated from the Latin Vulgate, compared with the King James Version, published in Baltimore 1899.",
+  "has-chapter-superscriptions": true
 }

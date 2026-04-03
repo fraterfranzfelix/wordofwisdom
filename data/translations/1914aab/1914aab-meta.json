@@ -1,0 +1,19 @@
+{
+  "id": "1914aab",
+  "title": "1914 Allioli-Arndt Bible",
+  "translation-abbreviation": "1914-AAB",
+  "psalms-structure": "greek",
+  "psalms-superscription": false,
+  "has-chapter-superscriptions": true,
+  "metadata": {
+    "year": 1914,
+    "place": "Regensburg, Germany",
+    "translator": "Dr. Joseph Franz von Allioli",
+    "publisher": "Friedrich Pustet & Co.",
+    "editor": "Augustin Arndt S.J.",
+    "imprimatur": "M. Huber, Vicar General",
+    "language": "Modern German"
+  },
+  "copyright": "Public Domain",
+  "description": "Augustin Arndt's revision of Dr. Joseph Franz von Allioli's 1839 translation of the Latin Vulgate into German, published in Regensburg 1914, widely used by German-speaking Catholics until 1980."
+}

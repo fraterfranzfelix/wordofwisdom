@@ -1,0 +1,16 @@
+{
+  "book": "hab",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 4,
+          "refs": [
+            "rom:1:17"
+          ]
+        }
+      ]
+    }
+  ]
+}

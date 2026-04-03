@@ -1,0 +1,103 @@
+{
+  "book": "jdt",
+  "chapters": [
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 13,
+          "refs": [
+            "exod:17:12"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "v": 11,
+          "refs": [
+            "exod:12:33"
+          ]
+        },
+        {
+          "v": 12,
+          "refs": [
+            "exod:14:29"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "v": 25,
+          "refs": [
+            "1cor:10:9",
+            "num:21:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "v": 2,
+          "refs": [
+            "gen:34:25"
+          ]
+        },
+        {
+          "v": 6,
+          "refs": [
+            "exod:14:9"
+          ]
+        },
+        {
+          "v": 15,
+          "refs": [
+            "judg:4:21",
+            "judg:5:26"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "jdt:8:32"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "v": 7,
+          "refs": [
+            "jdt:5:5"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "v": 21,
+          "refs": [
+            "ps:105:1",
+            "ps:106:1"
+          ]
+        }
+      ]
+    }
+  ]
+}

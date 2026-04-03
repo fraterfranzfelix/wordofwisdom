@@ -1,0 +1,56 @@
+{
+  "book": "neh",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 5,
+          "refs": [
+            "dan:9:4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "ezra:2:1"
+          ]
+        },
+        {
+          "v": 64,
+          "refs": [
+            "ezra:2:62"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "v": 7,
+          "refs": [
+            "gen:11:31"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "verses": [
+        {
+          "v": 26,
+          "refs": [
+            "1kgs:3:1",
+            "1kgs:11:1.4"
+          ]
+        }
+      ]
+    }
+  ]
+}

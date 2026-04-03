@@ -1,0 +1,44 @@
+{
+  "book": "2tim",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 9,
+          "refs": [
+            "tit:3:5"
+          ]
+        },
+        {
+          "v": 16,
+          "refs": [
+            "2tim:4:19"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 16,
+          "refs": [
+            "2pet:1:20"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 11,
+          "refs": [
+            "col:4:14"
+          ]
+        }
+      ]
+    }
+  ]
+}

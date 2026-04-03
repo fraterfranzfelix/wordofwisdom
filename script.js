@@ -21,7 +21,7 @@
  * - Event listeners wire user interactions to state changes
  * 
  * DATA STRUCTURE:
- * - Translations live in: data/translations/{id}/{id}-meta.json, {id}-books.json, {book}.json
+ * - Translations live in: data/translations/{id}/{id}-meta.json, {id}-books.json, books/{book}.json, superscriptions/{book}-superscriptions.json
  * - Commentaries live in: data/commentaries/{author}/{work}/{book}/{chapter}.json
  * - Commentary catalog: data/commentaries/index.json
  * 
@@ -60,7 +60,23 @@ let championData = {};
 /* =============================================================================
  * PSALM NUMBERING SYSTEM
  * =============================================================================
- * Canonical reference: Hebrew numbering, superscription = verse 1 when present.
+ * STRUCTURE (Deutsche Bibelgesellschaft)
+ *
+ *  MT (Masoretic)  │  LXX (Septuagint)    │  VUL (Vulgate)
+ *  ────────────────┼──────────────────────┼──────────────────────
+ *  1–8             │  1–8                 │  1–8
+ *  9–10            │  9 (merged)          │  9
+ *  11–113          │  10–112              │  10–112
+ *  114–115         │  113 (merged)        │  113
+ *  116:1–9         │  114                 │  114
+ *  116:10–19       │  115                 │  115
+ *  117–146         │  116–145             │  116–145
+ *  147:1–11        │  146                 │  146
+ *  147:12–20       │  147                 │  147
+ *  148–150         │  148–150             │  148–150
+ *
+ *  Vulgate follows Septuagint numbering for Psalms.
+ *  Canonical reference: Hebrew numbering, superscription = verse 1 when present.
  */
 
 // === DATA STRUCTURES ===
@@ -323,6 +339,16 @@ function getTranslationPsalmDefaults(translationMeta) {
 
 
 // === DISPLAY PSALM TO FILE MAPPING ===
+function toRoman(n) {
+    const vals = [1000,900,500,400,100,90,50,40,10,9,5,4,1];
+    const syms = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];
+    let result = '';
+    for (let i = 0; i < vals.length; i++) {
+        while (n >= vals[i]) { result += syms[i]; n -= vals[i]; }
+    }
+    return result;
+}
+
 // Maps a display psalm number to the file chapter(s) needed to render it
 // Takes into account both the display system AND the translation's file system
 
@@ -484,16 +510,66 @@ const KINGS_8_LXX_ORDER = [
 
 
 // === JEREMIAH ===
+//
+// STRUCTURE (Deutsche Bibelgesellschaft)
+//
+//  MT (Masoretic / Vulgate)   │  LXX (Septuagint)
+//  ───────────────────────────┼────────────────────────────
+//  1–25:14                    │  1–25:13
+//  25:15–38                   │  32:1–24
+//  26–43                      │  33–50
+//  44                         │  51:1–30
+//  45                         │  51:31–35
+//  46                         │  26
+//  47                         │  29:1–7
+//  48                         │  31
+//  49:1–33  (verses reordered)│  30:1–33
+//  49:34–39                   │  25:14–19
+//  49:42                      │  25:20
+//  50–51                      │  27–28
+//  52                         │  52
+//
+//  Vulgate follows MT chapter structure for Jeremiah (unlike Psalms).
+
+// LXX chapter 30 = MT chapter 49 verses 1–33, in a different order.
+// LXX 30:1–16 = MT 49:7–22 | LXX 30:17–22 = MT 49:1–6
+// LXX 30:23–28 = MT 49:28–33 | LXX 30:29–33 = MT 49:23–27
+const JER_30_LXX_ORDER = [
+     7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,  // LXX 30:1–16
+     1,  2,  3,  4,  5,  6,                                           // LXX 30:17–22
+    28, 29, 30, 31, 32, 33,                                           // LXX 30:23–28
+    23, 24, 25, 26, 27,                                               // LXX 30:29–33
+];
 
 // LXX chapter → MT content descriptor.
-// Identity for LXX 1-24; map below applies for 25-52.
+// Identity for LXX 1–24; entries below apply for LXX 25–52.
+// Values may be:
+//   integer                      → whole MT chapter
+//   { mtChapter, verseStart, verseEnd }          → slice of MT chapter
+//   { mtChapter, verseStart, verseEnd, reorderArray } → slice, verses reordered
+//   array of the above           → multiple MT segments concatenated
 const JER_LXX_TO_MT = {
-    25: { mtChapter: 25, verseStart: 1,  verseEnd: 13 },
-    26: 46, 27: 50, 28: 51, 29: 47, 30: 49, 31: 48,
-    32: { mtChapter: 25, verseStart: 14, verseEnd: 38 },
+    // LXX 25:1–13 = MT 25:1–13; LXX 25:14–19 = MT 49:34–39; LXX 25:20 = MT 49:42
+    25: [
+        { mtChapter: 25, verseStart:  1, verseEnd: 13 },
+        { mtChapter: 49, verseStart: 34, verseEnd: 39 },
+        { mtChapter: 49, verseStart: 42, verseEnd: 42 },
+    ],
+    26: 46, 27: 50, 28: 51,
+    29: 47,                  // LXX 29:1–7 = MT 47 (7 verses)
+    // LXX 30:1–33 = MT 49:1–33, verses reordered (see JER_30_LXX_ORDER)
+    30: { mtChapter: 49, verseStart: 1, verseEnd: 33, reorderArray: JER_30_LXX_ORDER },
+    31: 48,
+    // LXX 32:1–24 = MT 25:15–38
+    32: { mtChapter: 25, verseStart: 15, verseEnd: 38 },
     33: 26, 34: 27, 35: 28, 36: 29, 37: 30, 38: 31,
     39: 32, 40: 33, 41: 34, 42: 35, 43: 36, 44: 37,
-    45: 38, 46: 39, 47: 40, 48: 41, 49: 42, 50: 43, 51: 44,
+    45: 38, 46: 39, 47: 40, 48: 41, 49: 42, 50: 43,
+    // LXX 51:1–30 = MT 44; LXX 51:31–35 = MT 45
+    51: [
+        { mtChapter: 44, verseStart:  1, verseEnd: 30 },
+        { mtChapter: 45, verseStart:  1, verseEnd:  5 },
+    ],
     52: 52,
 };
 
@@ -501,11 +577,15 @@ const JER_LXX_TO_MT = {
 const JER_MT_TO_LXX = {};
 for (const [lxxCh, val] of Object.entries(JER_LXX_TO_MT)) {
     const lxx = parseInt(lxxCh);
-    const mt  = typeof val === 'object' ? val.mtChapter : val;
-    if (!(mt in JER_MT_TO_LXX)) JER_MT_TO_LXX[mt] = lxx;
+    const entries = Array.isArray(val) ? val : [val];
+    for (const e of entries) {
+        const mt = typeof e === 'object' ? e.mtChapter : e;
+        if (!(mt in JER_MT_TO_LXX)) JER_MT_TO_LXX[mt] = lxx;
+    }
 }
 for (let i = 1; i <= 24; i++) JER_MT_TO_LXX[i] = i;
-JER_MT_TO_LXX[45] = 51;  // MT 45 has no LXX slot; map to nearest
+JER_MT_TO_LXX[45] = 51;  // MT 45 maps to LXX 51 (override: loop sets it to 25 via array entry)
+JER_MT_TO_LXX[49] = 30;  // MT 49 primarily maps to LXX 30 (override: loop sets it to 25 via array entry)
 
 
 // === PROVERBS ===
@@ -528,40 +608,93 @@ function hasStructureVariant(bookId) {
 }
 
 function getChapterContent(bookId, displayChapter, tradition) {
-    if (tradition !== 'septuagint' || !hasStructureVariant(bookId)) {
-        return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorder: false }];
+    // Masoretic always reads MT chapters directly (no remapping)
+    if (tradition === 'masoretic' || !hasStructureVariant(bookId)) {
+        return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorderArray: null }];
     }
 
     if (bookId === '1kgs') {
+        // Septuagint and Vulgate: chapters 20/21 swapped; chapter 8 verse reorder
         const mtCh = KINGS_CHAPTER_SWAP[displayChapter] ?? displayChapter;
-        return [{ mtChapter: mtCh, verseStart: null, verseEnd: null, reorder: (displayChapter === 8) }];
+        return [{ mtChapter: mtCh, verseStart: null, verseEnd: null, reorderArray: displayChapter === 8 ? KINGS_8_LXX_ORDER : null }];
     }
 
     if (bookId === 'jer') {
+        // Vulgate follows MT chapter structure for Jeremiah
+        if (tradition === 'vulgate') {
+            return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorderArray: null }];
+        }
+        // Septuagint: LXX 1–24 = MT 1–24 (identity)
         if (displayChapter >= 1 && displayChapter <= 24) {
-            return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorder: false }];
+            return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorderArray: null }];
         }
         const entry = JER_LXX_TO_MT[displayChapter];
         if (!entry) return [];
-        if (typeof entry === 'object') {
-            return [{ mtChapter: entry.mtChapter, verseStart: entry.verseStart, verseEnd: entry.verseEnd, reorder: false }];
+        if (Array.isArray(entry)) {
+            return entry.map(e => ({
+                mtChapter: e.mtChapter,
+                verseStart: e.verseStart ?? null,
+                verseEnd:   e.verseEnd   ?? null,
+                reorderArray: e.reorderArray ?? null,
+            }));
         }
-        return [{ mtChapter: entry, verseStart: null, verseEnd: null, reorder: false }];
+        if (typeof entry === 'object') {
+            return [{ mtChapter: entry.mtChapter, verseStart: entry.verseStart ?? null, verseEnd: entry.verseEnd ?? null, reorderArray: entry.reorderArray ?? null }];
+        }
+        return [{ mtChapter: entry, verseStart: null, verseEnd: null, reorderArray: null }];
     }
 
     if (bookId === 'prov') {
-        if (displayChapter === 24) return PROV_LXX_24_SEGMENTS.map(s => ({ ...s, reorder: false }));
+        // Septuagint and Vulgate: MT 30–31 redistributed into LXX 24 and 31
+        if (displayChapter === 24) return PROV_LXX_24_SEGMENTS.map(s => ({ ...s, reorderArray: null }));
         if (displayChapter === 30) return [];
-        if (displayChapter === 31) return [{ mtChapter: 31, verseStart: PROV_LXX_31_VERSE_START, verseEnd: null, reorder: false }];
-        return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorder: false }];
+        if (displayChapter === 31) return [{ mtChapter: 31, verseStart: PROV_LXX_31_VERSE_START, verseEnd: null, reorderArray: null }];
+        return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorderArray: null }];
     }
 
-    return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorder: false }];
+    return [{ mtChapter: displayChapter, verseStart: null, verseEnd: null, reorderArray: null }];
 }
 
 function isChapterEmpty(bookId, displayChapter, tradition) {
-    if (tradition !== 'septuagint') return false;
+    if (tradition !== 'septuagint' && tradition !== 'vulgate') return false;
     return bookId === 'prov' && displayChapter === 30;
+}
+
+function hasVulgateVariant(bookId) {
+    return bookId === 'gen' || bookId === 'jn' || bookId === '2cor';
+}
+
+// Merges verses that the Vulgate fuses into one.
+// Standard JSON keeps them separate; this function joins them at render time.
+function applyVulgateVerses(bookId, chapter, verses) {
+    if (bookId === 'gen' && chapter === 5) {
+        const v31 = verses.find(v => v.v === 31);
+        const v32 = verses.find(v => v.v === 32);
+        if (v31 && v32) {
+            return verses
+                .filter(v => v.v !== 32)
+                .map(v => v.v === 31 ? { ...v, text: v.text + ' ' + v32.text } : v);
+        }
+    }
+    if (bookId === 'jn' && chapter === 11) {
+        const v56 = verses.find(v => v.v === 56);
+        const v57 = verses.find(v => v.v === 57);
+        if (v56 && v57) {
+            return verses
+                .filter(v => v.v !== 57)
+                .map(v => v.v === 56 ? { ...v, text: v.text + ' ' + v57.text } : v);
+        }
+    }
+    if (bookId === '2cor' && chapter === 1) {
+        const v23 = verses.find(v => v.v === 23);
+        const v24 = verses.find(v => v.v === 24);
+        if (v23 && v24) {
+            return verses
+                .filter(v => v.v !== 24)
+                .map(v => v.v === 23 ? { ...v, text: v.text + ' ' + v24.text } : v);
+        }
+    }
+    return verses;
 }
 
 function convertChapter(bookId, chapter, fromTradition, toTradition) {
@@ -571,10 +704,13 @@ function convertChapter(bookId, chapter, fromTradition, toTradition) {
 
     if (bookId === 'jer') {
         if (fromTradition === 'masoretic') return JER_MT_TO_LXX[chapter] ?? chapter;
+        // septuagint → masoretic
         if (chapter >= 1 && chapter <= 24) return chapter;
         const entry = JER_LXX_TO_MT[chapter];
         if (!entry) return chapter;
-        return typeof entry === 'object' ? entry.mtChapter : entry;
+        if (Array.isArray(entry)) return entry[0].mtChapter;
+        if (typeof entry === 'object') return entry.mtChapter;
+        return entry;
     }
 
     if (bookId === 'prov') {
@@ -586,10 +722,6 @@ function convertChapter(bookId, chapter, fromTradition, toTradition) {
     }
 
     return chapter;
-}
-
-function getKings8LxxOrder() {
-    return KINGS_8_LXX_ORDER;
 }
 
 
@@ -627,7 +759,7 @@ document.addEventListener('DOMContentLoaded', () => {
         citationStyle: 'chicago',        // Citation format: 'chicago', 'mla', or 'apa'
         
         // Text Tradition (global)
-        textTradition: 'masoretic',      // 'masoretic' or 'septuagint'
+        textTradition: 'masoretic',      // 'masoretic' | 'septuagint' | 'vulgate'
         showSuperscription: false,       // Whether to show psalm superscriptions as verse 1
         
         // Canonical Verse Selection (always stored in Hebrew system, for Psalms only)
@@ -639,6 +771,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Prefetch Cache for instant book switching
         prefetchCache: {},               // { 'bookId:translationId': { chapters: [...] } }
+
+        // Chapter Superscription Cache
+        superscriptionCache: {},         // { 'translationId:bookId': { chapter: { verse: text } } }
     };
 
 
@@ -714,7 +849,7 @@ document.addEventListener('DOMContentLoaded', () => {
         state.prefetchCache[cacheKey] = { fetching: true };
         
         try {
-            const filePath = `data/translations/${transId}/${bookId}.json`;
+            const filePath = `data/translations/${transId}/books/${bookId}.json`;
             console.log(`Prefetch: Fetching ${bookId}...`);
             
             const response = await fetch(filePath);
@@ -812,6 +947,33 @@ document.addEventListener('DOMContentLoaded', () => {
         getBookIdByIndex: getBookIdByIndex,
         getCurrentBookId: getCurrentBookId
     };
+
+
+    /* =========================================================================
+     * SECTION 3.6: CHAPTER SUPERSCRIPTION LOADER
+     * =========================================================================
+     * Lazy-loads {bookId}-superscriptions.json for the current translation and
+     * caches it as a nested lookup { chapter → { verse → text } }.
+     */
+
+    async function loadChapterSuperscriptions(bookId) {
+        if (!state.currentTranslationMeta?.['has-chapter-superscriptions']) return;
+        const cacheKey = `${state.translationId}:${bookId}`;
+        if (state.superscriptionCache[cacheKey] !== undefined) return;  // already loaded/attempted
+        try {
+            const r = await fetch(`data/translations/${state.translationId}/superscriptions/${bookId}-superscriptions.json`);
+            if (!r.ok) { state.superscriptionCache[cacheKey] = {}; return; }
+            const data = await r.json();
+            const lookup = {};
+            for (const entry of data.superscriptions) {
+                if (!lookup[entry.chapter]) lookup[entry.chapter] = {};
+                lookup[entry.chapter][entry.verse] = entry.text;
+            }
+            state.superscriptionCache[cacheKey] = lookup;
+        } catch {
+            state.superscriptionCache[cacheKey] = {};
+        }
+    }
 
 
     /* =========================================================================
@@ -1286,6 +1448,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (globalCatalog.authors) {
             globalCatalog.authors.forEach(author => {
+                if (state.orthodoxyMode && !author.orthodox) return;
                 if (author.works) {
                     author.works.forEach(work => {
                         if (work.language) {
@@ -1323,6 +1486,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!globalCatalog.authors) return;
 
         const matchingAuthors = globalCatalog.authors.filter(author =>
+            (!state.orthodoxyMode || author.orthodox) &&
             author.works && author.works.some(work =>
                 currentLang === 'all' || work.language === currentLang
             )
@@ -1364,6 +1528,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const matchingWorks = [];
         globalCatalog.authors.forEach(author => {
+            if (state.orthodoxyMode && !author.orthodox) return;
             if (currentAuthorId !== 'all' && author.id !== currentAuthorId) return;
 
             if (author.works) {
@@ -1591,14 +1756,21 @@ document.addEventListener('DOMContentLoaded', () => {
      * @returns {Promise<void>}
      */
     async function loadChapterText() {
+        // Load chapter superscriptions lazily when the toggle is on
+        if (state.showSuperscription) await loadChapterSuperscriptions(state.bookId);
+
         // For Psalms with phantom psalm support, use special loader
         if (state.bookId === 'ps') {
             await loadPsalmChapterText();
             return;
         }
 
-        // For LXX mode with structurally-variant books, use the LXX reshuffler
-        if (state.textTradition === 'septuagint' && hasStructureVariant(state.bookId)) {
+        // For LXX/Vulgate mode with structurally-variant books, use the LXX reshuffler.
+        // Exception: Vulgate Jeremiah uses MT chapter structure, not LXX.
+        const useLxxLoader = (state.textTradition === 'septuagint' || state.textTradition === 'vulgate')
+                          && hasStructureVariant(state.bookId)
+                          && !(state.bookId === 'jer' && state.textTradition === 'vulgate');
+        if (useLxxLoader) {
             await loadLxxChapterText();
             return;
         }
@@ -1620,7 +1792,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 // Not prefetched - fetch normally
                 try {
-                    const filePath = `data/translations/${state.translationId}/${state.bookId}.json`;
+                    const filePath = `data/translations/${state.translationId}/books/${state.bookId}.json`;
                     console.log(`Fetching Book: ${filePath}`);
 
                     const response = await fetch(filePath);
@@ -1652,8 +1824,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (chapterObj) {
             elements.display.biblePanel.innerHTML = "";
             renderHeaders();
-            renderVerses(chapterObj.verses);
-            
+            let verses = chapterObj.verses;
+            if (state.textTradition === 'vulgate' && hasVulgateVariant(state.bookId)) {
+                verses = applyVulgateVerses(state.bookId, targetChapter, verses);
+            }
+            renderVerses(verses);
+
             // Draft commentaries for this chapter
             draftChampionsForChapter(state.bookId, state.chapter);
         } else {
@@ -1699,7 +1875,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 delete state.prefetchCache[cacheKey];
             } else {
                 try {
-                    const filePath = `data/translations/${state.translationId}/${bookId}.json`;
+                    const filePath = `data/translations/${state.translationId}/books/${bookId}.json`;
                     console.log(`Fetching Book (LXX): ${filePath}`);
                     const response = await fetch(filePath);
                     if (!response.ok) throw new Error("File not found");
@@ -1714,7 +1890,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Assemble verses from all segments in LXX order
-        const kings8Order = getKings8LxxOrder();
         let allVerses = [];
         const firstMtChapter = segments[0].mtChapter;
 
@@ -1733,11 +1908,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 verses = verses.filter(v => v.v <= seg.verseEnd);
             }
 
-            // 1 Kings ch.8: reorder verses into LXX display order
-            if (seg.reorder) {
+            // Reorder verses when the LXX presents them in a different sequence
+            if (seg.reorderArray) {
                 const verseMap = {};
                 verses.forEach(v => { verseMap[v.v] = v; });
-                verses = kings8Order.map(mtV => verseMap[mtV]).filter(Boolean);
+                verses = seg.reorderArray.map(mtV => verseMap[mtV]).filter(Boolean);
             }
 
             verses.forEach(v => {
@@ -1839,12 +2014,15 @@ document.addEventListener('DOMContentLoaded', () => {
      * Loads one or more file chapters and combines them into a single display psalm.
      */
     async function loadPsalmChapterText() {
+        // Load chapter superscriptions lazily when the toggle is on
+        if (state.showSuperscription) await loadChapterSuperscriptions(state.bookId);
+
         const displayPsalm = parseInt(state.chapter);
         const translationSystem = state.currentTranslationMeta?.['psalms-structure'] || 'hebrew';
         const translationHasSuperscription = state.currentTranslationMeta?.['psalms-superscription'] || false;
         
         // Get the file chapter(s) we need to load
-        const psalmSystem = state.textTradition === 'septuagint' ? 'greek' : 'hebrew';
+        const psalmSystem = state.textTradition !== 'masoretic' ? 'greek' : 'hebrew';
         const fileChapters = getFileChaptersForDisplayPsalm(displayPsalm, psalmSystem, translationSystem);
 
         console.log(`Loading Psalm ${displayPsalm} (${psalmSystem}), need file chapters:`, fileChapters);
@@ -1864,7 +2042,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 // Not prefetched - fetch normally
                 try {
-                    const filePath = `data/translations/${state.translationId}/ps.json`;
+                    const filePath = `data/translations/${state.translationId}/books/ps.json`;
                     console.log(`Fetching Psalms: ${filePath}`);
 
                     const response = await fetch(filePath);
@@ -1952,7 +2130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const display = canonicalToDisplay(
                 canonicalPsalm,
                 canonicalVerse,
-                state.textTradition === 'septuagint' ? 'greek' : 'hebrew',
+                state.textTradition !== 'masoretic' ? 'greek' : 'hebrew',
                 state.showSuperscription
             );
             
@@ -1960,12 +2138,25 @@ document.addEventListener('DOMContentLoaded', () => {
             if (display === null) {
                 return;
             }
-            
+
             const displayVerse = display.verse;
-            
+
+            // Chapter superscription: inject above the first visible verse of each file chapter
+            if (state.showSuperscription && verseObj.fileChapter !== lastFileChapter) {
+                const cacheKey = `${state.translationId}:ps`;
+                const supText = state.superscriptionCache[cacheKey]?.[verseObj.fileChapter]?.[1];
+                if (supText) {
+                    const supEl = document.createElement('p');
+                    supEl.className = 'chapter-superscription';
+                    supEl.insertAdjacentHTML('beforeend', supText);
+                    elements.display.biblePanel.appendChild(supEl);
+                }
+                lastFileChapter = verseObj.fileChapter;
+            }
+
             const pTag = document.createElement('p');
             pTag.className = "verse";
-            
+
             // Store canonical reference as data attributes
             pTag.dataset.canonicalPsalm = canonicalPsalm;
             pTag.dataset.canonicalVerse = canonicalVerse;
@@ -2171,12 +2362,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (totalChapters > 1) {
             const chapterTag = document.createElement('h2');
             
-            // For Psalms: state.chapter is already in display numbering system
-            if (state.bookId === 'ps') {
-                chapterTag.textContent = `Psalm ${state.chapter}`;
-            } else {
-                chapterTag.textContent = `Chapter ${state.chapter}`;
-            }
+            chapterTag.textContent = toRoman(parseInt(state.chapter));
             
             headerWrapper.appendChild(chapterTag);
         }
@@ -2202,9 +2388,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalChapters = parseInt(selectedOption?.dataset.chapters || "1");
 
         verses.forEach(verseObj => {
+            // Chapter superscription: inject above the attributed verse
+            if (state.showSuperscription) {
+                const cacheKey = `${state.translationId}:${state.bookId}`;
+                const supText = state.superscriptionCache[cacheKey]?.[state.chapter]?.[verseObj.v];
+                if (supText) {
+                    const supEl = document.createElement('p');
+                    supEl.className = 'chapter-superscription';
+                    supEl.insertAdjacentHTML('beforeend', supText);
+                    elements.display.biblePanel.appendChild(supEl);
+                }
+            }
+
             const pTag = document.createElement('p');
             pTag.className = "verse";
-            
+
             // Format verse reference based on book type
             // Multi-chapter: "John 1:1" | Single-chapter: "3 John 1"
             const verseRef = totalChapters > 1 
@@ -2327,7 +2525,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const displayRef = canonicalToDisplay(
                 state.canonicalPsalm,
                 state.canonicalVerse,
-                state.textTradition === 'septuagint' ? 'greek' : 'hebrew',
+                state.textTradition !== 'masoretic' ? 'greek' : 'hebrew',
                 state.showSuperscription
             );
             
@@ -2394,6 +2592,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Refresh all filtered lists
         loadTranslationList();
+        populateLanguageDropdown();
+        populateAuthorDropdown();
+        populateWorkDropdown();
         draftChampionsForChapter(state.bookId, state.chapter);
     });
 
@@ -2431,14 +2632,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const superscriptionBtn = document.getElementById('psalm-superscription-btn');
 
         if (traditionBtn) {
-            traditionBtn.textContent = state.textTradition === 'masoretic'
-                ? 'Masoretic'
-                : 'Septuagint';
+            traditionBtn.textContent = state.textTradition === 'masoretic' ? 'Masoretic'
+                : state.textTradition === 'septuagint' ? 'Septuagint'
+                : 'Vulgate';
         }
 
         if (superscriptionBtn) {
-            // Show superscription toggle only when viewing Psalms
-            superscriptionBtn.style.display = (state.bookId === 'ps') ? '' : 'none';
+            // Show toggle when translation has chapter superscriptions (all books),
+            // or when viewing Psalms and the translation has psalm-verse superscriptions
+            const hasChapterSups = !!state.currentTranslationMeta?.['has-chapter-superscriptions'];
+            const hasPsalmSups   = !!state.currentTranslationMeta?.['psalms-superscription'] && state.bookId === 'ps';
+            superscriptionBtn.style.display = (hasChapterSups || hasPsalmSups) ? '' : 'none';
             superscriptionBtn.textContent = state.showSuperscription
                 ? 'With Superscriptions'
                 : 'Without Superscriptions';
@@ -2467,7 +2671,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const display = canonicalToDisplay(
                     state.canonicalPsalm,
                     state.canonicalVerse,
-                    state.textTradition === 'septuagint' ? 'greek' : 'hebrew',
+                    state.textTradition !== 'masoretic' ? 'greek' : 'hebrew',
                     state.showSuperscription
                 );
                 
@@ -2499,19 +2703,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     traditionBtn.addEventListener('click', async () => {
         const oldTradition = state.textTradition;
-        const newTradition = oldTradition === 'masoretic' ? 'septuagint' : 'masoretic';
+        const newTradition = oldTradition === 'masoretic' ? 'septuagint'
+                           : oldTradition === 'septuagint' ? 'vulgate'
+                           : 'masoretic';
 
-        // Convert current chapter to the equivalent in the new tradition
-        if (state.bookId === 'ps') {
-            const oldSys = oldTradition === 'septuagint' ? 'greek' : 'hebrew';
-            const newSys = newTradition === 'septuagint' ? 'greek' : 'hebrew';
-            state.chapter = convertDisplayPsalm(state.chapter, oldSys, newSys);
-            elements.pickers.chapter.value = state.chapter;
-            syncChapterPickerDisplay();
-        } else if (hasStructureVariant(state.bookId)) {
-            state.chapter = convertChapter(state.bookId, state.chapter, oldTradition, newTradition);
-            elements.pickers.chapter.value = state.chapter;
-            syncChapterPickerDisplay();
+        // Whether a tradition uses LXX chapter structure for the current book.
+        // Psalms: both Septuagint and Vulgate use Greek numbering.
+        // Jeremiah: only Septuagint uses LXX chapters; Vulgate follows MT (like Masoretic).
+        const isLxxLike = t => {
+            if (state.bookId === 'jer') return t === 'septuagint';
+            return t === 'septuagint' || t === 'vulgate';
+        };
+
+        // Convert chapter only when crossing the masoretic/lxx boundary
+        if (!(isLxxLike(oldTradition) && isLxxLike(newTradition))) {
+            const fromTrad = isLxxLike(oldTradition) ? 'septuagint' : 'masoretic';
+            const toTrad   = isLxxLike(newTradition) ? 'septuagint' : 'masoretic';
+
+            if (state.bookId === 'ps') {
+                const oldSys = isLxxLike(oldTradition) ? 'greek' : 'hebrew';
+                const newSys = isLxxLike(newTradition) ? 'greek' : 'hebrew';
+                state.chapter = convertDisplayPsalm(state.chapter, oldSys, newSys);
+                elements.pickers.chapter.value = state.chapter;
+                syncChapterPickerDisplay();
+            } else if (hasStructureVariant(state.bookId)) {
+                state.chapter = convertChapter(state.bookId, state.chapter, fromTrad, toTrad);
+                elements.pickers.chapter.value = state.chapter;
+                syncChapterPickerDisplay();
+            }
         }
 
         // Update state
@@ -2520,11 +2739,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update button text
         updateStructureButtonLabels();
 
-        // Re-render the current chapter
+        // Re-render when the book is affected by the tradition change
         if (state.bookId === 'ps') {
             await loadChapterText();
             restorePsalmVerseSelection();
-        } else if (hasStructureVariant(state.bookId)) {
+        } else if (hasStructureVariant(state.bookId) || hasVulgateVariant(state.bookId)) {
             await loadChapterText();
         }
     });
@@ -2542,11 +2761,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update button text
         updateStructureButtonLabels();
 
-        // Re-render if we're in Psalms
-        if (state.bookId === 'ps') {
-            await loadChapterText();
-            restorePsalmVerseSelection();
-        }
+        // Re-render current chapter (for all books, not just Psalms)
+        await loadChapterText();
+        if (state.bookId === 'ps') restorePsalmVerseSelection();
     });
 
     // Set initial structure button labels
@@ -2568,11 +2785,11 @@ document.addEventListener('DOMContentLoaded', () => {
      * 3. Translation metadata
      * 4. Book list (which triggers chapter list ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ chapter text)
      */
-    async function init() {
-        await loadCatalog();
+    function init() {
+        loadCatalog();            // fires independently — populates filter dropdowns when done
         loadTranslationList();
         loadMetadata(state.translationId);
-        loadBookList();
+        loadBookList();           // triggers loadChapterList → loadChapterText
     }
 
     // Start the app!

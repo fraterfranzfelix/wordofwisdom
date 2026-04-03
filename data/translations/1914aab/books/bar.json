@@ -1,0 +1,886 @@
+{
+   "chapters": [
+      {
+         "chapter": 1,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Dies sind die Worte des Buches, welche Baruch, der Sohn Nerias', des Sohnes Maasias', des Sohnes Sedekias', des Sohnes Sedeis, des Sohnes Helkias', in Babylon geschrieben hat,"
+            },
+            {
+               "v": 2,
+               "text": "im fünften Jahr, am siebenten Tage des Monats, zur Zeit, als die Chaldäer Jerusalem erobert und niedergebrannt hatten."
+            },
+            {
+               "v": 3,
+               "text": "Und Baruch las die Worte dieses Buches vor den Ohren Jechonias', des Sohnes Joakims, des Königs von Juda, und vor den Ohren des ganzen Volkes, welches gekommen war, das Buch zu hören,"
+            },
+            {
+               "v": 4,
+               "text": "und vor den Ohren der Mächtigen, der Königssöhne, und vor den Ohren der Ältesten und vor den Ohren des Volkes, vom Kleinsten bis zum Größten, vor allen, die in Babylon, am Flusse Sodi, wohnten."
+            },
+            {
+               "v": 5,
+               "text": "Und da sie es hörten, weinten sie und fasteten und beteten vor dem Herrn."
+            },
+            {
+               "v": 6,
+               "text": "Und sie legten Geld zusammen, wie die Hand eines jeden zu geben vermochte,"
+            },
+            {
+               "v": 7,
+               "text": "und sandten es nach Jerusalem an Joakim, den Sohn des Helkias, des Sohnes Saloms, den Priester, und an die Priester und das ganze Volk, das sich bei ihm zu Jerusalem befand,"
+            },
+            {
+               "v": 8,
+               "text": "damals, als Baruch die Gefäße des Tempels des Herrn, die aus dem Tempel weggeschleppt waren, erhalten hatte, am zehnten Tage des Monats Sivan, um sie in das Land Juda zurückzubringen, nämlich die silbernen Gefäße, welche Sedekias, der Sohn Josias', der König von Juda, hatte machen lassen,"
+            },
+            {
+               "v": 9,
+               "text": "nachdem Nabuchodonosor, der König von Babylon, den Jechonias und die Fürsten und alle Mächtigen und das Volk des Landes von Jerusalem weggeführt und sie gefangen nach Babylon gebracht hatte."
+            },
+            {
+               "v": 10,
+               "text": "Und sie sprachen: Sehet, wir senden euch Geld; kaufet dafür Brandopfer und Weihrauch und bereitet Speiseopfer und bringet Sündopfer auf dem Altare des Herrn, unseres Gottes, dar."
+            },
+            {
+               "v": 11,
+               "text": "und betet für das Leben Nabuchodonosors, des Königs von Babylon, und für das Leben Balthasars, seines Sohnes, dass ihre Tage den Tagen des Himmels gleich seien auf Erden"
+            },
+            {
+               "v": 12,
+               "text": "und dass der Herr uns Stärke verleihe und unsere Augen erleuchte, damit wir unter dem Schatten Nabuchodonosors, des Königs von Babylon, und unter dem Schatten Balthasars, seines Sohnes, leben mögen und wir denselben dienen viele Tage und Gnade finden vor ihnen."
+            },
+            {
+               "v": 13,
+               "text": "Auch betet für uns selbst zu dem Herrn, unserm Gotte; denn wir haben wider den Herrn, unsern Gott, gesündigt und sein Grimm hat sich von uns nicht abgewendet bis auf diesen Tag."
+            },
+            {
+               "v": 14,
+               "text": "Und leset die Schrift, welche wir euch senden, dass sie im Tempel des Herrn an den Festtagen an geeigneten Tagen vorgetragen werde,"
+            },
+            {
+               "v": 15,
+               "text": "und sprechet: Des Herrn, unsers Gottes ist die Gerechtigkeit, uns aber gebührt Beschämung unseres Angesichtes, wie es heute der Fall ist an ganz Juda und den Bewohnern von Jerusalem,"
+            },
+            {
+               "v": 16,
+               "text": "an unsern Königen und unsern Fürsten, unsern Priestern und unsern Propheten und unsern Vätern."
+            },
+            {
+               "v": 17,
+               "text": "Wir haben gesündigt vor dem Herrn, unserm Gott, und haben nicht geglaubt und nicht auf ihn vertraut"
+            },
+            {
+               "v": 18,
+               "text": "und wir sind ihm nicht untertänig gewesen und haben nicht auf die Stimme des Herrn, unseres Gottes, gehört, dass wir nach seinen Geboten gewandelt wären, welche er uns gegeben."
+            },
+            {
+               "v": 19,
+               "text": "Von dem Tage an, da er unsere Väter aus dem Lande Ägypten führte, bis auf diesen Tag waren wir ungelehrig gegen den Herrn, unsern Gott, und säumig und hielten uns fern, um seine Stimme nicht zu hören."
+            },
+            {
+               "v": 20,
+               "text": "So heftete sich denn viel Unglück und Fluch an unsere Füße, wie der Herr es durch Moses, seinen Diener, bestimmt, der unsere Väter aus dem Lande Ägypten führte, um uns ein Land zu geben, das von Milch und Honig fließt, wie es heutigestags der Fall ist."
+            },
+            {
+               "v": 21,
+               "text": "Und wir haben nicht auf die Stimme des Herrn, unseres Gottes, gehört, auf alles, was die Propheten, die er zu uns gesandt hat, gesprochen haben;"
+            },
+            {
+               "v": 22,
+               "text": "sondern sind hingegangen, ein jeder nach dem Sinne seines bösen Herzens, um fremden Göttern zu dienen und zu tun, was böse ist in den Augen des Herrn, unsers Gottes."
+            }
+         ]
+      },
+      {
+         "chapter": 2,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Darum hat der Herr, unser Gott, sein Wort in Erfüllung gehen lassen, das er wider uns und wider unsere Richter, welche Israel richteten, und wider unsere Könige und wider unsere Fürsten und wider ganz Israel und Juda gesprochen,"
+            },
+            {
+               "v": 2,
+               "text": "so dass er ein großes Unheil über uns kommen ließ, wie es unter dem Himmel noch nicht geschehen, nun aber Jerusalem betroffen hat, so wie es im Gesetze Moses geschrieben ist,"
+            },
+            {
+               "v": 3,
+               "text": "dass man das Fleisch seines Sohnes und das Fleisch seiner Tochter essen würde."
+            },
+            {
+               "v": 4,
+               "text": "Und er unterwarf sie der Macht aller Könige ringsum uns her, zur Schmach und zur Misshandlung unter allen Völkern, unter welche uns der Herr zerstreut hat."
+            },
+            {
+               "v": 5,
+               "text": "Wir sind unterdrückt und nicht Herren, denn wir haben wider den Herrn, unsern Gott, gesündigt und seiner Stimme nicht gehorcht."
+            },
+            {
+               "v": 6,
+               "text": "Des Herrn, unseres Gottes, ist die Gerechtigkeit; uns aber und unseren Vätern gebührt Beschämung des Antlitzes, wie es denn jetzt der Fall ist."
+            },
+            {
+               "v": 7,
+               "text": "Der Herr hat all dieses Übel, das über uns gekommen, über uns ausgesprochen"
+            },
+            {
+               "v": 8,
+               "text": "und wir flehten nicht zu dem Herrn, unserm Gott, dass sich ein jeder von uns von seinen schlimmen Wegen bekehrt hätte."
+            },
+            {
+               "v": 9,
+               "text": "Darum wachte der Herr über unser Unheil und ließ es über uns kommen, denn der Herr ist gerecht in all seinem Tun, auf das hin er uns Gebote gegeben;"
+            },
+            {
+               "v": 10,
+               "text": "und wir hörten nicht auf seine Stimme, dass wir nach den Geboten des Herrn gewandelt wären, die er uns vor Augen gestellt."
+            },
+            {
+               "v": 11,
+               "text": "Und nun, o Herr, Gott Israels! der du dein Volk aus dem Lande Ägypten mit starker Hand geführt hast, mit Zeichen und Wundern, in deiner großen Kraft und mit erhobenem Arme, und dir einen Namen gemacht hast, wie es an diesem Tage der Fall ist;"
+            },
+            {
+               "v": 12,
+               "text": "wir haben gesündigt, haben gottlos gehandelt, haben Unrecht getan, o Herr, unser Gott! wider alle deine Gebote."
+            },
+            {
+               "v": 13,
+               "text": "Es wende sich dein Zorn von uns ab, denn wenige sind wir übriggelassen unter den Völkern, unter die du uns zerstreut hast."
+            },
+            {
+               "v": 14,
+               "text": "Erhöre, Herr! unser Flehen und unser Gebet und rette uns um deinetwillen; lass uns Gnade finden vor dem Angesichte derer, die uns weggeführt haben,"
+            },
+            {
+               "v": 15,
+               "text": "auf dass die ganze Erde inne werde, dass du der Herr, unser Gott, bist, und dass dein Name über Israel und dessen Geschlecht angerufen ist."
+            },
+            {
+               "v": 16,
+               "text": "Blicke auf uns, o Herr! von deinem heiligen Hause her und neige dein Ohr und erhöre uns."
+            },
+            {
+               "v": 17,
+               "text": "Tue deine Augen auf und siehe; denn nicht die Toten in der Unterwelt, deren Geist aus ihrem Leibe genommen, werden der Gerechtigkeit des Herrn Preis und Ehre darbringen;"
+            },
+            {
+               "v": 18,
+               "text": "sondern die Seele, welche über die Größe des Unglücks betrübt ist und gebeugt und kraftlos einhergeht, und die ermatteten Augen und die Mangel leidende Seele, sie werden dir, dem Herrn, Ehre und Rechtfertigung darbringen."
+            },
+            {
+               "v": 19,
+               "text": "Denn nicht ob der Gerechtigkeit unserer Väter bringen wir unser Flehen dar und bitten um Barmherzigkeit vor deinem Angesichte, Herr, unser Gott!"
+            },
+            {
+               "v": 20,
+               "text": "sondern weil du deinen Zorn und deinen Grimm über uns gesandt hast, wie du durch deine Diener, die Propheten, gesprochen und gesagt hast:"
+            },
+            {
+               "v": 21,
+               "text": "So spricht der Herr: Beuget eure Schulter und euern Nacken und seid dem Könige von Babylon untertan, so werdet ihr in dem Lande wohnen bleiben, welches ich euern Vätern gegeben habe."
+            },
+            {
+               "v": 22,
+               "text": "Wenn ihr aber nicht auf die Stimme des Herrn, eures Gottes, hört und dem Könige von Babylon nicht dienstbar sein wollt, so werde ich euch aus den Städten von Juda und aus Jerusalem verstoßen"
+            },
+            {
+               "v": 23,
+               "text": "und werde den Ruf des Jubels und den Schall der Freude, die Stimme des Bräutigams und die Stimme der Braut bei euch verstummen machen und das ganze Land soll unwegsam werden ohne Bewohner!"
+            },
+            {
+               "v": 24,
+               "text": "Doch sie hörten nicht auf deine Stimme, dass sie dem Könige von Babylon dienstbar geworden wären, und so hast du deine Worte erfüllt, die du durch deine Diener, die Propheten, gesprochen, dass die Gebeine unserer Könige und die Gebeine unserer Väter von ihrer Stätte weggenommen werden sollten:"
+            },
+            {
+               "v": 25,
+               "text": "und siehe, sie liegen der Glut der Sonne und der Kälte der Nacht preisgegeben, nachdem jene unter peinigenden Schmerzen durch Hunger und Schwert und Vertreibung gestorben sind."
+            },
+            {
+               "v": 26,
+               "text": "Und den Tempel, in dem dein Name angerufen ward, hast du in den Stand versetzt, in dem er heute ist, ob der Verschuldung des Hauses Israel und des Hauses Juda."
+            },
+            {
+               "v": 27,
+               "text": "Gegen uns aber, Herr, unser Gott! hast du nach all deiner Güte und nach all deiner so großen Barmherzigkeit gehandelt,"
+            },
+            {
+               "v": 28,
+               "text": "wie du durch deinen Diener Moses gesprochen an dem Tage, da du ihm befahlst, dein Gesetz vor den Söhnen Israels aufzuschreiben,"
+            },
+            {
+               "v": 29,
+               "text": "indem du sprachst: Wenn ihr nicht auf meine Stimme hört, so soll diese große Menge zu einer winzigen Schar werden unter den Völkern, unter die ich sie zerstreuen werde;"
+            },
+            {
+               "v": 30,
+               "text": "denn ich weiß, dass dies Volk nicht auf mich hört, da es ein halsstarriges Volk ist; dort im Lande seiner Gefangenschaft wird es in sich gehen"
+            },
+            {
+               "v": 31,
+               "text": "und sie werden erkennen, dass ich der Herr, ihr Gott bin, und ich werde ihnen ein Herz geben, dass sie einsehen, und Ohren, dass sie hören,"
+            },
+            {
+               "v": 32,
+               "text": "und sie werden mich preisen im Lande ihrer Gefangenschaft und meines Namens eingedenk sein."
+            },
+            {
+               "v": 33,
+               "text": "Und sie werden sich von ihrer Störrigkeit und ihren bösen Taten abwenden; weil sie sich erinnern werden, wie es ihren Vätern ergangen ist, die gegen mich gesündigt haben."
+            },
+            {
+               "v": 34,
+               "text": "Dann will ich sie zurückrufen in das Land, das ich ihren Vätern Abraham, Isaak und Jakob zugeschworen habe, und sie sollen darin herrschen und ich will sie mehren und sie sollen nicht gering werden an Zahl."
+            },
+            {
+               "v": 35,
+               "text": "Und ich will mit ihnen einen anderen, ewigen Bund schließen, so dass ich ihr Gott und sie mein Volk sein werden, und nicht mehr will ich mein Volk, die Kinder Israels, aus dem Lande vertreiben, welches ich ihnen gegeben habe."
+            }
+         ]
+      },
+      {
+         "chapter": 3,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Und nun, allmächtiger Herr, Gott Israels! eine geängstete Seele und ein bekümmerter Geist ruft zu dir."
+            },
+            {
+               "v": 2,
+               "text": "Höre, o Herr! und erbarme dich, du bist ja ein barmherziger Gott, erbarme dich unser, denn wir haben gesündigt vor dir."
+            },
+            {
+               "v": 3,
+               "text": "Denn du thronst in Ewigkeit und wir sollten auf immer verloren gehen?"
+            },
+            {
+               "v": 4,
+               "text": "Allmächtiger Herr, Gott Israels! erhöre nun das Gebet der Gestorbenen Israels und ihrer Kinder, die vor dir gesündigt und nicht auf die Stimme des Herrn, ihres Gottes, gehört haben, weshalb auch Unglück über Unglück über uns gekommen ist."
+            },
+            {
+               "v": 5,
+               "text": "Gedenke nicht der Missetaten unserer Väter, sondern gedenke deiner Hand und deines Namens zu dieser Zeit;"
+            },
+            {
+               "v": 6,
+               "text": "denn du bist der Herr, unser Gott, und wir wollen dich preisen, Herr!"
+            },
+            {
+               "v": 7,
+               "text": "Denn darum hast du uns die Furcht vor dir in das Herz gegeben, dass wir deinen Namen anrufen und dich preisen in unserer Gefangenschaft, weil wir uns von dem Unrecht unserer Väter abwenden, die vor dir gesündigt haben."
+            },
+            {
+               "v": 8,
+               "text": "Siehe, wir sind jetzt in unserer Gefangenschaft, in die du uns zerstreut hast zur Schmach, zum Fluch und zur Strafe für die Sünden, ob aller Missetaten unserer Väter, welche von dir abgefallen sind, Herr, unser Gott!"
+            },
+            {
+               "v": 9,
+               "text": "Vernimm, Israel! die Gebote des Lebens, merke auf, damit du Einsicht lernest."
+            },
+            {
+               "v": 10,
+               "text": "Wie kommt es, Israel! dass du in dem Lande der Feinde bist?"
+            },
+            {
+               "v": 11,
+               "text": "Du bist abgezehrt in fremdem Lande, verunreinigt bist du mit den Toten, wurdest zu denen gezählt, die in die Unterwelt hinabsteigen."
+            },
+            {
+               "v": 12,
+               "text": "Du hast die Quelle der Weisheit verlassen;"
+            },
+            {
+               "v": 13,
+               "text": "denn wärest du Gottes Wege gewandelt, so würdest du in Frieden wohnen auf ewig."
+            },
+            {
+               "v": 14,
+               "text": "Lerne, wo Klugheit ist, wo Stärke, wo Einsicht, auf dass du zugleich erkennest, wo langes Leben und Bestand, wo Licht der Augen und Friede."
+            },
+            {
+               "v": 15,
+               "text": "Wer hat ihre Stätte gefunden und wer ist eingedrungen in ihre Schatzkammern?"
+            },
+            {
+               "v": 16,
+               "text": "Wo sind die Herrscher der Völker und die, welche über die Tiere auf Erden gebieten,"
+            },
+            {
+               "v": 17,
+               "text": "die sich an den Vögeln des Himmels spielend ergötzen,"
+            },
+            {
+               "v": 18,
+               "text": "die Silber und Gold aufhäufen, auf welches die Menschen ihr Vertrauen setzen und das sie ruhelos zu erwerben trachten; die Silber verarbeiten und darum besorgt sind und deren Bemühungen unergründlich sind?"
+            },
+            {
+               "v": 19,
+               "text": "Sie sind vertilgt, in die Unterwelt hinabgestiegen und andere sind an ihre Statt getreten!"
+            },
+            {
+               "v": 20,
+               "text": "Jüngere schauten das Licht und wohnten auf Erden, aber den Weg der Zucht erkannten sie nicht"
+            },
+            {
+               "v": 21,
+               "text": "und verstanden deren Pfade nicht; auch deren Söhne erfassten sie nicht, sondern sie blieb fern von ihnen."
+            },
+            {
+               "v": 22,
+               "text": "Nicht ward sie im Lande Chanaan gehört noch in Theman gesehen."
+            },
+            {
+               "v": 23,
+               "text": "Auch die Söhne der Agar, welche zwar die irdische Klugheit suchen, die Kaufleute von Merrha und Theman und die Erdichter von Fabeln und die Forscher nach Klugheit und Einsicht erkannten den Weg der Weisheit nicht noch gedachten sie an ihre Pfade."
+            },
+            {
+               "v": 24,
+               "text": "O Israel, wie groß ist das Haus Gottes, wie ungeheuer die Stätte seines Besitztums!"
+            },
+            {
+               "v": 25,
+               "text": "Groß ist sie und endlos! Hoch und unermesslich!"
+            },
+            {
+               "v": 26,
+               "text": "Dort waren die Riesen, jene vielgenannten, die in der Vorzeit lebten, gewaltigen Wuchses, kundig des Krieges."
+            },
+            {
+               "v": 27,
+               "text": "Nicht diese erwählte der Herr und sie fanden den Weg zur Erkenntnis nicht, deshalb kamen sie auch um."
+            },
+            {
+               "v": 28,
+               "text": "Weil sie die Weisheit nicht hatten, gingen sie durch ihre Torheit zugrunde."
+            },
+            {
+               "v": 29,
+               "text": "Wer ist in den Himmel aufgefahren und hat sie geholt und herabgebracht aus den Wolken?"
+            },
+            {
+               "v": 30,
+               "text": "Wer hat das Meer durchschifft und sie gefunden? Wer hat sie herbeigebracht für auserlesenes Gold?"
+            },
+            {
+               "v": 31,
+               "text": "Niemand vermag die Wege zu ihr zu erkennen noch die Pfade zu ihr zu erkunden,"
+            },
+            {
+               "v": 32,
+               "text": "doch der Allwissende kennt sie und durch seine Einsicht hat er sie gefunden, der die Erde für ewige Zeit gegründet und sie mit allerlei Getier erfüllt hat,"
+            },
+            {
+               "v": 33,
+               "text": "der das Licht entsendet und es wandelt, der es ruft und es gehorcht ihm mit Zittern."
+            },
+            {
+               "v": 34,
+               "text": "Die Sterne aber leuchteten auf ihren Warten und jauchzten,"
+            },
+            {
+               "v": 35,
+               "text": "sie wurden gerufen und sprachen: Da sind wir! Und sie leuchteten mit Freuden vor ihrem Schöpfer!"
+            },
+            {
+               "v": 36,
+               "text": "Dieser ist unser Gott, ein anderer ist ihm nicht zu vergleichen!"
+            },
+            {
+               "v": 37,
+               "text": "Er erkundete alle Wege zur Weisheit und lehrte sie Jakob, seinen Diener, und Israel, seinen Geliebten."
+            },
+            {
+               "v": 38,
+               "text": "Darnach ward er auf Erden gesehen und ist unter den Menschen gewandelt."
+            }
+         ]
+      },
+      {
+         "chapter": 4,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Diese ist das Buch der Gebote Gottes und das Gesetz, das in Ewigkeit gilt; alle, die an ihr festhalten, gelangen zum Leben, die sie aber verlassen, fallen dem Tode anheim."
+            },
+            {
+               "v": 2,
+               "text": "Bekehre dich, Jakob! und erfasse es; wandle den Weg dem Glanze zu, der von seinem Lichte strahlt."
+            },
+            {
+               "v": 3,
+               "text": "Überlass deine Ehre keinem andern und deine Würde keinem fremden Volke."
+            },
+            {
+               "v": 4,
+               "text": "Selig sind wir, Israel! denn was Gott wohlgefällt, ist uns geoffenbart."
+            },
+            {
+               "v": 5,
+               "text": "Sei getrost, Volk Gottes, du denkwürdiges Israel!"
+            },
+            {
+               "v": 6,
+               "text": "Ihr seid den Heiden verkauft, doch nicht zum Untergange; sondern weil ihr Gott zu gewaltigem Zorne reiztet, wurdet ihr euern Feinden preisgegeben."
+            },
+            {
+               "v": 7,
+               "text": "Denn ihr habt euern Schöpfer erbittert, den ewigen Gott, indem ihr den bösen Geistern Opfer brachtet und nicht Gott."
+            },
+            {
+               "v": 8,
+               "text": "Denn ihr habt Gottes vergessen, der euch auferzogen hat, und habt Jerusalem, eure Ernährerin, betrübt."
+            },
+            {
+               "v": 9,
+               "text": "Denn es sah den Zorn, der von Gott über euch herabkam, und sprach: Horchet auf, die ihr um Sion wohnt; denn Gott hat großes Leid über mich gebracht!"
+            },
+            {
+               "v": 10,
+               "text": "Denn ich sah die Gefangenschaft meines Volkes, meiner Söhne und Töchter, die der Ewige über sie verhängt hat."
+            },
+            {
+               "v": 11,
+               "text": "Ich zog sie auf mit Freude, aber ich ließ sie ziehen mit Trauern und Weinen."
+            },
+            {
+               "v": 12,
+               "text": "Niemand freue sich über mich, die Verwitwete und die Trostlose; ich bin verlassen von vielen wegen der Sünden meiner Kinder, denn sie haben sich von Gottes Gesetz abgewendet"
+            },
+            {
+               "v": 13,
+               "text": "und haben seine Gesetze nicht geachtet und sind nicht auf den Wegen der Gebote Gottes gewandelt noch haben sie in Gerechtigkeit auf den Pfaden seiner Wahrheit beharrt."
+            },
+            {
+               "v": 14,
+               "text": "Kommet, ihr, die ihr um Sion wohnt, und betrachtet die Gefangenschaft meiner Söhne und Töchter, die der Ewige über sie gebracht hat."
+            },
+            {
+               "v": 15,
+               "text": "Denn er hat über sie ein Volk von fern herbeigeführt, ein freches Volk und fremder Sprache,"
+            },
+            {
+               "v": 16,
+               "text": "das den Greis nicht achtet und mit den Kindern kein Erbarmen hat, die Lieblinge der Witwe wegschleppt und die Vereinsamte ihrer Kinder beraubt."
+            },
+            {
+               "v": 17,
+               "text": "Ich aber, wie vermag ich euch zu helfen?"
+            },
+            {
+               "v": 18,
+               "text": "Denn nur er, der über euch Unglück gebracht hat, er wird euch aus der Hand eurer Feinde erretten."
+            },
+            {
+               "v": 19,
+               "text": "Ziehet hin, meine Kinder! ziehet hin, denn ich bleibe verlassen allein zurück."
+            },
+            {
+               "v": 20,
+               "text": "Ich habe das Gewand des Friedens ausgezogen und dagegen das Trauerkleid des Flehens angelegt und werde zu dem Höchsten rufen alle Tage meines Lebens."
+            },
+            {
+               "v": 21,
+               "text": "Seid getrost, meine Kinder! rufet zu dem Herrn, so wird er euch erretten aus der Hand der feindlichen Gebieter."
+            },
+            {
+               "v": 22,
+               "text": "Denn ich hoffe auf den Ewigen, dass er euch errette, und Freude wird mir von dem Heiligen zuteil ob der Erbarmung, welche der Ewige, unser Retter, euch widerfahren lassen wird."
+            },
+            {
+               "v": 23,
+               "text": "Denn mit Trauern und Wehklagen ließ ich euch ziehen, doch der Herr wird euch mir mit Freude und Wonne auf ewig zurückführen."
+            },
+            {
+               "v": 24,
+               "text": "Denn wie die Nachbarstädte Sions eure Gefangenschaft durch Gott gesehen, so werden sie auch bald das Heil von Gott schauen, das euch zuteil wird, das euch mit großer Ehre und ewigem Glanz beschieden werden wird."
+            },
+            {
+               "v": 25,
+               "text": "Kinder! ertraget geduldig den Zorn, welcher über euch gekommen ist; denn wohl verfolgt dich dein Feind, aber bald wirst du seine Vernichtung schauen und ihm auf den Nacken treten."
+            },
+            {
+               "v": 26,
+               "text": "Meine zarten Kindlein wandelten rauhe Wege, denn sie wurden weggeschleppt wie eine von Feinden geraubte Herde."
+            },
+            {
+               "v": 27,
+               "text": "Seid getrost, Kinder! und rufet zum Herrn; denn der euch wegführen ließ, wird euer gedenken."
+            },
+            {
+               "v": 28,
+               "text": "Denn wie euer Sinn darauf gerichtet war, von Gott abzuirren, so sollt ihr ihn zehnmal so oft suchen, euch zu ihm wieder bekehrend."
+            },
+            {
+               "v": 29,
+               "text": "Denn er, der das Unglück über euch gebracht hat, wird euch wiederum durch eure Rettung immerwährende Freude schaffen."
+            },
+            {
+               "v": 30,
+               "text": "Sei getrost, Jerusalem! denn der dir den Namen gegeben, ermuntert dich."
+            },
+            {
+               "v": 31,
+               "text": "Die dir Schaden zugefügt und dich gepeinigt haben, werden untergehen; und die über deinen Fall sich freuten, werden gezüchtigt werden;"
+            },
+            {
+               "v": 32,
+               "text": "die Städte, denen deine Kinder dienstbar waren, werden Strafe erdulden und auch sie, welche deine Kinder fortnahm."
+            },
+            {
+               "v": 33,
+               "text": "Denn wie sie sich über deinen Sturz freute und über deinen Fall frohlockte, so wird sie trauern über ihre eigene Verödung."
+            },
+            {
+               "v": 34,
+               "text": "Dann wird der Jubel ihres Volkes weggenommen und seine Freude in Trauer verwandelt werden."
+            },
+            {
+               "v": 35,
+               "text": "Denn Feuer wird über sie kommen von dem Ewigen auf viele Tage hin und sie wird von bösen Geistern bewohnt werden auf lange Zeit."
+            },
+            {
+               "v": 36,
+               "text": "Schau um dich, Jerusalem! gegen Aufgang und siehe die Freude, welche dir von Gott kommt."
+            },
+            {
+               "v": 37,
+               "text": "Denn siehe, es kommen deine Söhne, die du in die Zerstreuung ziehen ließest; sie kommen geschart vom Sonnenaufgang bis zum Niedergange auf das Wort des Heiligen, sich freuend ob der Herrlichkeit Gottes."
+            }
+         ]
+      },
+      {
+         "chapter": 5,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Lege ab, Jerusalem! das Kleid deiner Trauer und Pein und ziehe an die Zier und die Ehre der ewigen Herrlichkeit, welche dir von Gott verliehen wird."
+            },
+            {
+               "v": 2,
+               "text": "Gott wird dich mit dem Gewande der Gerechtigkeit umgeben und wird auf dein Haupt die Krone der ewigen Herrlichkeit setzen."
+            },
+            {
+               "v": 3,
+               "text": "Denn Gott wird seinen Glanz an dir allen offenbar machen, die unter dem Himmel sind."
+            },
+            {
+               "v": 4,
+               "text": "Denn als dein Name wird von Gott auf ewig genannt werden: Friede der Gerechtigkeit und Herrlichkeit der Gottesfurcht."
+            },
+            {
+               "v": 5,
+               "text": "Stehe auf, Jerusalem! und tritt auf die Höhe, schau dich um gegen Morgen und sieh deine Kinder versammelt vom Aufgang der Sonne bis zum Niedergang, durch das Wort des Heiligen, sich freuend, dass Gott ihrer gedacht."
+            },
+            {
+               "v": 6,
+               "text": "Wohl gingen sie zu Fuß von dir, von den Feinden geschleppt; aber der Herr führt sie zu dir in Ehren zurück, getragen wie Kinder eines Königshauses."
+            },
+            {
+               "v": 7,
+               "text": "Denn Gott hat beschlossen, alle hohen Berge und die ewigen Hügel zu erniedrigen und die Abgründe auszufüllen und dem Erdboden gleichzumachen, dass Israel in Eifer wandle zu Gottes Herrlichkeit."
+            },
+            {
+               "v": 8,
+               "text": "Und die Wälder und alle duftenden Bäume werden Israel auf Gottes Befehl Schatten spenden."
+            },
+            {
+               "v": 9,
+               "text": "Denn Gott wird Israel geleiten mit Freuden im Lichte seiner Herrlichkeit, mit Barmherzigkeit und Gerechtigkeit, die er verleiht."
+            }
+         ]
+      },
+      {
+         "chapter": 6,
+         "verses": [
+            {
+               "v": 1,
+               "text": "Um der Sünden willen, die ihr vor Gott begangen habt, werdet ihr von Nabuchodonosor, dem Könige von Babylon, gefangen nach Babylon weggeführt."
+            },
+            {
+               "v": 2,
+               "text": "Wenn ihr nun angekommen seid in Babylon, werdet ihr daselbst viele Jahre und lange Zeit bleiben, bis in das siebente Geschlecht, darnach aber werde ich euch von dort herausführen im Frieden."
+            },
+            {
+               "v": 3,
+               "text": "Nun werdet ihr aber in Babylon Götzen von Gold, Silber, Stein und Holz sehen, die auf den Schultern getragen werden und doch den Heiden Schrecken verursachen."
+            },
+            {
+               "v": 4,
+               "text": "Sehet also zu, dass nicht auch ihr den Fremden in solchem Tun ähnlich werdet, euch fürchtet und durch sie euch schrecken lasset."
+            },
+            {
+               "v": 5,
+               "text": "Wenn ihr sehet, wie die Menge hinter ihnen und vor ihnen sie anbetet, so sprechet in euern Herzen: Dich muss man anbeten, o Herr!"
+            },
+            {
+               "v": 6,
+               "text": "Denn mein Engel ist mit euch und ich selbst will der Rächer an euren Seelen sein."
+            },
+            {
+               "v": 7,
+               "text": "Denn wohl ist die Zunge jener geglättet von dem Künstler und sie selbst vergoldet und versilbert, doch sind sie Lügengebilde und können nicht reden."
+            },
+            {
+               "v": 8,
+               "text": "Und wie für eine Jungfrau, die den Putz liebt, nimmt man Gold, um sie herzustellen."
+            },
+            {
+               "v": 9,
+               "text": "Ihre Götter haben zwar goldene Kronen auf ihren Häuptern, aber die Priester nehmen den Götzen das Gold und Silber weg und verwenden es für sich selbst."
+            },
+            {
+               "v": 10,
+               "text": "Auch geben sie davon den Schanddirnen und zieren damit die Buhlerinnen und umgekehrt, wenn sie solches von den Buhlerinnen erhalten, schmücken sie ihre Götter damit."
+            },
+            {
+               "v": 11,
+               "text": "Diese aber können nicht frei erhalten werden von Rost und Motten."
+            },
+            {
+               "v": 12,
+               "text": "Sind sie auch mit einem Purpurkleide umhüllt, so muss man doch ihr Gesicht abwischen wegen des Staubes im Hause, der in Menge auf ihnen liegt."
+            },
+            {
+               "v": 13,
+               "text": "Hat einer auch ein Zepter wie ein Mensch, wie der Richter eines Landes, so kann er doch den nicht töten, der sich wider ihn vergeht."
+            },
+            {
+               "v": 14,
+               "text": "Oder hält er ein Schwert oder eine Streitaxt in der Hand, so kann er sich doch des Krieges und der Räuber nicht erwehren. Daraus möget ihr erkennen, dass sie keine Götter sind."
+            },
+            {
+               "v": 15,
+               "text": "So fürchtet euch denn nicht vor ihnen! Denn wie ein Gefäß dem Menschen unnütz ist, wenn es zerbrochen wird, so sind auch ihre Götter."
+            },
+            {
+               "v": 16,
+               "text": "Hat man sie in einem Hause aufgestellt, so sind ihre Augen voll Staub von den Füßen derer, die eintreten."
+            },
+            {
+               "v": 17,
+               "text": "Und wie für jemanden, der den König beleidigt, die Türen verschlossen sind, oder wie für einen zum Grabe getragenen Toten, so verwahren die Priester ihre Türen mit Schlössern und Riegeln, damit jene nicht von Räubern beraubt werden."
+            },
+            {
+               "v": 18,
+               "text": "Sie zünden vor ihnen Lichter an und zwar viele, während jene doch davon keines zu sehen vermögen; vermodern sie doch wie das Gebälk im Hause."
+            },
+            {
+               "v": 19,
+               "text": "Ihr Inneres, sagt man, zernagt das Gewürm, das aus der Erde kriecht, und sie gewahren es nicht, da es sie und ihre Gewänder zerfrisst."
+            },
+            {
+               "v": 20,
+               "text": "Ihr Angesicht wird schwarz vom Rauche, der im Hause entsteht."
+            },
+            {
+               "v": 21,
+               "text": "Auf ihren Leib und ihr Haupt fliegen die Nachteulen, Schwalben und andere Vögel und die Katzen laufen darüber hin."
+            },
+            {
+               "v": 22,
+               "text": "Daraus möget ihr erkennen, dass sie keine Götter sind. Fürchtet euch also nicht vor ihnen!"
+            },
+            {
+               "v": 23,
+               "text": "Wenn man ferner von dem Golde, das sie zu ihrem Schmucke an sich haben, nicht den Rost entfernt, so glänzen sie nicht; sie spürten es ja auch nicht, als sie gegossen wurden."
+            },
+            {
+               "v": 24,
+               "text": "Um teuern Preis hat man sie gekauft, obwohl kein Leben in ihnen ist."
+            },
+            {
+               "v": 25,
+               "text": "Da sie keine Füße haben, werden sie auf den Schultern getragen und zeigen darin den Menschen ihren Unwert; zuschanden mögen auch jene werden, die sie verehren."
+            },
+            {
+               "v": 26,
+               "text": "Denn wenn sie auf die Erde fallen, so können sie nicht von selbst aufstehen; und wenn sie jemand aufrichtet, stehen sie nicht von selbst, und legt man ihnen Gaben vor, so bleiben sie wie Tote."
+            },
+            {
+               "v": 27,
+               "text": "Ihre Priester verkaufen und verbrauchen das, was man ihnen opfert; desgleichen nehmen auch ihre Weiber davon, doch den Kranken und Armen teilen sie nichts davon mit."
+            },
+            {
+               "v": 28,
+               "text": "Kindbetterinnen und blutflüssige Weiber berühren ihre Opfer. Daraus erkennet denn, dass sie keine Götter sind, und fürchtet euch nicht vor ihnen!"
+            },
+            {
+               "v": 29,
+               "text": "Denn mit welchem Rechte sollten sie Götter heißen? weil die Weiber vor die silbernen, goldenen und hölzernen Götzen Gaben hinstellen"
+            },
+            {
+               "v": 30,
+               "text": "und die Priester in ihren Tempeln mit zerrissenen Röcken sitzen, Kopf und Bart geschoren und die Häupter entblößt."
+            },
+            {
+               "v": 31,
+               "text": "Auch heulen sie und schreien vor ihren Göttern, wie man bei Totenmahlen zu tun pflegt."
+            },
+            {
+               "v": 32,
+               "text": "Die Priester entwenden ihre Kleider und kleiden damit ihre Frauen und ihre Kinder."
+            },
+            {
+               "v": 33,
+               "text": "Mögen sie Böses von jemand erfahren oder Gutes, sie können es nicht vergelten und nicht vermögen sie, einen König einzusetzen oder abzusetzen."
+            },
+            {
+               "v": 34,
+               "text": "Desgleichen können sie weder Reichtum verleihen noch für das angetane Böse Vergeltung üben. Gelobt jemand ihnen etwas und hält es nicht, so strafen sie nicht."
+            },
+            {
+               "v": 35,
+               "text": "Sie retten den Menschen nicht vom Tode und befreien den Schwachen nicht aus der Gewalt des Mächtigeren."
+            },
+            {
+               "v": 36,
+               "text": "Einem Blinden geben sie das Augenlicht nicht wieder und befreien niemand aus Drangsal."
+            },
+            {
+               "v": 37,
+               "text": "Der Witwen erbarmen sie sich nicht und tun den Waisen nicht wohl."
+            },
+            {
+               "v": 38,
+               "text": "Den Steinen aus dem Gebirge gleichen ihre hölzernen, steinernen, goldenen und silbernen Götter; die ihnen dienen, werden zuschanden werden."
+            },
+            {
+               "v": 39,
+               "text": "Wie kann man also dafür halten oder sagen, sie seien Götter?"
+            },
+            {
+               "v": 40,
+               "text": "Dazu ehren die Chaldäer sie selbst nicht. Hören sie von einem Stummen, der nicht reden kann, so bringen sie dies vor Bel und begehren von ihm, dass er ihm die Sprache verleihe;"
+            },
+            {
+               "v": 41,
+               "text": "als ob die etwas wahrnehmen könnten, die sich nicht zu bewegen vermögen! Wenn sie es einsähen, müssten sie dieselben lassen, denn ihre Götter haben keine Wahrnehmungskraft!"
+            },
+            {
+               "v": 42,
+               "text": "Die Frauen aber sitzen, mit Stricken umgeben, an den Wegen und bringen Rauchopfer von Olivenkernen dar."
+            },
+            {
+               "v": 43,
+               "text": "Wenn nun eine von ihnen von einem Vorübergehenden fortgenommen und bei ihm gelegen ist, so hält sie es ihrer Nachbarin vor, weil dieselbe nicht gleich ihr wert erachtet worden und dass deren Strick unzerrissen geblieben ist."
+            },
+            {
+               "v": 44,
+               "text": "Alles, was bei ihnen geschieht, ist Trug. Wie soll man meinen oder sagen, dass sie Götter seien?"
+            },
+            {
+               "v": 45,
+               "text": "Von Künstlern und Goldschmieden sind sie gemacht; sie können nichts anderes werden, als was die Priester wollen, dass sie seien."
+            },
+            {
+               "v": 46,
+               "text": "Auch die Künstler selbst, die sie verfertigen, leben nicht lange; wie können also die von ihnen verfertigten Dinge Götter sein?"
+            },
+            {
+               "v": 47,
+               "text": "Trug und Schande hinterlassen sie ihren Nachkommen."
+            },
+            {
+               "v": 48,
+               "text": "Denn kommt Krieg und Unglück über sie, so beratschlagen die Priester unter sich, wo sie sich mit jenen verbergen sollen."
+            },
+            {
+               "v": 49,
+               "text": "Wie möchte man also meinen, dass sie Götter seien, sie, die weder aus dem Kriege sich retten noch sich von anderm Unheile befreien können?"
+            },
+            {
+               "v": 50,
+               "text": "Denn da sie hölzerne, vergoldete oder versilberte Bilder sind, so werden nachmals alle Völker und Könige erkennen, dass sie Lügengebilde sind; und es ist offenbar, dass sie keine Götter sind, sondern Werke von Menschenhänden und dass keine göttliche Kraft ihnen innewohnt."
+            },
+            {
+               "v": 51,
+               "text": "Woraus also ist es offenbar, dass sie keine Götter sind, sondern Werke von Menschenhänden, denen keine göttliche Kraft innewohnt?"
+            },
+            {
+               "v": 52,
+               "text": "Sie setzen keinen König über ein Land noch geben sie den Menschen Regen."
+            },
+            {
+               "v": 53,
+               "text": "Sie sprechen auch nicht Recht im Gericht und retten die Länder vor keiner Gewalttat, denn sie sind machtlos wie die Krähen zwischen Himmel und Erde."
+            },
+            {
+               "v": 54,
+               "text": "Denn wenn Feuer den Tempel der hölzernen, silbernen und goldenen Götter ergreift, so fliehen zwar ihre Priester und retten sich, sie selbst aber verbrennen darin gleich den Balken."
+            },
+            {
+               "v": 55,
+               "text": "Einem Könige aber und dem Feinde können sie keinen Widerstand leisten; wie sollte man also meinen oder annehmen, sie seien Götter?"
+            },
+            {
+               "v": 56,
+               "text": "Die hölzernen, steinernen, vergoldeten und versilberten Götzen vermögen sich nicht vor Dieben noch vor Räubern zu schützen; jene sind stärker als sie,"
+            },
+            {
+               "v": 57,
+               "text": "nehmen ihnen das Gold und Silber und die Kleider, mit denen sie bedeckt sind, weg und gehen dann fort, ohne dass jene sich helfen können."
+            },
+            {
+               "v": 58,
+               "text": "Daher ist es besser, ein König zu sein, der seine Macht zur Geltung bringen kann, oder ein nützliches Gefäß im Hause, dessen der Besitzer sich rühmen kann, oder eine Tür im Hause, welche das darin Befindliche verwahrt, als solche Lügengötzen."
+            },
+            {
+               "v": 59,
+               "text": "Sonne, Mond und Sterne leuchten und schaffen Nutzen und tun, was ihnen befohlen ist;"
+            },
+            {
+               "v": 60,
+               "text": "so ist auch der Blitz, wenn er aufleuchtet, schön anzuschauen und ebenso weht der Wind in jedem Lande."
+            },
+            {
+               "v": 61,
+               "text": "Und wird den Wolken von Gott geheißen, über den ganzen Erdkreis hinzuziehen, so vollziehen sie, was ihnen befohlen ist."
+            },
+            {
+               "v": 62,
+               "text": "Wird Feuer von oben gesandt, Berge und Wälder zu verzehren, so vollbringt es, was ihm befohlen ward. Die Götzen aber gleichen keinem von diesen weder an Schönheit, noch an Kräften."
+            },
+            {
+               "v": 63,
+               "text": "Daher kann man sie nicht für Götter halten noch so heißen, da sie weder Gericht halten noch den Menschen irgend etwas zu tun vermögen."
+            },
+            {
+               "v": 64,
+               "text": "Da ihr also wisst, dass sie keine Götter sind, so fürchtet euch nicht vor ihnen!"
+            },
+            {
+               "v": 65,
+               "text": "Denn über Könige können sie weder Fluch noch Segen bringen."
+            },
+            {
+               "v": 66,
+               "text": "Auch lassen sie kein Zeichen am Himmel für die Völker erscheinen noch leuchten sie wie die Sonne oder scheinen wie der Mond."
+            },
+            {
+               "v": 67,
+               "text": "Die wilden Tiere sind besser als sie, können diese sich doch unter ein Obdach flüchten und sich sichern."
+            },
+            {
+               "v": 68,
+               "text": "Auf keine Weise also ist es uns offenbar, dass sie Götter seien, und darum fürchtet euch nicht vor ihnen!"
+            },
+            {
+               "v": 69,
+               "text": "Denn wie eine Vogelscheuche auf einem Gurkenacker Nichts schützt, so sind deren hölzerne, silberne und vergoldete Götzen."
+            },
+            {
+               "v": 70,
+               "text": "Und wie die Weißdornhecke in einem Garten, auf die sich alle Vögel setzen, und ähnlich wie ein Toter, der in die Finsternis hingeworfen wird, so sind ihre hölzernen, vergoldeten und versilberten Götter."
+            },
+            {
+               "v": 71,
+               "text": "Auch an ihren Purpur- und Scharlachkleidern, welche von den Motten verzehrt werden, könnt ihr erkennen, dass sie keine Götter sind. Sogar sie selbst werden zuletzt zerfressen und werden zum Spotte im Lande."
+            },
+            {
+               "v": 72,
+               "text": "Besser ist der Gerechte, der keine Götzen hat, denn er wird fernbleiben von Schmach."
+            }
+         ]
+      }
+   ]
+}

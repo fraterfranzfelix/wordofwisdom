@@ -1,0 +1,64 @@
+{
+  "book": "phil",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 27,
+          "refs": [
+            "eph:4:1",
+            "col:1:10",
+            "1thess:2:12"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 10,
+          "refs": [
+            "isa:45:24",
+            "rom:14:11"
+          ]
+        },
+        {
+          "v": 14,
+          "refs": [
+            "1pet:4:9"
+          ]
+        },
+        {
+          "v": 21,
+          "refs": [
+            "1cor:13:5"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 4,
+          "refs": [
+            "2cor:11:18"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "mt:6:25"
+          ]
+        }
+      ]
+    }
+  ]
+}

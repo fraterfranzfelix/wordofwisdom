@@ -1,0 +1,46 @@
+{
+  "book": "jonah",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 3,
+          "refs": [
+            "ps:119:1",
+            "1cor:15:4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "jer:18:11"
+          ]
+        },
+        {
+          "v": 9,
+          "refs": [
+            "joel:2:14"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 2,
+          "refs": [
+            "ps:85:5",
+            "joel:2:13"
+          ]
+        }
+      ]
+    }
+  ]
+}

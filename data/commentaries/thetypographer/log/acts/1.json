@@ -3,6 +3,14 @@
     {
       "v": 15,
       "text": "In the 1611 King James Version of the Bible, you will find here a letter that looks to be a <i>y</i> with a <i>superscript t.</i> This rare yͭ glyph does not have its own Unicode, but is instead rendered by combining U+0079 and U+036D, and is to be read as an abbreviation of the word <i>that:</i> “…which was guide to them that took Iesus.” There are a total of 12 instances of this rare glyph in the 1611 King James Version. (See 1 John 1:1 for more.)"
+    },
+    {
+      "v": 15,
+      "text": "In the 1611 KJV: ¶ = New paragraph. (See Genesis 1:6 for more.)"
+    },
+    {
+      "v": 16,
+      "text": "In the 1611 KJV: yͭ = <i>that.</i> (See Acts 1:15 for more.)"
     }
   ]
 }

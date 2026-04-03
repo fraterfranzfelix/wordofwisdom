@@ -742,11 +742,17 @@
         startBibleWidth = biblePanel.getBoundingClientRect().width;
         totalWidth = startBibleWidth + commentaryPanel.getBoundingClientRect().width;
 
+        let rafPending = false;
         function onMouseMove(e) {
-            const dx = e.clientX - startX;
-            const newBibleWidth = startBibleWidth + dx;
-            const ratio = newBibleWidth / totalWidth;
-            applyRatio(ratio);
+            if (rafPending) return;
+            rafPending = true;
+            requestAnimationFrame(() => {
+                const dx = e.clientX - startX;
+                const newBibleWidth = startBibleWidth + dx;
+                const ratio = newBibleWidth / totalWidth;
+                applyRatio(ratio);
+                rafPending = false;
+            });
         }
 
         function onMouseUp(e) {

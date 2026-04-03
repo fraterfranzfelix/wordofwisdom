@@ -1,0 +1,40 @@
+{
+  "book": "2thess",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 3,
+          "refs": [
+            "eph:5:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "acts:20:34",
+            "1cor:4:12"
+          ]
+        },
+        {
+          "v": 9,
+          "refs": [
+            "1cor:9:6"
+          ]
+        },
+        {
+          "v": 12,
+          "refs": [
+            "gal:6:9"
+          ]
+        }
+      ]
+    }
+  ]
+}

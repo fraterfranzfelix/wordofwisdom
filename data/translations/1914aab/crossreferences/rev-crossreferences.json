@@ -1,0 +1,96 @@
+{
+  "book": "rev",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "rev:1:17.18"
+          ]
+        },
+        {
+          "v": 18,
+          "refs": [
+            "rev:1:14.15"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "isa:6:3"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "v": 16,
+          "refs": [
+            "isa:2:19",
+            "lk:23:30"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "v": 17,
+          "refs": [
+            "rev:21:4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "verses": [
+        {
+          "v": 17,
+          "refs": [
+            "rev:1:4.8",
+            "rev:4:8"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "rev:20:14"
+          ]
+        },
+        {
+          "v": 9,
+          "refs": [
+            "rev:19:7"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "verses": [
+        {
+          "v": 13,
+          "refs": [
+            "rev:1:8"
+          ]
+        }
+      ]
+    }
+  ]
+}

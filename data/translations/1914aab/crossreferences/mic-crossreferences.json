@@ -1,0 +1,96 @@
+{
+  "book": "mic",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "v": 2,
+          "refs": [
+            "deut:32:1",
+            "isa:1:2"
+          ]
+        },
+        {
+          "v": 3,
+          "refs": [
+            "isa:26:21"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "v": 11,
+          "refs": [
+            "ezek:22:27",
+            "zeph:3:3"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "v": 7,
+          "refs": [
+            "zeph:3:19",
+            "dan:7:14",
+            "lk:1:32"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "v": 2,
+          "refs": [
+            "mt:2:6",
+            "jn:7:42"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "v": 3,
+          "refs": [
+            "jer:2:5"
+          ]
+        },
+        {
+          "v": 15,
+          "refs": [
+            "deut:28:38",
+            "hag:1:6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "verses": [
+        {
+          "v": 6,
+          "refs": [
+            "mt:10:21.36"
+          ]
+        },
+        {
+          "v": 18,
+          "refs": [
+            "jer:10:6",
+            "acts:10:43"
+          ]
+        }
+      ]
+    }
+  ]
+}

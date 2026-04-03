@@ -8,5 +8,10 @@
     "id": "1899drb",
     "name": "1899 Baltimore Douay-Rheims Bible",
     "orthodox": true
+  },
+  {
+    "id": "1914aab",
+    "name": "1914 Regensburg Allioli-Arndt Bible",
+    "orthodox": true
   }
 ]

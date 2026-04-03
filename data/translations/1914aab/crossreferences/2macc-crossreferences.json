@@ -1,0 +1,67 @@
+{
+  "book": "2macc",
+  "chapters": [
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "v": 8,
+          "refs": [
+            "1kgs:8:11",
+            "2chr:7:1"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "verses": [
+        {
+          "v": 19,
+          "refs": [
+            "2kgs:19:35"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "verses": [
+        {
+          "v": 5,
+          "refs": [
+            "2chr:16:9"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "verses": [
+        {
+          "v": 15,
+          "refs": [
+            "josh:6"
+          ]
+        },
+        {
+          "v": 40,
+          "refs": [
+            "deut:7:25"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "verses": [
+        {
+          "v": 22,
+          "refs": [
+            "2macc:7:9"
+          ]
+        }
+      ]
+    }
+  ]
+}
